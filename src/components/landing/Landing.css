@@ -1,0 +1,113 @@
+.contenedor{
+    display: flex;
+    background-color:   #124684;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Sono', sans-serif;}
+@import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
+
+.contenedor-divs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: auto;
+}
+.contenedor__arriba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedor-texto{
+    font-size: large;
+}.contenedor-texto p{
+    font-size: xxx-large;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.contenedor-img{
+    background-image: url("https://res.cloudinary.com/dcpcja2qg/image/upload/v1668455340/logoDD_logj6a.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.flip {
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+    padding: 1em;
+    width: 100%;
+    height: auto;
+    transform-style: preserve-3d;
+    transition: 3s ease;
+    margin-bottom: 1em;
+    border:  #ffc3f4 2px solid;
+  }
+  
+  .flip:hover {
+    transform: rotateY(180deg);
+  }
+  /* Content */
+  .flip .content {
+    transform-style: preserve-3d;
+  }
+  
+  .flip .back, .flip .front {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flip .back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .flip h2,
+  .flip p {
+    transform: translateZ(90px);
+    text-shadow: 0 0 3px black;
+    text-align: center;
+  }
+  
+  .flip h2 {
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .flip p {
+    font-size: 1em;
+    color: #eee;
+    line-height: 1.6em;
+  }
+  
+  .flip::before,
+  .flip::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-image: radial-gradient(circle at 25.82% -16.45%, #00ffff 0, #00f6ff 25%, #3cb5f2 50%, #3e79a1 75%, #31475b 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotateY(180deg)translateZ(1px);
+  }
+  
+  .flip::before {
+    transform: none;
+    background-image: radial-gradient(circle at 43.05% 41.72%, #3cb5f2 0, #3cb5f2 50%, #3cb5f2 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
