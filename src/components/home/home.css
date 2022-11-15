@@ -1,0 +1,53 @@
+.contenedor-principal-home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.contenedor-contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+}
+.contacto-dario{
+  display: flex;
+  width: 50%;
+  background-color: blue;
+}
+
+.contacto-dario::before{
+  content: "holaa";
+}
+
+
+.contacto-dario::after{
+  content: "chau";
+  opacity: 0;
+}
+
+.contacto-dario:hover::after{
+  opacity: 1;
+}
+.contacto-dario:hover::before{
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+.contacto-daiana{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+.footer-home{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.531);
+}
