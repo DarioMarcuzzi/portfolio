@@ -11,10 +11,10 @@ const Home = () => {
       </div>
       <div className='contenedor-contacto'>
         <div className='contacto-dario'>
-          <h1>contacto dario</h1>
+          <h1>dario</h1>
         </div>
         <div className='contacto-daiana'>
-          <h1>contacto daiana</h1>
+          <h1>daiana</h1>
         </div>
       </div>
       <div className='footer-home'>
