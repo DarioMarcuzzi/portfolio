@@ -31,11 +31,10 @@ const About = () => {
               <li>JavaScript</li>
               <li>React</li>
               <li>Material UI</li>
-              <li>Grid</li>
+              <li>Vercel</li>
+              <li>Bootstrap 5</li>
               Programas: 
               <li>Visual Studio Code</li>
-              Frameworks: 
-              <li>Bootstrap 5</li>
               Control de versiones: 
               <li>Git/GitHub</li>
             </p>
@@ -47,7 +46,6 @@ const About = () => {
               <li>Express</li>
               <li>REST API</li>
               <li>JSON</li>
-              <li>JWT</li>
               <li>Sequelize</li>
               <li>Heroku</li>
               <li>Cloudinary</li>
