@@ -4,7 +4,7 @@
     align-items: center;
     padding: 0 1rem;
     box-shadow: 0 0 10px rgba(247, 241, 241, 0.301);
-    position: absolute;
+    /* position: fixed; */
     top: 0;
     left: 0;
     right: 0;
