@@ -35,9 +35,9 @@ module.exports = (sequelize) => {
     imagen:{
       type: DataTypes.STRING,
     },
-    // fechaNacimiento:{
-    //     type: DataTypes.DATE,
-    // },
+    fechaNacimiento:{
+        type: DataTypes.DATE,
+    },
     comentario:{
         type: DataTypes.TEXT,
     },
