@@ -1,12 +1,12 @@
 const axios = require('axios');
 const {User,Skill} = require('../db.js')
 
-//hacer pedidos
+//falta skills
 async function getInfo(req, res, next) {
     try {
         const {data} = await axios.get('https://my-json-server.typicode.com/DarioMarcuzzi/portfolio/db');
         const {users,skill} = data;
-        console.log(users,skill);
+        // console.log(users,skill);
         const createdUsers = await User.bulkCreate(users);
         const createdSkills = await Skill.bulkCreate(skill);
         console.log(createdUsers,createdSkills);
