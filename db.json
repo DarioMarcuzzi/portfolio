@@ -7,9 +7,9 @@
             "email": "darik95@hotmail.com",
             "profesion": "FullStack Developer",
             "origen": "Argentina",
-            "imagen": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
             "fechaNacimiento": "26/04/1995",
             "comentario": "",
+            "imagen": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
             "skills":[
                 {
                     "id": 1,
