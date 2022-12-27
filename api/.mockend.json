@@ -1,0 +1,180 @@
+{
+    "users": [
+        {
+            "id":  "15e6e4f4-69ef-11ed-a1eb-0242ac120002",
+            "nombre": "Dario",
+            "apellido": "Marcuzzi",
+            "email": "darik95@hotmail.com",
+            "profesion": "FullStack Developer",
+            "origen": "Argentina",
+            "imagen": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+            "fechaNacimiento": "26/04/1995",
+            "comentario": "",
+            "skills":[
+                {
+                    "id": 1,
+                    "nombre": "HTML",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 2,
+                    "nombre": "CSS",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 3,
+                    "nombre": "JavaScript",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 4,
+                    "nombre": "React",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 5,
+                    "nombre": "Node",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 6,
+                    "nombre": "Express",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 7,
+                    "nombre": "MySQL",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 8,
+                    "nombre": "PostgreSQL",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 9,
+                    "nombre": "Git",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 10,
+                    "nombre": "GitHub",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 11,
+                    "nombre": "Heroku",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 12,
+                    "nombre": "Visual Studio Code",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 13,
+                    "nombre": "Vercel",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 14,
+                    "nombre": "Redux",
+                    "porcentaje": 80
+                },
+                {
+                    "id": 15,
+                    "nombre": "Bootstrap",
+                    "porcentaje": 80
+                }
+            ]
+        },
+        {
+            "id": "3a9fb596-69ef-11ed-a1eb-0242ac120002",
+      "nombre": "Daiana",
+      "email": "luzdaianaolivaresolivares@gmail.com",
+      "apellido": "Olivares",
+      "profesion": "FullStack Developer",
+      "origen": "Argentina",
+      "fechaNacimiento": "12/03/1997",
+      "comentario": "",
+      "imagen": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",    
+      "skills" : [
+        {
+          "id": 1,
+          "nombre": "HTML",
+          "porcentaje": 80
+        },
+        {
+          "id": 2,
+          "nombre": "CSS",
+          "porcentaje": 80
+        },
+        {
+          "id": 3,
+          "nombre": "JavaScript",
+          "porcentaje": 80
+        },
+        {
+          "id": 4,
+          "nombre": "React",
+          "porcentaje": 80
+        },
+        {
+          "id": 5,
+          "nombre": "Node",
+          "porcentaje": 80
+        },
+        {
+          "id": 6,
+          "nombre": "Express",
+          "porcentaje": 80
+        },
+        {
+          "id": 7,
+          "nombre": "MySQL",
+          "porcentaje": 80
+        },
+        {
+          "id": 8,
+          "nombre": "PostgreSQL",
+          "porcentaje": 80
+        },
+        {
+          "id": 9,
+          "nombre": "Git",
+          "porcentaje": 80
+        },
+        {
+          "id": 10,
+          "nombre": "GitHub",
+          "porcentaje": 80
+        },
+        {
+          "id": 11,
+          "nombre": "Heroku",
+          "porcentaje": 80
+        },
+        {
+          "id": 12,
+          "nombre": "Visual Studio Code",
+          "porcentaje": 80
+        },
+        {
+          "id": 13,
+          "nombre": "Vercel",
+          "porcentaje": 80
+        },
+        {
+          "id": 14,
+          "nombre": "Redux",
+          "porcentaje": 80
+        },
+        {
+          "id": 15,
+          "nombre": "Bootstrap",
+          "porcentaje": 80
+        }
+      ]
+    }
+    ]
+}
