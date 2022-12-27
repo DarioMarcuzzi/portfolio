@@ -41,5 +41,14 @@ module.exports = (sequelize) => {
     comentario:{
         type: DataTypes.TEXT,
     },
+    createdAt: {
+      type: DataTypes.DATE,
+      allowNull: false,
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      allowNull: false,
+    },
   });
 };
+
