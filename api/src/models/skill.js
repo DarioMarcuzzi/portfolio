@@ -14,5 +14,9 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
+    porcentaje:{
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
   });
 };
