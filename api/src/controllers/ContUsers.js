@@ -1,19 +1,15 @@
 const axios = require('axios');
-const {User,Skill} = require('../db.js');
+const {User,Skill} = require('../db.js')
 const fs = require('fs');
 
 
 //hacer pedidos
 async function getInfo(req, res, next) {
-    try {}
-    catch (error) {
-        console.log(error);
+    try {
+    } catch (error) {
+        console.log(error)
     }
 }
-
-
-
-
 
 
 async function getUsers(req, res, next) {
