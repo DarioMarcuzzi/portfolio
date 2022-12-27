@@ -19,15 +19,21 @@ function Contact() {
           <div className="row">
             <div className="col">
               <p className="tech"> Daiana Olivares
+              <br/>
                 <li>Correo electrónico: <SiGmail/></li>
+                <br/>
                 <li>GitHub: <AiFillGithub/></li>
+                <br/>
                 <li>Linkedin: <AiFillLinkedin/></li>
               </p>
             </div>
             <div className="col">
               <p className="tech"> Dario Marcuzzi
+              <br/>
                 <li>Correo electrónico: <SiMicrosoftoutlook/></li>
+                <br/>
                 <li>GitHub: <AiFillGithub/></li>
+                <br/>
                 <li>Linkedin: <AiFillLinkedin/></li>
               </p>
             </div>
