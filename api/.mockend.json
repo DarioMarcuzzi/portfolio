@@ -176,5 +176,83 @@
         }
       ]
     }
+    ],
+    "skill" : [
+      {
+        "id": 1,
+        "nombre": "HTML",
+        "porcentaje": 100
+      },
+      {
+        "id": 2,
+        "nombre": "CSS",
+        "porcentaje": 100
+      },
+      {
+        "id": 3,
+        "nombre": "JavaScript",
+        "porcentaje": 100
+      },
+      {
+        "id": 4,
+        "nombre": "React",
+        "porcentaje": 100
+      },
+      {
+        "id": 5,
+        "nombre": "Node",
+        "porcentaje": 100
+      },
+      {
+        "id": 6,
+        "nombre": "Express",
+        "porcentaje": 80
+      },
+      {
+        "id": 7,
+        "nombre": "MySQL",
+        "porcentaje": 80
+      },
+      {
+        "id": 8,
+        "nombre": "PostgreSQL",
+        "porcentaje": 80
+      },
+      {
+        "id": 9,
+        "nombre": "Git",
+        "porcentaje": 80
+      },
+      {
+        "id": 10,
+        "nombre": "GitHub",
+        "porcentaje": 80
+      },
+      {
+        "id": 11,
+        "nombre": "Heroku",
+        "porcentaje": 80
+      },
+      {
+        "id": 12,
+        "nombre": "Visual Studio Code",
+        "porcentaje": 80
+      },
+      {
+        "id": 13,
+        "nombre": "Vercel",
+        "porcentaje": 80
+      },
+      {
+        "id": 14,
+        "nombre": "Redux",
+        "porcentaje": 80
+      },
+      {
+        "id": 15,
+        "nombre": "Bootstrap",
+        "porcentaje": 80
+      }
     ]
-}
+  }
+
