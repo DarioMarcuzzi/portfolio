@@ -5,10 +5,10 @@ const {User,Skill} = require('../db.js')
 async function getInfo(req, res, next) {
     try {
         const {data} = await axios.get('https://my-json-server.typicode.com/DarioMarcuzzi/portfolio/db');
-        const {users,skill} = data;
-        // console.log(users,skill);
+        const {users,skills} = data;
+        console.log(users,skills);
         const createdUsers = await User.bulkCreate(users);
-        const createdSkills = await Skill.bulkCreate(skill);
+        const createdSkills = await Skill.bulkCreate(skills);
         console.log(createdUsers,createdSkills);
     } catch (error) {
         console.log(error);
