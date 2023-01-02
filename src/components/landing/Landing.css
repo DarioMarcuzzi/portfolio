@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-      "div1 div1 div1"
+      "div11 div11 div11"
       "div2 div2 div2"
       "div3 div3 div3";
   background-color: #0F0D41;
@@ -26,8 +26,8 @@
     }
   }
 
-    .div1 {
-      grid-area: div1;
+    .div11 {
+      grid-area: div11;
     }
   
     .div2 {
@@ -152,8 +152,8 @@
   }
 
   @media screen and (max-width: 600px) {
-    .div1{
-      grid-area: div1;
+    .div11{
+      grid-area: div11;
     }
     .div2 {
       grid-area: div2;
@@ -179,7 +179,7 @@
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr ;
       grid-template-areas:
-        "div1"
+        "div11"
         "div2"
         "div3";
     }
