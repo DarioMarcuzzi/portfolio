@@ -1,6 +1,13 @@
 .container-fluid{
-    background-color: #124684;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 100%;
 }
+
+
+
+
 @import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
 
 .description{
@@ -9,8 +16,43 @@
     font-weight: 300;
     margin-top: 5%;
     margin-bottom: 5%;
+    text-align: center;
+    text-shadow: 0 0 3px black;
+    background-color: rgba(34, 36, 39, 0.637);
+    border-radius: 0px 50px 50px 50px;
+    animation: 1s ease-in-out 0s 1 normal none running slidein;
+    box-shadow: #f4f4fa 0px 0px 5px;
+    padding: 1rem;
+    animation: changeBoxShadowInfinite 1s ease-in-out infinite;
 }
+
+@keyframes changeBoxShadowInfinite {
+    0% {
+        box-shadow: #f4f4fa 0px 0px 5px;
+    }
+    50% {
+        box-shadow: #f4f4fa 0px 0px 10px;
+    }
+    100% {
+        box-shadow: #f4f4fa 0px 0px 5px;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
 .tech{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -20,3 +62,76 @@
     color: #0d0d0e;
     text-shadow: #fff 0px 0px 5px;
 }
+.tech:hover{
+    background-color: rgba(10, 10, 10, 0.637);
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #f4f4fa;
+    text-shadow: rgb(7, 7, 7) 0px 0px 5px;
+    animation: 1s ease-in-out 0s 1 normal none running bounce;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.social-media:before {
+    content: " ";
+    display: block;
+    width: 100%;
+  }
+  
+  .social-media a {
+    position: relative;
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .social-media a:last-child {
+    margin-right: 0;
+  }
+
+  .tooltip-social {
+    background: #262626;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 0.5rem 0.4rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -90%);
+    transition: all 0.2s ease;
+    z-index: 1;
+  }
+  
+  .tooltip-social:after {
+    content: " ";
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
+  }
+  
+  .social-media a .tooltip-social:after {
+    border-top-color: #262626;
+  }
+  
+  .social-media a:hover .tooltip-social {
+    opacity: 1;
+    transform: translate(-50%, -130%);
+  }
