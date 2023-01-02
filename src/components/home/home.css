@@ -1,74 +1,83 @@
 .contenedor-principal-home{
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-}
-.contenedor-contacto{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    isolation: isolate;
+    flex-direction: column;
+    background-color: gray;
+    
+
+    width: 100%;
+    height: 100vh;
 }
-.contacto-dario{
-  
+
+.contenedor-home{
   display: flex;
-  background-color: aqua;
-  width: 50%;
-  height: 100%;
-  border-radius: 0 50% 0 0;
-  align-items: center;
-}
-
-.contacto-daiana{
-  display: flex;
-  background-color: rgb(255, 0, 187);
-  width: 50%;
-  height: 100%;
-  border-radius: 50% 0 0 0;
-  align-items: center;
-  
-
-}
-
-
-
-
-
-/* .contacto-dario::before{
-  content: "holaa";
-}
-
-
-.contacto-dario::after{
-  content: "chau";
-  opacity: 0;
-}
-
-.contacto-dario:hover::after{
-  opacity: 1;
-}
-.contacto-dario:hover::before{
-  opacity: 0;
-} */
-
-
-
-
-
-
-
-
-.contacto-daiana{
-  display: flex;
-  width: 50%;
-  justify-content: flex-end;
-}
-.footer-home{
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.531);
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
+
+
+.contenedor-home-izq{
+  display: flex;
+
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 10px -10px 15px 5px rgba(0,0,0,0.49);
+-webkit-box-shadow: 10px -10px 15px 5px rgba(0,0,0,0.49);
+-moz-box-shadow: 10px -10px 15px 5px rgba(0,0,0,0.49);
+border-radius: 0px 50% 0px 0px;
+overflow: hidden;
+
+  
+}
+.contenedor-home-der{
+  display: flex;
+  box-shadow: -10px -10px 15px 5px rgba(0,0,0,0.49);
+-webkit-box-shadow: -10px -10px 15px 5px rgba(0,0,0,0.49);
+-moz-box-shadow: -10px -10px 15px 5px rgba(0,0,0,0.49);
+  
+ 
+  
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 50% 0px 0px 0px;
+  overflow: hidden;
+  
+}
+
+
+
+
+ @media (max-width: 768px) {
+  .contenedor-principal-home{
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 100%;
+    
+}
+.contenedor-home{
+display: flex;
+flex-direction: column;
+ 
+}
+
+
+.contenedor-home-der, .contenedor-home-izq{
+ 
+display: flex;
+width: 100%;
+height: 50%;
+border-radius: 0px 0px 0px 0px;
+ 
+}
+ 
+ }

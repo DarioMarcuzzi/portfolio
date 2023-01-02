@@ -1,0 +1,283 @@
+.contenedor-info-der{
+  display: flex;
+  height: 100%;
+  width: 200%;
+  justify-content: center;
+  align-items: center;
+  margin-right: -100%;
+ 
+  
+}
+.infoA-der{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  
+ 
+  width: 50%;
+  height: 100%;
+  
+}
+
+
+.title-der{
+  display: flex;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  background-color: rgba(0, 0, 0, 0.572);
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  border-radius: 0px 20px 30px 30px;
+  
+  
+
+}
+
+
+.image-adn-carta-derA{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  
+
+}
+
+
+.image-adn-carta-derB{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  
+
+}
+
+
+
+
+.imagen-der{
+  display: flex;
+ 
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-image: url("https://res.cloudinary.com/dmpqjroj5/image/upload/v1666734768/imagenes%20Proyecto%20final%20henry/IMG_9000_zqjf1s.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  max-width: 200px;
+  border: 3px solid black;
+}
+.div1-der{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(88, 88, 88, 0.779);
+  width: 60%;
+  height: 80%;
+  max-width: 400px;
+  border-radius: 20px 0px 0px 20px;
+  border: 3px solid black;
+  box-shadow: 5px 10px 10px 0px;
+
+}
+.description{
+  display: flex;
+  background-color: rgba(58, 58, 58, 0.536);
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  
+  width: 100%;
+  height: fit-content;
+  color: rgb(249, 249, 249);
+
+}
+
+.description p {
+  padding: 10px;
+  font-size: 22px;
+}
+.btn-info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.btns-info{
+  display: flex;
+  border-radius: 0px;
+  border: none;
+  width: 100%;
+  margin-left: 0px;
+  margin: 0px;
+}
+
+
+.infoB-der{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.carta-der{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  max-width: 350px;
+  margin-top: 20%;
+  height: 50%;
+  background-color: azure;
+ 
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+
+
+  
+  
+}
+
+
+
+.contenedor-info-der:hover{
+  transition: 2.5s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50%);
+  
+  
+}
+
+.contenedor-info-der:hover .carta , .card-inner{
+  transform: rotateY(180deg);
+  transition: 2.4s;
+  animation-fill-mode: forwards;
+  
+  
+
+}
+
+
+.contenedor-info-der:hover .title-der {
+  transition: 0.5s;
+  animation-fill-mode: forwards;
+  transform: translateX(-10%);
+  
+  opacity: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-home-der{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: darksalmon;
+  border-radius: 50% 0px 0px 0px;
+  overflow: hidden;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .contenedor-info-der{
+    animation-fill-mode: forwards;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100vh;
+    
+  }
+  .infoB-der{
+   
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  }
+  .image-adn-carta-derB{
+    
+    width: 100%;
+    justify-content: center;
+  }
+
+  
+  .infoA-der{
+  display: none;
+  }
+  
+  .div1-der{
+    
+    display: flex;
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+
+  .title-der{
+    opacity: 0%;
+  }
+  
+
+  .carta, .card-inner{
+    display: none;
+  
+  }
+
+
+  .imagen-der{
+    display: flex;
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+  .description p {
+    font-size: 13px;
+  }
+
+  .wrapper{
+    display: flex;
+    height: 40px;
+    padding:0px;
+    
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+}
+
