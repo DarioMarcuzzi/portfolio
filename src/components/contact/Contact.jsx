@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Nav from "../nav/Navbar";
 import "./Contact.css";
@@ -40,8 +41,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
-export default Contact
+export default Contact;

@@ -1,26 +1,24 @@
-import React from 'react';
-import Nav from "../nav/Navbar.jsx"
-import "./home.css"
+import React from "react";
+import Nav from "../nav/Navbar.jsx";
+import HomeIzq from "./home-izq/HomeIzq.jsx";
+import HomeDer from "./home-der/HomeDer.jsx";
 
+import "./home.css";
 
 const Home = () => {
   return (
-    <div className='contenedor-principal-home'>
+    <div className="contenedor-principal-home">
       <div>
-        <Nav/>  
+        <Nav />
       </div>
-      <div className='contenedor-contacto'>
-        <div className='contacto-dario'>
-          <h1>contacto dario</h1>
+      <div className="contenedor-home">
+        <div className="contenedor-home-izq">
+          <HomeIzq />
         </div>
-        <div className='contacto-daiana'>
-          <h1>contacto daiana</h1>
+        <div className="contenedor-home-der">
+          <HomeDer />
         </div>
       </div>
-      <div className='footer-home'>
-        <h1>footer</h1>
-      </div>
-      
     </div>
   );
 };
