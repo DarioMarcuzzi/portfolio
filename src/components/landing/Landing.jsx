@@ -10,16 +10,14 @@ import {SiSequelize, SiPostgresql} from "react-icons/si";
 
 const Landing = () => {
   return (
-    <div class="parent">
-      <div class="div1">
-        
+    <div className="parent">
+      <div className="div1">
         <Nav />
       </div>
-      <div class="div2">
-        <h1>Bienvenido!</h1>
-        <p>Somos Dario y Daiana</p>
+      <div className="div2">
+        <h1>Bienvenido! Somos Dario y Daiana</h1>
       </div>
-      <div class="div3">
+      <div className="div3">
         <div className="flip">
           <div className="content">
             <div className="front">
@@ -52,8 +50,6 @@ const Landing = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div class="div4">
       </div>
     </div>
   );
