@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 import "./Landing.css";
 import Nav from "../nav/Navbar.jsx";
-import {GrReactjs} from "react-icons/gr";
-import {TbBrandJavascript} from "react-icons/tb";
-import {DiCss3} from "react-icons/di";
-import {TiHtml5} from "react-icons/ti";
-import {FaNode} from "react-icons/fa";
-import {SiSequelize, SiPostgresql} from "react-icons/si";
+import { GrReactjs } from "react-icons/gr";
+import { TbBrandJavascript } from "react-icons/tb";
+import { DiCss3 } from "react-icons/di";
+import { TiHtml5 } from "react-icons/ti";
+import { FaNode } from "react-icons/fa";
+import { SiSequelize, SiPostgresql } from "react-icons/si";
 
 const Landing = () => {
   return (
     <div className="parent">
-      <div className="div1">
+      <div className="div11">
         <Nav />
       </div>
       <div className="div2">
