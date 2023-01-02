@@ -2,8 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     box-shadow: 0 0 10px rgb(247, 241, 241);
     position: absolute;
+
     top: 0;
     left: 0;
     right: 0;

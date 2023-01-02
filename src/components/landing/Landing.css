@@ -1,55 +1,58 @@
-.contenedor{
-    display: flex;
-    background-color:   #124684;
-    height: 100vh;
-    justify-content: center;
-    font-family: 'Sono', sans-serif;}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #124684;
+  height: 100vh;
+  font-family: 'Sono', sans-serif;
+  }
 @import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
+  
+    .div1 {
+      grid-area: 1 / 1 / 2 / 6;
+    }
+  
+    .div2 {
+      grid-area: 2 / 1 / 4 / 6;
+      font-size: xxx-large;
+      font-weight: 500;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      text-shadow: 0 0 3px black;
 
-.contenedor-divs{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: auto;
-}
-.contenedor__arriba{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.contenedor-texto{
-    font-size: large;
-}.contenedor-texto p{
-    font-size: xxx-large;
-    font-weight: 500;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-.contenedor-img{
-    background-image: url("https://res.cloudinary.com/dcpcja2qg/image/upload/v1668455340/logoDD_logj6a.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+    }
+    
+    .div3 {
+      grid-area: 4 / 2 / 5 / 3;
+    }
+    
+    .div4 {
+      grid-area: 4 / 4 / 5 / 6;
+      background-image: url("https://res.cloudinary.com/dcpcja2qg/image/upload/v1668455340/logoDD_logj6a.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
 
-}
 
 .flip {
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
     padding: 1em;
-    width: 100%;
-    height: auto;
     transform-style: preserve-3d;
     transition: 3s ease;
-    margin-bottom: 1em;
+    width: 100%;
     border:  #ffc3f4 2px solid;
   }
-  
+
   .flip:hover {
     transform: rotateY(180deg);
   }
-  /* Content */
+
   .flip .content {
     transform-style: preserve-3d;
   }
@@ -78,13 +81,15 @@
   }
   
   .flip h2 {
-    font-size: 3em;
-    color: #fff;
+    font-size: 2.5em;
+    color: rgb(3, 3, 3);
     letter-spacing: 1px;
+    text-shadow: 0 0 3px rgb(250, 246, 246);
+
   }
   
   .flip p {
-    font-size: 1em;
+    font-size: 2em;
     color: #eee;
     line-height: 1.6em;
   }
@@ -106,7 +111,7 @@
   
   .flip::before {
     transform: none;
-    background-image: radial-gradient(circle at 43.05% 41.72%, #3cb5f2 0, #3cb5f2 50%, #3cb5f2 100%);
+    background-image: radial-gradient(circle at 43.05% 41.72%, #3cb5f2 0, #3cb5f2 50%, #1b5775 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
