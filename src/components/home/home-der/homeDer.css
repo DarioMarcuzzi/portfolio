@@ -111,21 +111,10 @@
 
 }
 
-/* .description p {
-  padding: 10px;
-  font-size: 22px;
-} */
 
 
 
-.btns-info{
-  /* display: flex;
-  border-radius: 0px;
-  border: none;
-  width: 100%;
-  margin-left: 0px;
-  margin: 0px; */
-}
+
 
 
 .infoB-der{
@@ -145,7 +134,7 @@
   align-items: center;
   width: 60%;
   max-width: 350px;
-  margin-top: 20%;
+ 
   height: 50%;
   background-color: azure;
  
@@ -154,7 +143,9 @@
   border-radius: 20px;
   padding: 10px;
   font-family: sans-serif;
+  margin-bottom: 30px;
 
+  
 
   
   
@@ -188,17 +179,6 @@
   opacity: 0%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .contenedor-home-der{
   display: flex;
   width: 50%;
@@ -208,6 +188,70 @@
   background-color: darksalmon;
   border-radius: 50% 0px 0px 0px;
   overflow: hidden;
+}
+
+@media (max-height:800px) {
+ 
+  .div1-der{
+    height: 75%;
+    
+  }
+  .div1-der h1{
+    margin: 0;
+    font-size: 25px;
+  }
+  .imagen-der{
+    height: 100px;
+    width: 100px;
+  }
+  
+ 
+  
+
+
+  
+  .btn-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+  }
+  
+  .btns-info{
+  
+    background-color: #0000008a;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(247, 241, 241, 0.301);
+  }
+  .wrapper{
+    height: 20%;
+    
+  }
+  .carta-der{
+    width: 250px;
+    height: 400px;
+  }
+
+  .title-card{
+    width: 100%;
+    height: 20%;
+  }
+  .title-card h1 {
+    font-size: 25px;
+  }
+
+  .skills{
+    width: 100%;
+    height: 70%;
+  }
+
+
 }
 
 @media (max-width:1300px) {
