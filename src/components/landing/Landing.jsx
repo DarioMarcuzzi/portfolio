@@ -51,6 +51,16 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      {/* <div className="particulas">
+        <div className="particula"></div>
+        <div className="particula"></div>
+        <div className="particula"></div>
+        <div className="particula"></div>
+        <div className="particula"></div>
+        <div className="particula"></div>
+        <div className="particula"></div>
+        <div className="particula"></div>
+      </div> */}
     </div>
   );
 };

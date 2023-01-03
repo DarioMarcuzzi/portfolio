@@ -35,42 +35,37 @@
     .div2 {
       grid-area: div2;
       margin: 0 auto; 
-      display: block;
-      font-size: xxx-large;
       font-weight: 500;
       color: #fff;
       width: 100%;
-      text-align: center;
-      text-shadow: 0 0 3px black;
       overflow: hidden;
       white-space: nowrap;
-      border-right: 1px white solid;
+      font-size: 2em;
+      margin: 0 auto;
+      font-family: "Courier New";
+      border-right: 0.15em solid #18bdec;
       animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
     }
     @keyframes typing {
       from {
         width: 0;
-        height: 25%;
+        height: 50%;
       }
       to {
-        width: 100%;
-        height: 25%;
-        border-right: transparent;
+        width: 60%;
+        height: 50%;
       }
     }
     @keyframes blink {
-      50% {
+      from,
+      to {
         border-color: transparent;
       }
-    }
-    @keyframes slidein {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0%);
+      50% {
+        border-color: #18bdec;
       }
     }
+
 
     .div3 {
       grid-area: div3;
@@ -79,12 +74,12 @@
     }
 
 .flip {
-    box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+    box-shadow: 0 0 10px rgba(223, 218, 218, 0.5);
     padding: 1em;
     transform-style: preserve-3d;
     transition: 3s ease;
     width: 100%;
-    border:  #faf7f9 2px solid;
+    border:  #faf7f9 2px ridge
   }
 
   .flip:hover {
@@ -114,22 +109,22 @@
   .flip h2,
   .flip p {
     transform: translateZ(90px);
-    text-shadow: 0 0 3px black;
+    /* text-shadow: 0 0 3px black; */
     text-align: center;
   }
   
   .flip h2 {
     font-size: 2em;
-    color: rgb(3, 3, 3);
+    color: rgb(236, 234, 234);
     letter-spacing: 1px;
-    text-shadow: 0 0 3px rgb(250, 246, 246);
+    text-shadow: 0 0 3px rgb(15, 15, 15);
   }
   
   .flip p {
     font-size: 2em;
-    color: #eee;
-    line-height: 1.6em;
-    text-shadow: 0 0 3px rgb(3, 3, 3);
+    color: rgb(19, 18, 18);
+    font-weight: bold;
+    text-shadow: 0 0 3px rgb(252, 252, 252);
   }
   
   .flip::before,
@@ -140,7 +135,7 @@
     right: 0;
     bottom: 0;
     position: absolute;
-    background-image: radial-gradient(circle at 25.82% -16.45%, #00ffff 0, #00f6ff 25%, #3cb5f2 50%, #3e79a1 75%, #31475b 100%);
+    background-image: radial-gradient(circle at 25.82% -16.45%, #404242 0, #1c2c2c 25%, #484a4b 50%, #242c31 75%, #31475b 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,10 +144,102 @@
   
   .flip::before {
     transform: none;
-    background-image: radial-gradient(circle at 43.05% 41.72%, #3cb5f2 0, #3cb5f2 50%, #1b5775 100%);
+    background-image: radial-gradient(circle at 25.82% -16.45%, #404242 0, #1c2c2c 25%, #484a4b 50%, #242c31 75%, #31475b 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .particula{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: particula 1s linear infinite;
+    opacity: .3;
+    bottom: 150;
+    left: 5%;
+  }
+
+  @keyframes particula{
+    0%{
+      bottom: 0;
+      opacity: 0;
+    }
+    30%{
+      transform: translateX(30px)
+    }
+    50%{
+      opacity: .4;
+    }
+    100%{
+      bottom: 100vh;
+      opacity: 0;
+    }
+  }
+
+  .particula:nth-child(1){
+    width: 50px;
+    height: 50px;
+left: 15%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+  }
+
+  .particula:nth-child(2){
+    width: 30px;
+    height: 30px;
+    left: 25%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+  }
+
+  .particula:nth-child(3){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+  }
+
+  .particula:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 45%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+  }
+
+  .particula:nth-child(5){
+    width: 60px;
+    height: 60px;
+    left: 55%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+  }
+
+  .particula:nth-child(6){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 6s;
+  }
+
+  .particula:nth-child(7){
+    width: 80px;
+    height: 80px;
+    left: 75%;
+    animation-duration: 3s;
+    animation-delay: 7s;
+  }
+
+  .particula:nth-child(8){
+    width: 90px;
+    height: 90px;
+    left: 85%;
+    animation-duration: 3s;
+    animation-delay: 8s;
   }
 
   @media screen and (max-width: 600px) {
@@ -161,8 +248,8 @@
     }
     .div2 {
       grid-area: div2;
-      font-size: x-large;
-      
+      font-size: 1em;
+      white-space: break-spaces
     }
     .div3 {
       grid-area: div3;
@@ -188,10 +275,7 @@
         "div2"
         "div3";
     }
-    .content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+
   }
+  
+  
