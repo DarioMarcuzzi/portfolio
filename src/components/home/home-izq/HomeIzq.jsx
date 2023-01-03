@@ -10,7 +10,9 @@ const HomeIzq = () => {
       <div className="infoA">
         <div className="image-adn-carta">
           <div className="div1">
-            <div className="imagen"></div>
+            <div className="contenedor-imagen-perfil">
+              <div className="imagen"></div>
+            </div>
 
             <h1>Dario Marcuzzi</h1>
             <div className="description">
