@@ -12,6 +12,8 @@
   background-attachment: fixed;
   font-family: 'Courier New', Courier, monospace;
   animation: backgroundAnimation 10s linear infinite;
+  width: 100%;
+  height: 100vh;
   }
 
   @keyframes backgroundAnimation {
@@ -33,6 +35,7 @@
     .div2 {
       grid-area: div2;
       margin: 0 auto; 
+      display: block;
       font-size: xxx-large;
       font-weight: 500;
       color: #fff;
@@ -50,8 +53,9 @@
         height: 25%;
       }
       to {
-        width: 60%;
+        width: 100%;
         height: 25%;
+        border-right: transparent;
       }
     }
     @keyframes blink {
@@ -158,6 +162,7 @@
     .div2 {
       grid-area: div2;
       font-size: x-large;
+      
     }
     .div3 {
       grid-area: div3;
