@@ -60,7 +60,7 @@
   width: 60%;
   height: 80%;
   max-width: 400px;
- margin-bottom: 30px; 
+  margin-bottom: 30px; 
   border-radius: 0px 20px 20px 0px;
   border: 3px solid black;
   box-shadow: 5px 10px 10px 0px;
@@ -104,29 +104,39 @@
 
 .description p {
   padding: 10px;
-  font-size: 22px;
+  font-size: 100%;
+  width: 100%;
+  /* height: 50%; */
+  
 }
 .btn-info{
   display: flex;
   flex-direction: column;
   width: 100%;
+  
+  /* height: 30%; */
 }
 .btns-info{
 
+  display: flex;
   background-color: #0000008a;
+  text-decoration: none;
   border: none;
+  width: 100%;
   color: white;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
- 
   font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 25px;
-  box-shadow: 0 0 10px rgba(247, 241, 241, 0.301);
   
+  margin: 0px;
+  cursor: pointer;
+  border-radius: 0px;
+  margin-left: 0px;
+  box-shadow: 0 0 10px rgba(247, 241, 241, 0.301);
 }
+
+
+
 .btns-info a {
   text-decoration: none;
   color: #FFF;
@@ -385,6 +395,54 @@
 
 /* medidas 1920 1280 800 480 */
 
+
+@media (max-height:900px) {
+ 
+  .div1{
+    height: 80%;
+    
+  }
+  .div1 h1{
+    font-size: 25px;
+  }
+  .imagen{
+    /* width: 100px;
+    height: 100px; */
+    height: 30%;
+    width: 100%;
+  }
+  
+  .description{
+    height: 20%;
+  }
+  
+
+
+  
+  .btn-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+  }
+  
+  .btns-info{
+  
+    background-color: #0000008a;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(247, 241, 241, 0.301);
+  }
+  .wrapper{
+    height: 20%;
+  }
+}
+
 @media (max-width:1600px) {
   
   
@@ -399,32 +457,9 @@
   }
   
   
+  
 }
-/* @media screen and (max-height:1000px) {
-  .image-adn-carta {
-    align-items: flex-end;
-  }
-  .div1{
-    margin-bottom: 20px;
-  }
-  .carta{
-    margin-bottom: 25%;
-  }
-  
-} */
-/* @media (max-height:1000px) {
-  .image-adn-carta {
-    align-items: flex-end;
-  }
-  .div1{
-    margin-bottom: 20px;
-  }
-  .carta{
-    margin-bottom: 25%;
-  }
-  
-  
-} */
+
 
 @media (max-width:1300px) {
   .contenedor-info{
@@ -459,6 +494,8 @@
 
 
 }
+
+
 
 @media (max-width: 768px) {
   .contenedor-info{
