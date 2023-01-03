@@ -52,7 +52,9 @@ const HomeDer = () => {
             </div>
           </div>
           <div className="div1-der">
-            <div className="imagen-der"></div>
+            <div className="contenedor-imagen-perfil">
+              <div className="imagen-der"></div>
+            </div>
 
             <h1>Luz Daiana</h1>
             <div className="description">
