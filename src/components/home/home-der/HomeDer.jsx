@@ -54,12 +54,12 @@ const HomeDer = () => {
           <div className="div1-der">
             <div className="imagen-der"></div>
 
-            <h1>Luz Daiana Olivares</h1>
+            <h1>Luz Daiana</h1>
             <div className="description">
               <p>
                 Hola me llamo Luz! me expecializo en diseño web. Tengo
                 conocimientos sobre Boostrap, Javas Script, Html, Css, entre
-                otros. conoceme!
+                otros.
               </p>
             </div>
 
@@ -91,14 +91,20 @@ const HomeDer = () => {
                   </i>
                 </span>
               </li>
-              <li className="icon instagram">
-                <span className="tooltip">Whatsapp</span>
-                <span>
-                  <i className="fab fa-instagram">
-                    <BsWhatsapp />
-                  </i>
-                </span>
-              </li>
+              <a
+                href="https://api.whatsapp.com/send?phone=542974578565"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <li className="icon instagram">
+                  <span className="tooltip">Whatsapp</span>
+                  <span>
+                    <i className="fab fa-instagram">
+                      <BsWhatsapp />
+                    </i>
+                  </span>
+                </li>
+              </a>
             </ul>
           </div>
         </div>

@@ -67,17 +67,32 @@
 .imagen-der{
   display: flex;
  
+  /* width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; */
+  /* background-size: cover;
+  background-attachment: fixed;
+  
+  background-repeat: no-repeat;
+  max-width: 200px;
+  border: 3px solid black;
+  display: flex; */
+  
   width: 200px;
   height: 200px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-image: url("https://res.cloudinary.com/dmpqjroj5/image/upload/v1666734768/imagenes%20Proyecto%20final%20henry/IMG_9000_zqjf1s.jpg");
+  background-image: url("https://res.cloudinary.com/dmpqjroj5/image/upload/v1672687651/imagenes%20Proyecto%20final%20henry/IMG_LuzDaianaOlivares_geix7w.jpg");
+  
   background-size: cover;
   background-attachment: fixed;
-  /* background-position: center; */
+  background-position: center;
   background-repeat: no-repeat;
   max-width: 200px;
+  
   border: 3px solid black;
 }
 .div1-der{
@@ -89,6 +104,7 @@
   width: 60%;
   height: 80%;
   max-width: 400px;
+  margin-bottom: 30px; 
   border-radius: 20px 0px 0px 20px;
   border: 3px solid black;
   box-shadow: 5px 10px 10px 0px;
@@ -208,7 +224,39 @@
   overflow: hidden;
 }
 
+@media (max-width:1300px) {
+  .contenedor-info-der{
+    transition: 2.5s;
+    animation-fill-mode: forwards;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    
+  }
+  .carta, .card-inner{
+    display: none;
+    transform: rotateY(-180deg);
+  
+    animation-fill-mode: forwards;
+  }
+  .div1-der{
+    margin-top: 20px;
+  }
+  
+  .infoB-der{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  }
+  .infoA-der{
+    display: none;
+  }
+  
 
+
+}
 
 
 @media (max-width: 768px) {

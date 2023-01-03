@@ -44,7 +44,7 @@
   width: 100%;
   height: 100%;
   justify-content: start;
-  align-items: center;
+  align-items: flex-end;
   gap: 20px;
   
 
@@ -60,6 +60,7 @@
   width: 60%;
   height: 80%;
   max-width: 400px;
+ margin-bottom: 30px; 
   border-radius: 0px 20px 20px 0px;
   border: 3px solid black;
   box-shadow: 5px 10px 10px 0px;
@@ -84,6 +85,7 @@
   background-position: center;
   background-repeat: no-repeat;
   max-width: 200px;
+  
   border: 3px solid black;
   
 }
@@ -93,9 +95,9 @@
   justify-content: center;
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
-  
   width: 100%;
   height: fit-content;
+  height: 40%;
   color: rgb(249, 249, 249);
 
 }
@@ -154,7 +156,6 @@
   align-items: center;
   width: 60%;
   max-width: 350px;
-  margin-top: 20%;
   height: 50%;
   background-color: azure;
   
@@ -163,6 +164,7 @@
   border-radius: 20px;
   padding: 10px;
   font-family: sans-serif;
+  margin-bottom: 30px;
 
 
   
@@ -381,16 +383,52 @@
   color: #fff;
 }
 
-@media (max-width:1800px) {
+/* medidas 1920 1280 800 480 */
+
+@media (max-width:1600px) {
+  
+  
   .carta{
-    margin-top: 50%;
+    
+    width: 250px;
+    height: 400px;
+    
+  }
+  .carta h1{
+    font-size: 30px;
   }
   
+  
 }
+/* @media screen and (max-height:1000px) {
+  .image-adn-carta {
+    align-items: flex-end;
+  }
+  .div1{
+    margin-bottom: 20px;
+  }
+  .carta{
+    margin-bottom: 25%;
+  }
+  
+} */
+/* @media (max-height:1000px) {
+  .image-adn-carta {
+    align-items: flex-end;
+  }
+  .div1{
+    margin-bottom: 20px;
+  }
+  .carta{
+    margin-bottom: 25%;
+  }
+  
+  
+} */
 
-@media (max-width:1200px) {
+@media (max-width:1300px) {
   .contenedor-info{
-    /* transition: 2.5s; */
+    transition: 2.5s;
     animation-fill-mode: forwards;
     transform: translateX(50%);
     width: 100vw;
@@ -404,13 +442,19 @@
   
     animation-fill-mode: forwards;
   }
+  .div1{
+    margin-top: 20px;
+  }
+  
   .infoA{
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
   }
-  .infoB{}
+  .infoB{
+    display: none;
+  }
   
 
 
