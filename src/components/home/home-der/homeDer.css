@@ -190,7 +190,7 @@
   overflow: hidden;
 }
 
-@media (max-height:800px) {
+@media (max-height:900px) {
  
   .div1-der{
     height: 75%;
@@ -252,6 +252,23 @@
   }
 
 
+}
+@media (max-width:1600px) {
+  
+  
+  .carta-der{
+    
+    width: 250px;
+    height: 400px;
+    
+  }
+  .carta-der h1{
+    font-size: 30px;
+  }
+
+  
+  
+  
 }
 
 @media (max-width:1300px) {

@@ -21,13 +21,12 @@
 
 .logo-nav {
     display: flex;
-    position: relative;
+    position: absolute;
     width: auto;
     height: auto;
-    justify-content: start;
-    align-items: center;
     left: 20px;
     overflow: hidden;
+    /* background-color: aqua; */
     /* background-color: #6066c8; */
     
     
@@ -98,6 +97,7 @@
     .logo-nav{
         width: 80px;
         left: 5px;
+        position: relative;
 /*         
         border-right: 2px solid wheat; */
     }
