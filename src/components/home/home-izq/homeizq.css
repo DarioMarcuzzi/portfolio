@@ -421,6 +421,8 @@
   
   .description{
     height: 20%;
+    border-bottom: 2px solid white;
+    /* border-top: 2px solid white; */
   }
   .description p {
     margin: 1px;
