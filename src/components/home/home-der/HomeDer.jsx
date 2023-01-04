@@ -1,5 +1,5 @@
 import React from "react";
-
+import cvDaiana from "../../CV/Luz_Olivares_CV.pdf";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
@@ -56,7 +56,7 @@ const HomeDer = () => {
               <div className="imagen-der"></div>
             </div>
 
-            <h1>Luz Daiana</h1>
+            <h1>Luz Daiana Olivares </h1>
             <div className="description">
               <p>
                 Hola me llamo Luz! me expecializo en diseño web. Tengo
@@ -73,35 +73,56 @@ const HomeDer = () => {
               >
                 Mandame un email
               </a>
-              <button className="btns-info">Proyectos</button>
+
+              <a
+                className="btns-info"
+                href={cvDaiana}
+                target="_blank"
+                rel="noopener noreferrer"
+                download="CV-DaianaOlivares"
+              >
+                Descargar CV
+              </a>
               <hr />
             </div>
             <ul className="wrapper">
-              <li className="icon facebook">
-                <span className="tooltip">Linkedin</span>
-                <span>
-                  <i className="fab fa-facebook-f">
-                    <FaLinkedinIn />
-                  </i>
-                </span>
-              </li>
-              <li className="icon twitter">
-                <span className="tooltip">GitHub</span>
-                <span>
-                  <i className="fab fa-twitter">
-                    <FiGithub />
-                  </i>
-                </span>
-              </li>
+              <a
+                href="https://www.linkedin.com/in/luz-daiana-olivares-/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <li className="icon LinkedIn">
+                  <span className="tooltip">Linkedin</span>
+                  <span>
+                    <i className="icon-faLinkedinIn">
+                      <FaLinkedinIn />
+                    </i>
+                  </span>
+                </li>
+              </a>
+              <a
+                href="https://github.com/DaianaOli"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <li className="icon GitHub">
+                  <span className="tooltip">GitHub</span>
+                  <span>
+                    <i className="icon-fiGithub">
+                      <FiGithub />
+                    </i>
+                  </span>
+                </li>
+              </a>
               <a
                 href="https://api.whatsapp.com/send?phone=542974578565"
                 target="_blank"
                 rel="noreferrer"
               >
-                <li className="icon instagram">
+                <li className="icon Whatsapp">
                   <span className="tooltip">Whatsapp</span>
                   <span>
-                    <i className="fab fa-instagram">
+                    <i className="icon-bsWhatsapp">
                       <BsWhatsapp />
                     </i>
                   </span>

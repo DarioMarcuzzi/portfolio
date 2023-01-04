@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   margin-right: -100%;
+  /* background-color: #dbdbdb65; */
  
   
 }
@@ -86,7 +87,7 @@
 .div1-der{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: rgba(88, 88, 88, 0.779);
   width: 60%;
@@ -97,6 +98,14 @@
   border: 3px solid black;
   box-shadow: 5px 10px 10px 0px;
 
+}
+
+.div1-der h1{
+  display: flex;
+  font-size: 32px;
+    
+
+    
 }
 .description{
   display: flex;
@@ -185,7 +194,7 @@
   height: 100%;
   justify-content: center;
   align-items: center;
-  background-color: darksalmon;
+  /* background-color: darksalmon; */
   border-radius: 50% 0px 0px 0px;
   overflow: hidden;
 }
@@ -290,6 +299,7 @@
   .div1-der{
     margin-top: 20px;
   }
+
   
   .infoB-der{
     display: flex;

@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   margin-left: -100%;
+  /* background-color: #dbdbdb65; */
  
   
 }
@@ -64,7 +65,11 @@
   border-radius: 0px 20px 20px 0px;
   border: 3px solid black;
   box-shadow: 5px 10px 10px 0px;
+  
 
+}
+.div1 h1{
+  font-size: 32px;
 }
 .divA{
   display: flex;
@@ -187,6 +192,7 @@
 
   
 }
+
 
 .card-inner {
   position: relative;
@@ -380,23 +386,23 @@
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
+.wrapper .LinkedIn:hover,
+.wrapper .LinkedIn:hover .tooltip,
+.wrapper .LinkedIn:hover .tooltip::before {
   background: #1877F2;
   color: #fff;
 }
 
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
+.wrapper .GitHub:hover,
+.wrapper .GitHub:hover .tooltip,
+.wrapper .GitHub:hover .tooltip::before {
   background: #000000;
   color: #fff;
 }
 
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
+.wrapper .Whatsapp:hover,
+.wrapper .Whatsapp:hover .tooltip,
+.wrapper .Whatsapp:hover .tooltip::before {
   background: rgb(3, 193,0);
   color: #fff;
 }
