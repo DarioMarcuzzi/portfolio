@@ -2,6 +2,7 @@ import React from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
+import cvDario from "../../CV/CVDarioMarcuzzi1.pdf";
 import "./homeizq.css";
 
 const HomeIzq = () => {
@@ -29,38 +30,57 @@ const HomeIzq = () => {
               <a className="btns-info" href="mailto:dariomarcuzzi2@gmail.com">
                 Mandame un email
               </a>
-
-              <button className="btns-info">Proyectos</button>
+              <a
+                className="btns-info"
+                href={cvDario}
+                target="_blank"
+                rel="noopener noreferrer"
+                download="CV-DarioMarcuzzi"
+              >
+                Descargar CV
+              </a>
               <hr />
             </div>
 
             <ul className="wrapper">
-              <li className="icon facebook">
-                <span className="tooltip">LinkedIn</span>
-                <span>
-                  <i className="fab fa-facebook-f">
-                    <FaLinkedinIn />
-                  </i>
-                </span>
-              </li>
-              <li className="icon twitter">
-                <span className="tooltip">GitHub</span>
-                <span>
-                  <i className="fab fa-twitter">
-                    <FiGithub />
-                  </i>
-                </span>
-              </li>
+              <a
+                href="https://www.linkedin.com/in/dario-marcuzzi-399908224/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <li className="icon LinkedIn">
+                  <span className="tooltip">LinkedIn</span>
+                  <span>
+                    <i className="icon-faLinkedinIn">
+                      <FaLinkedinIn />
+                    </i>
+                  </span>
+                </li>
+              </a>
+              <a
+                href="https://github.com/DarioMarcuzzi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <li className="icon GitHub">
+                  <span className="tooltip">GitHub</span>
+                  <span>
+                    <i className="icon-fiGithub">
+                      <FiGithub />
+                    </i>
+                  </span>
+                </li>
+              </a>
               <a
                 href="https://api.whatsapp.com/send?phone=542323329434"
                 target="_blank"
                 rel="noreferrer"
               >
-                <li className="icon instagram">
+                <li className="icon Whatsapp">
                   {" "}
                   <span className="tooltip">Whatsapp</span>
                   <span>
-                    <i className="fab fa-instagram">
+                    <i className="icon-bsWhatsapp">
                       <BsWhatsapp />
                     </i>
                   </span>
