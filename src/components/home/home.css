@@ -3,7 +3,7 @@
 .contenedor-principal-home{
     display: flex;
     flex-direction: column;
-    background-color: rgb(169, 97, 97);
+    /* background-color: rgb(169, 97, 97); */
     
 
     width: 100%;
