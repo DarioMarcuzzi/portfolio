@@ -18,14 +18,16 @@ const HomeIzq = () => {
             <h1>Dario Marcuzzi</h1>
             <div className="description">
               <p>
-                Hola mi nombre es Dario Marcuzzi y mi expecialidad es el
-                desarrollo Web. Mas de un año en esta disiplina en busqueda de
-                un trabajo
+                Hola mi nombre es Dario Marcuzzi y me dedico al desarrollo Web.
+                Con más de un año en el mundo IT adquiriendo habilidades y
+                reforzando conocimientos
               </p>
             </div>
 
             <div className="btn-info">
-              <button className="btns-info">Conoceme</button>
+              <a className="btns-info" href="/perfilDM">
+                Conoceme
+              </a>
 
               <a className="btns-info" href="mailto:dariomarcuzzi2@gmail.com">
                 Mandame un email
@@ -49,12 +51,12 @@ const HomeIzq = () => {
                 rel="noreferrer"
               >
                 <li className="icon LinkedIn">
-                  <span className="tooltip">LinkedIn</span>
-                  <span>
+                  <a className="tooltip">LinkedIn</a>
+                  <>
                     <i className="icon-faLinkedinIn">
                       <FaLinkedinIn />
                     </i>
-                  </span>
+                  </>
                 </li>
               </a>
               <a
@@ -63,12 +65,12 @@ const HomeIzq = () => {
                 rel="noreferrer"
               >
                 <li className="icon GitHub">
-                  <span className="tooltip">GitHub</span>
-                  <span>
+                  <a className="tooltip">GitHub</a>
+                  <>
                     <i className="icon-fiGithub">
                       <FiGithub />
                     </i>
-                  </span>
+                  </>
                 </li>
               </a>
               <a
@@ -78,12 +80,12 @@ const HomeIzq = () => {
               >
                 <li className="icon Whatsapp">
                   {" "}
-                  <span className="tooltip">Whatsapp</span>
-                  <span>
+                  <a className="tooltip">Whatsapp</a>
+                  <>
                     <i className="icon-bsWhatsapp">
                       <BsWhatsapp />
                     </i>
-                  </span>
+                  </>
                 </li>
               </a>
             </ul>

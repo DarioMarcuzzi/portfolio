@@ -1,4 +1,8 @@
 .contenedor-de-pages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   overflow: hidden;
 }
 
@@ -14,9 +18,32 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: #050505;
   overflow: hidden;
+  
+    background: linear-gradient(181deg, #000000, #452e2e, #611010, #09374d, #00547b, #778d98, #778d98, #778d98);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: AnimationName 31s ease infinite;
+    -moz-animation: AnimationName 31s ease infinite;
+    animation: AnimationName 31s ease infinite;
 }
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:66% 0%}
+    50%{background-position:35% 100%}
+    100%{background-position:66% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:66% 0%}
+    50%{background-position:35% 100%}
+    100%{background-position:66% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:66% 0%}
+    50%{background-position:35% 100%}
+    100%{background-position:66% 0%}
+}
+
 
 .background span {
   width: 1vmin;
@@ -482,16 +509,7 @@
   box-shadow: -2vmin 0 0.6171676804928505vmin currentColor;
 }
 
-.parent {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-      "div11 div11 div11"
-      "div2 div2 div2"
-      "div3 div3 div3";
-  font-family: 'Courier New', Courier, monospace;
-  }
+
 
   @keyframes backgroundAnimation {
     0% {
@@ -510,7 +528,23 @@
   width: 100%;
   height: 100vh;
 }
+.about{
+  width: 100%;
+  height: 100vh;
+}
 .home{
   width: 100%;
   height: 100vh;
+}
+
+@media (max-width:768px) {
+  .landing{
+    width: 100%;
+    height: 90vh;
+  }
+  .home{
+    width: 100%;
+    height: 200vh;
+  }
+  
 }
