@@ -1,0 +1,481 @@
+{
+  "users": [
+    {
+      "id": "15e6e4f4-69ef-11ed-a1eb-0242ac120002",
+      "nombre": "Dario",
+      "apellido": "Marcuzzi",
+      "descripcion": "Soy un desarrollador FullStack, me gusta el diseño y la programación, me gusta aprender cosas nuevas y me gusta mucho el café",
+      "email": "dariomarcuzzi2@gmail.com",
+      "profesion": "FullStack Developer",
+      "origen": "Argentina",
+      "fechaNacimiento": "1995/04/26",
+      "comentario": "",
+      "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+      "skill": [
+        {
+          "id": 1,
+          "nombre": "HTML",
+          "porcentaje": 70,
+          "icono": "https://img.icons8.com/external-avoca-kerismaker/512/external-HTML-software-development-avoca-kerismaker.png"
+        },
+        {
+          "id": 2,
+          "nombre": "CSS",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/fluency/512/css3.png"
+        },
+        {
+          "id": 3,
+          "nombre": "JavaScript",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/color/512/javascript.png"
+        },
+        {
+          "id": 4,
+          "nombre": "React",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/office/512/react.png"
+        },
+        {
+          "id": 5,
+          "nombre": "Node",
+          "porcentaje": 60,
+          "icono": "https://img.icons8.com/color/512/nodejs.png"
+        },
+        {
+          "id": 6,
+          "nombre": "Express",
+          "porcentaje": 80,
+          "icono": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+        },
+        {
+          "id": 7,
+          "nombre": "MySQL",
+          "porcentaje": 50,
+          "icono": "https://img.icons8.com/color/512/mysql-logo.png"
+        },
+        {
+          "id": 8,
+          "nombre": "PostgreSQL",
+          "porcentaje": 50,
+          "icono": "https://img.icons8.com/color/512/postgreesql.png"
+        },
+        {
+          "id": 9,
+          "nombre": "Git",
+          "porcentaje": 60,
+          "icono": "https://img.icons8.com/color/512/git.png"
+        },
+        {
+          "id": 10,
+          "nombre": "GitHub",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/ios-filled/512/github.png"
+        },
+        {
+          "id": 11,
+          "nombre": "Figma",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/office/512/figma.png"
+        },
+        {
+          "id": 12,
+          "nombre": "Visual Studio Code",
+          "porcentaje": 70,
+          "icono": "https://img.icons8.com/color/512/visual-studio-code-2019.png"
+        },
+        {
+          "id": 13,
+          "nombre": "Vercel",
+          "porcentaje": 60,
+          "icono": "https://cdn.icon-icons.com/icons2/3375/PNG/512/vercel_brand_icon_211876.png"
+        },
+        {
+          "id": 14,
+          "nombre": "Redux",
+          "porcentaje": 50,
+          "icono": "https://img.icons8.com/color/512/redux.png"
+        }
+      ],
+      "skillsoft": [{
+        "id": 1,
+        "nombre": "Comunicación",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/communication.png"
+      },
+      {
+        "id": 2,
+        "nombre": "Trabajo en equipo",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/teamwork.png"
+      },
+      {
+        "id": 3,
+        "nombre": "Resolución de problemas",
+        "porcentaje": 80,
+        "icono": "https://cdn-icons-png.flaticon.com/512/4325/4325613.png"
+      },
+      {
+        "id": 4,
+        "nombre": "Creatividad",
+        "porcentaje": 80,
+        "icono": "https://cdn-icons-png.flaticon.com/512/4214/4214085.png"
+      },
+      {
+        "id": 5,
+        "nombre": "Liderazgo",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/leadership.png"
+      },
+      {
+        "id": 6,
+        "nombre": "Gestión de proyectos",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/project-management.png"
+      },
+      {
+        "id": 7,
+        "nombre": "Gestión de tiempo",
+        "porcentaje": 80,
+        "icono": "https://cdn-icons-png.flaticon.com/512/1077/1077912.png"
+      },
+      {
+        "id": 8,
+        "nombre": "Gestión de conflictos",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/conflict-management.png"
+      },
+      {
+        "id": 9,
+        "nombre": "Gestión de tareas",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/task-management.png"
+      },
+      {
+        "id": 10,
+        "nombre": "Gestión de recursos",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/resource-management.png"
+      },
+      {
+        "id": 11,
+        "nombre": "Gestión de riesgos",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/risk-management.png"
+      }
+      ],
+      "proyectos": [
+        {
+          "id": "1",
+          "nombre": "Ecommerce",
+          "descripcion": "Ecommerce de ropa",
+          "imagen": [
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+          ],
+          "link": "https://www.google.com/"
+        },
+        {
+          "id": "2",
+          "nombre": "Ecommerce",
+          "descripcion": "Ecommerce de ropa",
+          "imagen": [
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+          ],
+          "link": "https://www.google.com/"
+        },
+        {
+          "id": "3",
+          "nombre": "Ecommerce",
+          "descripcion": "Ecommerce de ropa",
+          "imagen": [
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+          ],
+          "link": "https://www.google.com/"
+        }
+      ]
+    },
+    {
+      "id": "3a9fb596-69ef-11ed-a1eb-0242ac120002",
+      "nombre": "Daiana",
+      "email": "luzdaianaolivaresolivares@gmail.com",
+      "apellido": "Olivares",
+      "descripcion": "Soy un desarrollador FullStack, me gusta el diseño y la programación, me gusta aprender cosas nuevas y me gusta mucho el café",
+      "profesion": "FullStack Developer",
+      "origen": "Argentina",
+      "fechaNacimiento": "12/03/1997",
+      "comentario": "",
+      "imagen": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+      "skill": [
+        {
+          "id": 1,
+          "nombre": "HTML",
+          "porcentaje": 70,
+          "icono": "https://img.icons8.com/external-avoca-kerismaker/512/external-HTML-software-development-avoca-kerismaker.png"
+        },
+        {
+          "id": 2,
+          "nombre": "CSS",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/fluency/512/css3.png"
+        },
+        {
+          "id": 3,
+          "nombre": "JavaScript",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/color/512/javascript.png"
+        },
+        {
+          "id": 4,
+          "nombre": "React",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/office/512/react.png"
+        },
+        {
+          "id": 5,
+          "nombre": "Node",
+          "porcentaje": 60,
+          "icono": "https://img.icons8.com/color/512/nodejs.png"
+        },
+        {
+          "id": 6,
+          "nombre": "Express",
+          "porcentaje": 80,
+          "icono": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+        },
+        {
+          "id": 7,
+          "nombre": "MySQL",
+          "porcentaje": 50,
+          "icono": "https://img.icons8.com/color/512/mysql-logo.png"
+        },
+        {
+          "id": 8,
+          "nombre": "PostgreSQL",
+          "porcentaje": 50,
+          "icono": "https://img.icons8.com/color/512/postgreesql.png"
+        },
+        {
+          "id": 9,
+          "nombre": "Git",
+          "porcentaje": 60,
+          "icono": "https://img.icons8.com/color/512/git.png"
+        },
+        {
+          "id": 10,
+          "nombre": "GitHub",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/ios-filled/512/github.png"
+        },
+        {
+          "id": 11,
+          "nombre": "Figma",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/office/512/figma.png"
+        },
+        {
+          "id": 12,
+          "nombre": "Visual Studio Code",
+          "porcentaje": 70,
+          "icono": "https://img.icons8.com/color/512/visual-studio-code-2019.png"
+        },
+        {
+          "id": 13,
+          "nombre": "Vercel",
+          "porcentaje": 60,
+          "icono": "https://cdn.icon-icons.com/icons2/3375/PNG/512/vercel_brand_icon_211876.png"
+        },
+        {
+          "id": 14,
+          "nombre": "Redux",
+          "porcentaje": 50,
+          "icono": "https://img.icons8.com/color/512/redux.png"
+        }
+      ],
+      "skillsoft": [{
+        "id": 1,
+        "nombre": "Comunicación",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/communication.png"
+      },
+      {
+        "id": 2,
+        "nombre": "Trabajo en equipo",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/teamwork.png"
+      },
+      {
+        "id": 3,
+        "nombre": "Resolución de problemas",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/problem-solving.png"
+      },
+      {
+        "id": 4,
+        "nombre": "Creatividad",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/creativity.png"
+      },
+      {
+        "id": 5,
+        "nombre": "Liderazgo",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/leadership.png"
+      },
+      {
+        "id": 6,
+        "nombre": "Gestión de proyectos",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/project-management.png"
+      },
+      {
+        "id": 7,
+        "nombre": "Gestión de tiempo",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/time-management.png"
+      },
+      {
+        "id": 8,
+        "nombre": "Gestión de conflictos",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/conflict-management.png"
+      },
+      {
+        "id": 9,
+        "nombre": "Gestión de tareas",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/task-management.png"
+      },
+      {
+        "id": 10,
+        "nombre": "Gestión de recursos",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/resource-management.png"
+      },
+      {
+        "id": 11,
+        "nombre": "Gestión de riesgos",
+        "porcentaje": 80,
+        "icono": "https://img.icons8.com/color/512/risk-management.png"
+      }
+      ],
+      "proyectos": [
+        {
+          "id": "1",
+          "nombre": "Ecommerce",
+          "descripcion": "Ecommerce de ropa",
+          "imagen": [
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+          ],
+          "link": "https://www.google.com/"
+        },
+        {
+          "id": "2",
+          "nombre": "Ecommerce",
+          "descripcion": "Ecommerce de ropa",
+          "imagen": [
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+          ],
+          "link": "https://www.google.com/"
+        },
+        {
+          "id": "3",
+          "nombre": "Ecommerce",
+          "descripcion": "Ecommerce de ropa",
+          "imagen": [
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+          ],
+          "link": "https://www.google.com/"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "nombre": "HTML",
+      "porcentaje": 100
+    },
+    {
+      "id": 2,
+      "nombre": "CSS",
+      "porcentaje": 100
+    },
+    {
+      "id": 3,
+      "nombre": "JavaScript",
+      "porcentaje": 100
+    },
+    {
+      "id": 4,
+      "nombre": "React",
+      "porcentaje": 100
+    },
+    {
+      "id": 5,
+      "nombre": "Node",
+      "porcentaje": 100
+    },
+    {
+      "id": 6,
+      "nombre": "Express",
+      "porcentaje": 80
+    },
+    {
+      "id": 7,
+      "nombre": "MySQL",
+      "porcentaje": 80
+    },
+    {
+      "id": 8,
+      "nombre": "PostgreSQL",
+      "porcentaje": 80
+    },
+    {
+      "id": 9,
+      "nombre": "Git",
+      "porcentaje": 80
+    },
+    {
+      "id": 10,
+      "nombre": "GitHub",
+      "porcentaje": 80
+    },
+    {
+      "id": 11,
+      "nombre": "Heroku",
+      "porcentaje": 80
+    },
+    {
+      "id": 12,
+      "nombre": "Visual Studio Code",
+      "porcentaje": 80
+    },
+    {
+      "id": 13,
+      "nombre": "Vercel",
+      "porcentaje": 80
+    },
+    {
+      "id": 14,
+      "nombre": "Redux",
+      "porcentaje": 80
+    },
+    {
+      "id": 15,
+      "nombre": "Bootstrap",
+      "porcentaje": 80
+    }
+  ]
+}
