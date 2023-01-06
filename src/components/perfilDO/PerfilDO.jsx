@@ -8,7 +8,7 @@ const PerfilDO = () => {
   console.log(data);
   return (
     <div className="contenedor-perfilDM">
-    <Navbar/>
+      <Navbar />
       <div className="perfilDM">
         <div className="perfilDM__foto">
           <h2>{data.nombre + " " + data.apellido}</h2>
@@ -42,49 +42,47 @@ const PerfilDO = () => {
             );
           })}
           {data.skillsoft?.map((skillsoft) => {
-                return (
-                    <div className="social-media">
-                    <a href="#">
-                        <span class="tooltip-social">
-                        {skillsoft.nombre + " " + skillsoft.porcentaje + "%"}
-                        </span>
-                        <img className="icono" src={skillsoft.icono} alt="icono" />
-                    </a>
-                    </div>
-                );
-                })
-          }
+            return (
+              <div className="social-media">
+                <a href="#">
+                  <span class="tooltip-social">
+                    {skillsoft.nombre + " " + skillsoft.porcentaje + "%"}
+                  </span>
+                  <img className="icono" src={skillsoft.icono} alt="icono" />
+                </a>
+              </div>
+            );
+          })}
         </div>
         <h3>Proyectos</h3>
         <div className="perfilDM__proyectos">
-            {data.proyectos.map((proyecto) => {
-                return (
-                    <div className="proyecto">
-                        <h5>{proyecto.nombre}</h5>
-                        <div className="proyecto__imagenes">
-                            {proyecto.imagen.map((imagen) => {
-                                return (
-                                    <img src={imagen} alt="imagen" />
-                                )
-                            })}
-                        </div>
-                        <div className="proyecto__links">
-                        <a href={proyecto.link}> Git
-                        </a>Deploy
-                        <a href={proyecto.link}>
-                        </a>
-                        </div>
-                    </div>
-                )
-            })}
+          {data.proyectos.map((proyecto) => {
+            return (
+              <div className="proyecto">
+                <h3>{proyecto.nombre}</h3>
+                <p>{proyecto.descripcion}</p>
+                <div className="proyecto__imagenes">
+                  {proyecto.imagen.map((imagen) => {
+                    return <img src={imagen} alt="imagen" />;
+                  })}
+                </div>
+                <div className="proyecto__links">
+                  <a href={proyecto.link} target="_blank">Github</a>
+                  <a href={proyecto.link2} target="_blank">Deploy</a>
+                </div>
+              </div>
+            );
+          })}
         </div>
         <h3>Experiencia</h3>
         <div className="perfilDM__experiencia">
           {data.experiencia?.map((experiencia) => {
             return (
               <div className="experiencia">
-                <h5>{experiencia.nombre}</h5>
+                <h3>{experiencia.nombre}</h3>
                 <p>{experiencia.descripcion}</p>
+                <img src={experiencia.imagen} alt="imagen" />
+                <a href={experiencia.link} target="_blank">Link</a>
               </div>
             );
           })}
@@ -94,9 +92,10 @@ const PerfilDO = () => {
           {data.formacion?.map((formacion) => {
             return (
               <div className="formacion">
-                <h5>{formacion.nombre}</h5>
+                <li>{formacion.nombre}</li>
                 <p>{formacion.descripcion}</p>
                 <img src={formacion.imagen} alt="imagen" />
+                <a href={formacion.link} target="_blank">Link</a>
               </div>
             );
           })}
