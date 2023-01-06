@@ -4,6 +4,7 @@ import Navbar from "./nav/Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
 import "./pages.css";
+import Footer from "./footer/Footer";
 
 const Pages = () => {
   return (
@@ -68,6 +69,9 @@ const Pages = () => {
         </div>
         <div className="home">
           <Home />
+        </div>
+        <div className="footer">
+          <Footer/>
         </div>
       </div>
     </div>
