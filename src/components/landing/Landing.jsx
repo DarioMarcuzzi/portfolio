@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Landing.css";
-import Nav from "../nav/Navbar.jsx";
 import { GrReactjs } from "react-icons/gr";
 import { TbBrandJavascript } from "react-icons/tb";
 import { DiCss3 } from "react-icons/di";
@@ -9,11 +8,36 @@ import { FaNode } from "react-icons/fa";
 import { SiSequelize, SiPostgresql } from "react-icons/si";
 
 const Landing = () => {
+  const [title, setTitle] = useState("dario");
+  // const [testigo, setTestigo] = useState(0);
+
+  // useEffect(()=> {
+  //   const maquinaEscribir = (text, tiempo=100,setTitle) =>{
+  //     let arrayCaracteres = text.split("");
+  //     setTitle("")
+  //   }
+  // },[])
+  useEffect(() => {
+    const maquina = document.getElementById("maquina");
+    const maquinaEscribir = (title, tiempo = 100, etiqueta = "") => {
+      let arrayCaracteres = title.split("");
+      etiqueta.innerHTML = "";
+      let cont = 0;
+      let escribir = setInterval(() => {
+        etiqueta.innerHTML += arrayCaracteres[cont];
+        cont++;
+        if (cont === arrayCaracteres.length) {
+          clearInterval(escribir);
+        }
+      }, tiempo);
+    };
+    maquinaEscribir(title, 300, maquina);
+  });
+
   return (
     <div className="parent">
-      {/* <div><Nav /></div> */}
       <div className="div2">
-        <h1>Bienvenido! Somos Dario y Daiana</h1>
+        <p id="maquina">{title} </p>
       </div>
       <div className="div3">
         <div className="flip">
