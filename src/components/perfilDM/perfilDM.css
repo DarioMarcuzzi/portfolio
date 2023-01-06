@@ -325,11 +325,17 @@
     .experiencia{
         width: 100%;
     }
+    .experiencia img{
+        width: 100%;
+    }
     .perfilDM__formacion{
         width: 100%;
         flex-direction: column;
     }
     .formacion{
+        width: 100%;
+    }
+    .formacion img{
         width: 100%;
     }
 }
