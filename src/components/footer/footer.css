@@ -20,3 +20,12 @@
 .logo__footer img{
     width: 1%;
 }
+
+@media screen and (max-width: 768px){
+    .logo__footer{
+        width: 20%;
+    }
+    .logo__footer img{
+        width: 15%;
+    }
+}
