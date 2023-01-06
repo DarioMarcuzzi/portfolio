@@ -10,19 +10,27 @@
   
 }
 .infoA-der{
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items:center;
   
  
   width: 50%;
+  height: 100%; */
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+ 
+  width: 50%;
   height: 100%;
+  justify-content: center;
   
 }
 
 
 .title-der{
-  display: flex;
+  /* display: flex;
   width: 30%;
   position: absolute;
   top: 20%;
@@ -33,7 +41,18 @@
   transition: transform 2s;
   transform-style: preserve-3d;
   border-radius: 0px 20px 30px 30px;
-  
+   */
+   display: flex;
+   width: 70%;
+   position: relative;
+   top: 20%;
+   left: 0px;
+   background-color: rgba(0, 0, 0, 0.572);
+   padding: 10px;
+   color: rgb(255, 255, 255);
+   transition: transform 2s;
+   transform-style: preserve-3d;
+   border-radius: 0px 20px 30px 30px;
   
 
 }
@@ -85,9 +104,11 @@
 }
 
 .div1-der{
+
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(88, 88, 88, 0.779);
   width: 60%;
@@ -97,7 +118,7 @@
   border-radius: 20px 0px 0px 20px;
   border: 3px solid black;
   box-shadow: 5px 10px 10px 0px;
-
+  
 }
 
 .div1-der h1{
@@ -143,20 +164,28 @@
   align-items: center;
   width: 60%;
   max-width: 350px;
- 
-  height: 50%;
+  height: 60%;
+  max-height: 550px ;
   background-color: azure;
- 
   background-position: center;
   background-size: cover;
   border-radius: 20px;
   padding: 10px;
   font-family: sans-serif;
   margin-bottom: 30px;
-
   
+}
 
-  
+
+
+
+.card-inner-der{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
   
 }
 
@@ -170,7 +199,7 @@
   
 }
 
-.contenedor-info-der:hover .carta , .card-inner{
+.contenedor-info-der:hover .carta-der , .card-inner-der{
   transform: rotateY(180deg);
   transition: 2.4s;
   animation-fill-mode: forwards;
@@ -279,8 +308,38 @@
   
   
 }
-
 @media (max-width:1300px) {
+  .contenedor-info-der{
+    transition: 2.5s;
+    animation-fill-mode: forwards;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100vh;
+   
+    
+  }
+  .carta-der, .card-inner-der{
+    display: none;
+  }
+  /* .div1-der{
+    margin-top: 20px;
+  } */
+  
+  .infoB-der{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  }
+  .infoA-der{
+    display: none;
+  }
+  
+
+
+}
+
+/* @media (max-width:1300px) {
   .contenedor-info-der{
     transition: 2.5s;
     animation-fill-mode: forwards;
@@ -313,7 +372,7 @@
   
 
 
-}
+} */
 
 
 @media (max-width: 768px) {
@@ -355,7 +414,7 @@
   }
   
 
-  .carta, .card-inner{
+  .carta-der, .card-inner{
     display: none;
   
   }

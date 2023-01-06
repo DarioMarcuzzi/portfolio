@@ -2,6 +2,7 @@ import React from "react";
 import Landing from "./landing/Landing";
 import Navbar from "./nav/Navbar";
 import Home from "./home/Home";
+import About from "./about/About";
 import "./pages.css";
 
 const Pages = () => {
@@ -61,6 +62,9 @@ const Pages = () => {
         <Navbar />
         <div className="landing">
           <Landing />
+        </div>
+        <div className="about">
+          <About />
         </div>
         <div className="home">
           <Home />

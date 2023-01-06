@@ -29,8 +29,8 @@ const HomeDer = () => {
       </div>
       <div className="infoB-der">
         <div className="image-adn-carta-derB">
-          <div className="carta">
-            <div className="card-inner">
+          <div className="carta-der">
+            <div className="card-inner-der">
               <div className="card-front">
                 <div className="title-card">
                   <h1>Full stack developer</h1>
@@ -59,14 +59,15 @@ const HomeDer = () => {
             <h1>Luz Daiana Olivares </h1>
             <div className="description">
               <p>
-                Hola me llamo Luz! me expecializo en diseño web. Tengo
-                conocimientos sobre Boostrap, Javas Script, Html, Css, entre
-                otros.
+                Hola me llamo Luz! Estudio contabilidad y soy desarrolladora web
+                full stack,
               </p>
             </div>
 
             <div className="btn-info">
-              <button className="btns-info">Conoceme</button>
+              <a className="btns-info" href="/perfilDO">
+                Conoceme
+              </a>
               <a
                 className="btns-info"
                 href="mailto:luzdaianaolivaresolivares@gmail.com"
@@ -92,12 +93,12 @@ const HomeDer = () => {
                 rel="noreferrer"
               >
                 <li className="icon LinkedIn">
-                  <span className="tooltip">Linkedin</span>
-                  <span>
+                  <a className="tooltip">Linkedin</a>
+                  <>
                     <i className="icon-faLinkedinIn">
                       <FaLinkedinIn />
                     </i>
-                  </span>
+                  </>
                 </li>
               </a>
               <a
@@ -106,12 +107,12 @@ const HomeDer = () => {
                 rel="noreferrer"
               >
                 <li className="icon GitHub">
-                  <span className="tooltip">GitHub</span>
-                  <span>
+                  <a className="tooltip">GitHub</a>
+                  <>
                     <i className="icon-fiGithub">
                       <FiGithub />
                     </i>
-                  </span>
+                  </>
                 </li>
               </a>
               <a
@@ -120,12 +121,12 @@ const HomeDer = () => {
                 rel="noreferrer"
               >
                 <li className="icon Whatsapp">
-                  <span className="tooltip">Whatsapp</span>
-                  <span>
+                  <a className="tooltip">Whatsapp</a>
+                  <>
                     <i className="icon-bsWhatsapp">
                       <BsWhatsapp />
                     </i>
-                  </span>
+                  </>
                 </li>
               </a>
             </ul>

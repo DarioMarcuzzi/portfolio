@@ -17,7 +17,7 @@
 .perfilDM{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -25,7 +25,7 @@
 }
 
 .perfilDM__foto{
-    width: 80%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@
 }
 
 .perfilDM__foto img{
-    width: 40%;
+    width: 50%;
     box-shadow: 0 0 10px 0 #fff;  
 }
 
@@ -56,7 +56,7 @@
 }
 
 .perfilDM__info{
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.15);

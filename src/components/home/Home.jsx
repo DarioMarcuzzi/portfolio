@@ -8,9 +8,9 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="contenedor-principal-home">
-      <div>
+      {/* <div>
         <Nav />
-      </div>
+      </div> */}
       <div className="contenedor-home">
         <div className="contenedor-home-izq">
           <HomeIzq />

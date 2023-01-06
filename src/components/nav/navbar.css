@@ -4,7 +4,7 @@
     align-items: center;
 
     box-shadow: 0 0 10px rgb(247, 241, 241);
-    position: absolute;
+    position: fixed;
 
     top: 0;
     left: 0;
@@ -60,7 +60,7 @@
 }
 .btn-links-nav button{
     border: none;
-    color: rgb(255, 252, 252);
+    color:white;
     text-align: center;
     text-decoration: none;
     background: none;

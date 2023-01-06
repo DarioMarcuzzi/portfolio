@@ -11,9 +11,7 @@ import { SiSequelize, SiPostgresql } from "react-icons/si";
 const Landing = () => {
   return (
     <div className="parent">
-      <div className="div11">
-        <Nav />
-      </div>
+      {/* <div><Nav /></div> */}
       <div className="div2">
         <h1>Bienvenido! Somos Dario y Daiana</h1>
       </div>

@@ -5,7 +5,8 @@
   justify-content: center;
   align-items: center;
   margin-left: -100%;
-  /* background-color: #dbdbdb65; */
+ 
+  
  
   
 }
@@ -23,12 +24,24 @@
  
   
 }
+.infoB{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+ 
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  
+}
+
 .title{
   display: flex;
-  width: 30%;
-  position: absolute;
+  width: 70%;
+  position: relative;
   top: 20%;
-  left: 10%;
+  left: 0px;
   background-color: rgba(0, 0, 0, 0.572);
   padding: 10px;
   color: rgb(255, 255, 255);
@@ -163,25 +176,17 @@
 }
 
 
-.infoB{
-  display: flex;
-  
-  align-items: center;
- 
-  width: 50%;
-  height: 100%;
-  justify-content: center;
-  
-}
+
 .carta{
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 60%;
   max-width: 350px;
-  height: 50%;
+  height: 60%;
+  /* height: 550px; */
+  max-height: 550px ;
   background-color: azure;
-  
   background-position: center;
   background-size: cover;
   border-radius: 20px;
@@ -230,12 +235,11 @@
 .card-inner{
   display: flex;
   flex-direction: column;
-  /* width: 100%;
-  height: 100%; */
+
 }
 .contenedor-info:hover .carta , .card-inner{
   transform: rotateY(-180deg);
-  transition: 2.4s;
+  transition: 2.6s;
   animation-fill-mode: forwards;
   
 }
@@ -259,9 +263,7 @@
 .card-front, .card-back{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* justify-content: start; */
+ 
   align-items: center;
   width: 100%;
   height: 100%;
@@ -381,7 +383,7 @@
   pointer-events: auto;
 }
 
-.wrapper .icon:hover span,
+.wrapper .icon:hover a,
 .wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
@@ -540,7 +542,7 @@
 
 @media (max-width: 768px) {
   .contenedor-info{
-    /* transition: 2.5s; */
+    
     animation-fill-mode: forwards;
     transform: translateX(50%);
     width: 100vw;
