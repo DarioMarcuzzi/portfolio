@@ -13,22 +13,21 @@
   
   #maquina {
     font-size: 40px;
-    color: white;
+    color: rgb(11, 11, 11);
   }
-    /* .div2 {
+    .div2 {
     
       display: block;
       height: auto;
       margin: 0 auto; 
       text-align: center;
-      color: #fff;
       width: fit-content;
       white-space: nowrap;
       overflow: hidden;
       margin: 0 auto;
       border-right: 0.15em solid #18bdec;
       animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
-    } */
+    }
     
 
 
