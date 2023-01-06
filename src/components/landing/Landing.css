@@ -1,52 +1,45 @@
   .parent{
-    /* background-color: #18bdec; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap:  40px;
-    border: 2px solid black;
     width: 100%;
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
   }
 
-    /* .div11 {
-      grid-area: div11;
-    } */
+
   
-    .div2 {
-      /* grid-area: div2; */
+  #maquina {
+    font-size: 40px;
+    color: white;
+  }
+    /* .div2 {
+    
       display: block;
-      /* background-color: #1c2c2c; */
-      /* width: 10%; */
-      /* justify-content: center; */
-      /* background-color: #18bdec; */
       height: auto;
       margin: 0 auto; 
       text-align: center;
       color: #fff;
       width: fit-content;
-      
       white-space: nowrap;
-      background-color: #242c31;
       overflow: hidden;
-      /* font-size: 1.5em; */
       margin: 0 auto;
       border-right: 0.15em solid #18bdec;
       animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
-    }
+    } */
     
 
 
     @keyframes typing {
       from {
         width: 0;
-        /* height: 20%; */
+    
       }
       to {
         width: 100%;
-        /* height: 10%; */
+        
       }
     }
     @keyframes blink {
@@ -59,12 +52,6 @@
       }
     }
 
-
-    /* .div3 {
-      grid-area: div3;
-      width: 80%;
-      margin: 0 auto;
-    } */
 
 .flip {
     position: relative;
@@ -143,98 +130,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  /* .particula{
-    width: 80px;
-    height: 80px;
-    background: #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: particula 1s linear infinite;
-    opacity: .3;
-    bottom: 150;
-    left: 5%;
-  }
-
-  @keyframes particula{
-    0%{
-      bottom: 0;
-      opacity: 0;
-    }
-    30%{
-      transform: translateX(30px)
-    }
-    50%{
-      opacity: .4;
-    }
-    100%{
-      bottom: 100vh;
-      opacity: 0;
-    }
-  }
-
-  .particula:nth-child(1){
-    width: 50px;
-    height: 50px;
-left: 15%;
-    animation-duration: 3s;
-    animation-delay: 1s;
-  }
-
-  .particula:nth-child(2){
-    width: 30px;
-    height: 30px;
-    left: 25%;
-    animation-duration: 3s;
-    animation-delay: 2s;
-  }
-
-  .particula:nth-child(3){
-    width: 40px;
-    height: 40px;
-    left: 35%;
-    animation-duration: 3s;
-    animation-delay: 3s;
-  }
-
-  .particula:nth-child(4){
-    width: 50px;
-    height: 50px;
-    left: 45%;
-    animation-duration: 3s;
-    animation-delay: 4s;
-  }
-
-  .particula:nth-child(5){
-    width: 60px;
-    height: 60px;
-    left: 55%;
-    animation-duration: 3s;
-    animation-delay: 5s;
-  }
-
-  .particula:nth-child(6){
-    width: 70px;
-    height: 70px;
-    left: 65%;
-    animation-duration: 3s;
-    animation-delay: 6s;
-  }
-
-  .particula:nth-child(7){
-    width: 80px;
-    height: 80px;
-    left: 75%;
-    animation-duration: 3s;
-    animation-delay: 7s;
-  }
-
-  .particula:nth-child(8){
-    width: 90px;
-    height: 90px;
-    left: 85%;
-    animation-duration: 3s;
-    animation-delay: 8s;
-  } */
+  
 
   @media screen and (max-width: 600px) {
     .div11{
