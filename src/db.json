@@ -141,62 +141,104 @@
       },
       {
         "id": 8,
-        "nombre": "Gestión de conflictos",
+        "nombre": "Adaptabilidad",
         "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/conflict-management.png"
+        "icono": "https://cdn-icons-png.flaticon.com/512/3316/3316286.png"
       },
       {
         "id": 9,
-        "nombre": "Gestión de tareas",
+        "nombre": "Actitud positiva",
         "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/task-management.png"
+        "icono": "https://cdn-icons-png.flaticon.com/512/3201/3201250.png"
       },
       {
         "id": 10,
-        "nombre": "Gestión de recursos",
+        "nombre": "Organización",
         "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/resource-management.png"
+        "icono": "https://cdn-icons-png.flaticon.com/512/943/943777.png"
       },
       {
         "id": 11,
-        "nombre": "Gestión de riesgos",
+        "nombre": "Dedicación",
         "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/risk-management.png"
+        "icono": "https://cdn-icons-png.flaticon.com/512/2833/2833587.png"
       }
       ],
       "proyectos": [
         {
           "id": "1",
-          "nombre": "Ecommerce",
-          "descripcion": "Ecommerce de ropa",
+          "nombre": "PI Pokemon",
+          "descripcion": "Diseñar y desarrollar una App de Pokémon, incluido la creacion busqueda y filtrado de los mismos, acceder a sus detalles",
           "imagen": [
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1667863505/imagenes%20Proyecto%20final%20henry/proyecto%20PI%20pokemons/landing_izg8qw.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1667863512/imagenes%20Proyecto%20final%20henry/proyecto%20PI%20pokemons/home_vgcpea.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1667863519/imagenes%20Proyecto%20final%20henry/proyecto%20PI%20pokemons/create_POkemon_nvq1uz.png"
           ],
-          "link": "https://www.google.com/"
+          "link": "https://github.com/DarioMarcuzzi/PI-Pokemon-main",
+          "link2": "https://pi-pokemon-main-amber.vercel.app"
         },
         {
           "id": "2",
-          "nombre": "Ecommerce",
-          "descripcion": "Ecommerce de ropa",
+          "nombre": "Coffee Street",
+          "descripcion": "Participación en un equipo de desarrollo ágil, un Ecommerce con diseño y desarrollo de features básicas",
           "imagen": [
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1667864545/imagenes%20Proyecto%20final%20henry/landing_page_caoraj.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1667864517/imagenes%20Proyecto%20final%20henry/menu_yquzoo.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1667864493/imagenes%20Proyecto%20final%20henry/my_ordenes_igyzqy.png"
           ],
-          "link": "https://www.google.com/"
+          "link": "https://github.com/MrBluegru/CoffeeStreet-FrontEnd",
+          "link2": "https://coffee-street-front-end.vercel.app"
         },
         {
           "id": "3",
-          "nombre": "Ecommerce",
-          "descripcion": "Ecommerce de ropa",
+          "nombre": "Conecta4",
+          "descripcion": "Juego de Conecta 4, con introducción de usuarios, creación de partidas y tablero de juego",
           "imagen": [
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+            "https://user-images.githubusercontent.com/97201734/211034262-ba83ba87-7211-4430-9925-dcaa57a9021b.jpg",
+            "https://user-images.githubusercontent.com/97201734/211034311-dd3d85c2-fc3e-4829-ae49-66ac83f6d4a8.jpg",
+            "https://user-images.githubusercontent.com/97201734/211034532-2dc497b0-1c16-4e64-a6b9-bec4361bf3e0.jpg"
           ],
-          "link": "https://www.google.com/"
+          "link": "https://github.com/DarioMarcuzzi/conecta4",
+          "link2": "http://conecta4-drab.vercel.app"
+        }
+      ],
+      "formacion": [
+        {
+          "id": "1",
+          "nombre": "Henry",
+          "descripcion": "Desarrollo Web Full Stack",
+          "imagen": "https://media.licdn.com/dms/image/C4D2DAQEEm9jI7Z0wjQ/profile-treasury-image-shrink_800_800/0/1668198158001?e=1673622000&v=beta&t=ubloDvgJZKhuysPrEk8Vg77up0w7MjvEHtTXaEMhS_k",
+          "link": "https://certificates.soyhenry.com/cert?id=2b119a5a-104b-44e7-9c43-79ca2c4bdaa3"
+        },
+        {
+          "id": "2",
+          "nombre": "EEST N°1 Lujan",
+          "descripcion": "Tecnicatura quimica",
+          "imagen": "https://tecnica1-lujan.edu.ar/img/escudo.png",
+          "link": "https://tecnica1-lujan.edu.ar/"
+        }
+      ],
+      "experiencia": [
+        {
+          "id": "1",
+          "nombre": "Tecnico en Poteccion catodica",
+          "descripcion": "Jornada completa BMI Austral S.R.L. sept. 2017 - ene. 2022 · 4 años 5 meses",
+          "imagen": "https://media.licdn.com/dms/image/C4D0BAQGUmalvi_0IKQ/company-logo_200_200/0/1623772265094?e=1681344000&v=beta&t=i_8gU8HlaIIYZAnb8PIYaUbURcwF9_LbJ90rs9hy3Hs",
+          "link": "https://www.linkedin.com/company/bmiaustral/"
+        },
+        {
+          "id": "2",
+          "nombre": "Maquinista",
+          "descripcion": "Manejo de retro excavadora, camión volcador Bob cat, en movimiento de suelo",
+          "imagen": "https://scontent.frgl2-1.fna.fbcdn.net/v/t39.30808-6/298970015_532904231970410_7905739295998563252_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=jj-t5e8Xc04AX8IoiUR&_nc_ht=scontent.frgl2-1.fna&oh=00_AfA6RBcCVLb12WWLwCTF91l7Q3Njz6rEPL1KCMdAdDt2tw&oe=63BD0F32",
+          "link": "https://es-la.facebook.com/people/Batec-vial/100057525127063/"
+        },
+        {
+          "id": "3",
+          "nombre": "Técnico de laboratorio",
+          "descripcion": "Encargado del pesaje y selección de diferentes colorantes para hacer un color especifico para ropa. Mantenimiento de depósitos.",
+          "imagen": "https://learn.getgrav.org/user/pages/11.troubleshooting/01.page-not-found/error-404.png",
+          "link": ""
         }
       ]
     },
@@ -210,24 +252,24 @@
       "origen": "Argentina",
       "fechaNacimiento": "12/03/1997",
       "comentario": "",
-      "imagen": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+      "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672687651/imagenes%20Proyecto%20final%20henry/IMG_LuzDaianaOlivares_geix7w.jpg",
       "skill": [
         {
           "id": 1,
           "nombre": "HTML",
-          "porcentaje": 70,
+          "porcentaje": 80,
           "icono": "https://img.icons8.com/external-avoca-kerismaker/512/external-HTML-software-development-avoca-kerismaker.png"
         },
         {
           "id": 2,
           "nombre": "CSS",
-          "porcentaje": 80,
+          "porcentaje": 90,
           "icono": "https://img.icons8.com/fluency/512/css3.png"
         },
         {
           "id": 3,
           "nombre": "JavaScript",
-          "porcentaje": 80,
+          "porcentaje": 90,
           "icono": "https://img.icons8.com/color/512/javascript.png"
         },
         {
@@ -239,7 +281,7 @@
         {
           "id": 5,
           "nombre": "Node",
-          "porcentaje": 60,
+          "porcentaje": 80,
           "icono": "https://img.icons8.com/color/512/nodejs.png"
         },
         {
@@ -251,19 +293,19 @@
         {
           "id": 7,
           "nombre": "MySQL",
-          "porcentaje": 50,
+          "porcentaje": 60,
           "icono": "https://img.icons8.com/color/512/mysql-logo.png"
         },
         {
           "id": 8,
           "nombre": "PostgreSQL",
-          "porcentaje": 50,
+          "porcentaje": 70,
           "icono": "https://img.icons8.com/color/512/postgreesql.png"
         },
         {
           "id": 9,
           "nombre": "Git",
-          "porcentaje": 60,
+          "porcentaje": 80,
           "icono": "https://img.icons8.com/color/512/git.png"
         },
         {
@@ -281,122 +323,188 @@
         {
           "id": 12,
           "nombre": "Visual Studio Code",
-          "porcentaje": 70,
+          "porcentaje": 80,
           "icono": "https://img.icons8.com/color/512/visual-studio-code-2019.png"
         },
         {
           "id": 13,
           "nombre": "Vercel",
-          "porcentaje": 60,
+          "porcentaje": 90,
           "icono": "https://cdn.icon-icons.com/icons2/3375/PNG/512/vercel_brand_icon_211876.png"
         },
         {
           "id": 14,
           "nombre": "Redux",
-          "porcentaje": 50,
+          "porcentaje": 80,
           "icono": "https://img.icons8.com/color/512/redux.png"
         }
       ],
       "skillsoft": [{
         "id": 1,
         "nombre": "Comunicación",
-        "porcentaje": 80,
+        "porcentaje": 100,
         "icono": "https://img.icons8.com/color/512/communication.png"
       },
       {
         "id": 2,
         "nombre": "Trabajo en equipo",
-        "porcentaje": 80,
+        "porcentaje": 100,
         "icono": "https://img.icons8.com/color/512/teamwork.png"
       },
       {
         "id": 3,
         "nombre": "Resolución de problemas",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/problem-solving.png"
+        "porcentaje": 90,
+        "icono": "https://cdn-icons-png.flaticon.com/512/4325/4325613.png"
       },
       {
         "id": 4,
-        "nombre": "Creatividad",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/creativity.png"
+        "nombre": "Resiliencia",
+        "porcentaje": 100,
+        "icono": "https://cdn-icons-png.flaticon.com/512/4310/4310276.png"
       },
       {
         "id": 5,
         "nombre": "Liderazgo",
-        "porcentaje": 80,
+        "porcentaje": 85,
         "icono": "https://img.icons8.com/color/512/leadership.png"
       },
       {
         "id": 6,
-        "nombre": "Gestión de proyectos",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/project-management.png"
+        "nombre": "Adaptabilidad",
+        "porcentaje": 95,
+        "icono": "https://cdn-icons-png.flaticon.com/512/5398/5398511.png"
       },
       {
         "id": 7,
-        "nombre": "Gestión de tiempo",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/time-management.png"
+        "nombre": "Responsabilidad",
+        "porcentaje": 100,
+        "icono": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/512/external-responsibility-parenthood-flaticons-lineal-color-flat-icons-2.png"
       },
       {
         "id": 8,
-        "nombre": "Gestión de conflictos",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/conflict-management.png"
+        "nombre": "Escucha activa",
+        "porcentaje": 100,
+        "icono": "https://cdn-icons-png.flaticon.com/512/4413/4413551.png"
       },
       {
         "id": 9,
-        "nombre": "Gestión de tareas",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/task-management.png"
-      },
-      {
-        "id": 10,
-        "nombre": "Gestión de recursos",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/resource-management.png"
-      },
-      {
-        "id": 11,
-        "nombre": "Gestión de riesgos",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/risk-management.png"
+        "nombre": "Flexibilidad",
+        "porcentaje": 50,
+        "icono": "https://cdn-icons-png.flaticon.com/512/4727/4727351.png"
       }
       ],
       "proyectos": [
         {
           "id": "1",
-          "nombre": "Ecommerce",
-          "descripcion": "Ecommerce de ropa",
+          "nombre": "Videogames Api",
+          "descripcion": "Diseñar y desarrollar una App de Videojuegos, incluido la creacion, busqueda y filtrado de los mismos, acceder a sus detalles",
           "imagen": [
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1668002627/Videogames/Captura_de_pantalla_152_sd6s4s.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1668002615/Videogames/Captura_de_pantalla_156_qoew1a.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1668002615/Videogames/Captura_de_pantalla_157_cwkozy.png"
           ],
-          "link": "https://www.google.com/"
+          "link": "https://github.com/DaianaOli/PI-Videogames-main",
+          "link2": "https://pi-videogames-api.vercel.app/"
         },
         {
           "id": "2",
-          "nombre": "Ecommerce",
-          "descripcion": "Ecommerce de ropa",
+          "nombre": "PI Countries",
+          "descripcion": "Construir una App utlizando React, Redux, Node y Sequelize.",
           "imagen": [
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1673018868/Captura_de_pantalla_197_x8rrbr.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1673018942/Captura_de_pantalla_198_qnsj9x.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1673018942/Captura_de_pantalla_199_dmh1c6.png"
           ],
-          "link": "https://www.google.com/"
+          "link": "https://github.com/DaianaOli/PI-Countries-main",
+          "link2": "https://pi-countries-main-rouge.vercel.app"
         },
         {
           "id": "3",
-          "nombre": "Ecommerce",
-          "descripcion": "Ecommerce de ropa",
+          "nombre": "PI Foods",
+          "descripcion": "Diseñar y desarrollar una App de Recetas, incluido la creacion, busqueda y filtrado de los mismos, acceder a sus detalles",
           "imagen": [
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
-            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png"
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1668004005/foods/Captura_de_pantalla_162_c6wqjt.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1668003998/foods/Captura_de_pantalla_163_jyj4dz.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1668003998/foods/Captura_de_pantalla_169_iw5gtt.png"
           ],
-          "link": "https://www.google.com/"
+          "link": "https://github.com/DaianaOli/PI-Food-main",
+          "link2": "https://pi-food-main-murex.vercel.app/"
+        },
+        {
+          "id": "4",
+          "nombre": "Rick and Morty",
+          "descripcion": "Obtener el listado de personajes.Devolver solo los datos necesarios para la ruta principal",
+          "imagen": [
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1670785080/Captura_de_pantalla_181_xc2zps.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1670785526/Captura_de_pantalla_190_rda7qs.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1670785277/Captura_de_pantalla_183_xx3rr3.png"
+          ],
+          "link": "https://github.com/DaianaOli/Rick-and-Morty-Repaso-main",
+          "link2": "https://rick-and-morty-repaso-main.vercel.app/"
+        },
+        {
+          "id": "5",
+          "nombre": "Conecta4",
+          "descripcion": "El juego consiste en un tablero de 6 filas por 7 columnas, en el que los jugadores tiran fichas de un color o de otro. El objetivo del juego es conseguir alinear cuatro fichas del mismo color en horizontal, vertical o diagonal.",
+          "imagen": [
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1671195154/Captura_de_pantalla_191_mk0qrh.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1671195256/Captura_de_pantalla_195_wceazv.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1671195336/Captura_de_pantalla_192_oua2kw.png"
+          ],
+          "link": "https://github.com/DaianaOli/conecta4",
+          "link2": "https://conecta4-chi.vercel.app/"
+        },
+        {
+          "id": "6",
+          "nombre": "Coffee Street",
+          "descripcion": "Participación en un equipo de desarrollo ágil, un Ecommerce con diseño y desarrollo de features básicas",
+          "imagen": [
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1667864545/imagenes%20Proyecto%20final%20henry/landing_page_caoraj.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1667864517/imagenes%20Proyecto%20final%20henry/menu_yquzoo.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1667864493/imagenes%20Proyecto%20final%20henry/my_ordenes_igyzqy.png"
+          ],
+          "link": "https://github.com/MrBluegru/CoffeeStreet-FrontEnd",
+          "link2": "https://coffee-street-front-end.vercel.app"
+        }
+      ],
+      "experiencia": [
+        {
+          "id": 1,
+          "nombre": "Asistente Contable",
+          "descripcion": "Asistente Contable en la empresa de servicios contables y tributarios Contador Público Sr. Tubio J. Carlos desde el 01/01/2012 hasta la actualidad.",
+          "imagen": "https://www.carreras.fhu.unse.edu.ar/wp-content/uploads/2020/12/contador-publico-senor-fernando-diez.jpg",
+          "link": ""
+        },
+        {
+          "id": 2,
+          "nombre": "Asistente Contable",
+      "descripcion": "Asistente Contable en Cooperativa trabajo y serv grles El Paraiso LTDA, desde  01/06/2017 hasta el 01/02/2018.",
+          "imagen": "https://www.carreras.fhu.unse.edu.ar/wp-content/uploads/2020/12/contador-publico-senor-fernando-diez.jpg",
+          "link": ""
+        }
+      ],
+      "formacion": [
+        {
+          "id": 1,
+          "nombre": "Henry",
+          "descripcion": "Desarrollador Web Full Stack",
+          "imagen": "https://media.licdn.com/dms/image/C4D2DAQFfZDTY4H2Eiw/profile-treasury-image-shrink_160_160/0/1668198138193?e=1673625600&v=beta&t=nrx-fHgb4NlkU0lF4y72FJm-28vZeAYL2hrg4SfaJIY",
+          "link": "https://certificates.soyhenry.com/cert?id=1bd733bb-7908-461c-9045-d6c1a9dfa835"
+        },
+        {
+          "id": 2,
+          "nombre": "Universidad Siglo 21",
+          "descripcion": "Contador Público (actualmente en curso)",
+          "imagen": "https://www.on24.com.ar/wp-content/uploads/2016/01/79af8aec56dc576e2fcbe3b2f46516ce-696x447.jpg",
+          "link": "https://21.edu.ar/"
+        },
+        {
+          "id": 3,
+          "nombre": "Ingles",
+          "descripcion": "Cursos varios",
+          "imagen": "https://cdn.efset.org/efset-widget/img/certificate_31.png",
+          "link": "https://www.efset.org/cert/DM3JeM"
         }
       ]
     }
