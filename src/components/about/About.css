@@ -1,92 +1,45 @@
-.background{
+.contenedor-about{
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor-info-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    width: 100%;
-    height: 100vh;
+    width: 80%;
+    gap: 20px;
 }
-
-.container-fluid{
-    /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 70px;
-}
-.description-about-title{
-    margin-top: 40px;
-    width: 100%;
-    /* height: 70%; */
-    /* background-color: #0d0d0e; */
-}
-.row{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 50%;
-}
-
-
-
-@import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
 
 .description-about{
-    color: rgb(158, 156, 156);
-    font-size: 1.5em;
-    font-weight: 300;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    color: rgb(7, 7, 7);
+    font-size: 2em;
+    font-weight: bold;
     text-align: center;
-    text-shadow: 0 0 3px black;
     background-color: rgba(34, 36, 39, 0.637);
     border-radius: 0px 50px 50px 50px;
-    animation: 1s ease-in-out 0s 1 normal none running slidein;
-    box-shadow: #f4f4fa 0px 0px 5px;
+    box-shadow: #070707 0px 0px 5px;
     padding: 1rem;
-    animation: changeBoxShadowInfinite 1s ease-in-out infinite;
-}
-
-@keyframes changeBoxShadowInfinite {
-    0% {
-        box-shadow: #f4f4fa 0px 0px 5px;
-    }
-    50% {
-        box-shadow: #f4f4fa 0px 0px 10px;
-    }
-    100% {
-        box-shadow: #f4f4fa 0px 0px 5px;
-    }
-}
-
-@keyframes slidein {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
+    border: #eeeef3 1px solid;
 }
 
 .tech{
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
     background-color: rgba(240, 248, 255, 0.637);
     border-radius: 5px;
-    padding: 0.5rem;
-    color: #0d0d0e;
-    text-shadow: #fff 0px 0px 5px;
 }
 .tech:hover{
     background-color: rgba(10, 10, 10, 0.637);
     border-radius: 5px;
-    padding: 0.5rem;
     color: #f4f4fa;
     text-shadow: rgb(7, 7, 7) 0px 0px 5px;
     animation: 1s ease-in-out 0s 1 normal none running bounce;
@@ -135,7 +88,6 @@
     transform: translate(-50%, -90%);
     transition: all 0.2s ease;
     z-index: 1;
-    
   }
   
   .tooltip-social:after {
@@ -156,4 +108,18 @@
   .social-media a:hover .tooltip-social {
     opacity: 1;
     transform: translate(-50%, -130%);
+  }
+
+  .tech img{
+    width: 100%;
+    box-shadow: #070707 0px 0px 5px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .description-about{
+        font-size: 1.5em;
+    }
+    .tech{
+        font-size: 1.2rem;
+    }
   }
