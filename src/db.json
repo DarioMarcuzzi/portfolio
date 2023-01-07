@@ -513,77 +513,65 @@
     {
       "id": 1,
       "nombre": "HTML",
-      "porcentaje": 100
-    },
-    {
+      "icono": "https://img.icons8.com/external-avoca-kerismaker/512/external-HTML-software-development-avoca-kerismaker.png"
+    },{
       "id": 2,
       "nombre": "CSS",
-      "porcentaje": 100
-    },
-    {
+      "icono": "https://img.icons8.com/fluency/512/css3.png"
+    },{
       "id": 3,
       "nombre": "JavaScript",
-      "porcentaje": 100
-    },
-    {
+      "icono": "https://img.icons8.com/color/512/javascript.png"
+    },{
       "id": 4,
       "nombre": "React",
-      "porcentaje": 100
-    },
-    {
+      "icono": "https://img.icons8.com/office/512/react.png"
+    },{
       "id": 5,
-      "nombre": "Node",
-      "porcentaje": 100
-    },
-    {
+      "nombre": "Redux",
+      "icono": "https://img.icons8.com/color/512/redux.png"
+    },{
       "id": 6,
-      "nombre": "Express",
-      "porcentaje": 80
-    },
-    {
+      "nombre": "Node",
+      "icono": "https://img.icons8.com/color/512/nodejs.png"
+    },{
       "id": 7,
-      "nombre": "MySQL",
-      "porcentaje": 80
-    },
-    {
+      "nombre": "Express",
+      "icono": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+    },{
       "id": 8,
       "nombre": "PostgreSQL",
-      "porcentaje": 80
-    },
-    {
+      "icono": "https://img.icons8.com/color/512/postgreesql.png"
+    },{
       "id": 9,
-      "nombre": "Git",
-      "porcentaje": 80
-    },
-    {
+      "nombre": "Sequelize",
+      "icono": "https://cdn.icon-icons.com/icons2/2415/PNG/96/sequelize_original_wordmark_logo_icon_146349.png"
+    },{
       "id": 10,
-      "nombre": "GitHub",
-      "porcentaje": 80
-    },
-    {
+      "nombre": "Git",
+      "icono": "https://img.icons8.com/color/512/git.png"
+    },{
       "id": 11,
-      "nombre": "Heroku",
-      "porcentaje": 80
-    },
-    {
+      "nombre": "GitHub",
+      "icono": "https://img.icons8.com/ios-filled/512/github.png"
+    },{
       "id": 12,
-      "nombre": "Visual Studio Code",
-      "porcentaje": 80
-    },
-    {
+      "nombre": "Heroku",
+      "icono": "https://img.icons8.com/color/512/heroku.png"
+    },{
       "id": 13,
-      "nombre": "Vercel",
-      "porcentaje": 80
+      "nombre": "Bootstrap",
+      "icono": "https://img.icons8.com/color/512/bootstrap.png"
     },
     {
       "id": 14,
-      "nombre": "Redux",
-      "porcentaje": 80
+      "nombre": "Vercel",
+      "icono": "https://cdn.icon-icons.com/icons2/3375/PNG/512/vercel_brand_icon_211876.png"
     },
     {
       "id": 15,
-      "nombre": "Bootstrap",
-      "porcentaje": 80
+      "nombre": "Figma",
+      "icono": "https://img.icons8.com/color/512/figma--v1.png"
     }
   ]
 }
