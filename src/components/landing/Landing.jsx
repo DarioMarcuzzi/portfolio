@@ -3,41 +3,41 @@ import "./Landing.css";
 import { GrReactjs } from "react-icons/gr";
 import { TbBrandJavascript } from "react-icons/tb";
 import { DiCss3 } from "react-icons/di";
-import { TiHtml5 } from "react-icons/ti";
+import { TiHtml5, TiLeaf } from "react-icons/ti";
 import { FaNode } from "react-icons/fa";
 import { SiSequelize, SiPostgresql } from "react-icons/si";
 
 const Landing = () => {
-  const [title, setTitle] = useState("dario");
-  // const [testigo, setTestigo] = useState(0);
-
-  // useEffect(()=> {
-  //   const maquinaEscribir = (text, tiempo=100,setTitle) =>{
-  //     let arrayCaracteres = text.split("");
-  //     setTitle("")
-  //   }
-  // },[])
   useEffect(() => {
-    const maquina = document.getElementById("maquina");
-    const maquinaEscribir = (title, tiempo = 100, etiqueta = "") => {
-      let arrayCaracteres = title.split("");
-      etiqueta.innerHTML = "";
-      let cont = 0;
-      let escribir = setInterval(() => {
-        etiqueta.innerHTML += arrayCaracteres[cont];
-        cont++;
-        if (cont === arrayCaracteres.length) {
-          clearInterval(escribir);
-        }
-      }, tiempo);
-    };
-    maquinaEscribir(title, 300, maquina);
-  });
+    typeWriter();
+  }, []);
 
+  let i = 0;
+
+  const text = "Bienvenido!";
+  const textB = `Bienvenido Somos Daiana y Dario "Desarrolladores FullStack Web Developers" `;
+  const speed = 80;
+  const speed2 = 200;
+
+  function typeWriter() {
+    if (i < textB.length && i > 10) {
+      console.log("i", i);
+      document.getElementById("saludo1").innerHTML += textB.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    } else if (i < 11) {
+      console.log("i", i);
+      document.getElementById("saludo").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed2);
+    }
+  }
   return (
     <div className="parent">
       <div className="div2">
-        <p id="maquina">{title} </p>
+        <p id="saludo1">
+          <p id="saludo"></p>
+        </p>
       </div>
       <div className="div3">
         <div className="flip">
