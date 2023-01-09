@@ -9,6 +9,7 @@ import PerfilDO from "./components/perfilDO/PerfilDO";
 import Pages from "./components/pages";
 
 function App() {
+  console.log("hola desde app");
   return (
     <BrowserRouter>
       <div>
