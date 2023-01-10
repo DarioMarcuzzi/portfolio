@@ -21,12 +21,10 @@ const Landing = () => {
 
   function typeWriter() {
     if (i < textB.length && i > 10) {
-      console.log("i", i);
       document.getElementById("saludo1").innerHTML += textB.charAt(i);
       i++;
       setTimeout(typeWriter, speed);
     } else if (i < 11) {
-      console.log("i", i);
       document.getElementById("saludo").innerHTML += text.charAt(i);
       i++;
       setTimeout(typeWriter, speed2);
@@ -35,43 +33,12 @@ const Landing = () => {
   return (
     <div className="parent">
       <div className="div2">
-        <p id="saludo1">
+        <label id="saludo1">
           <p id="saludo"></p>
-        </p>
+        </label>
       </div>
       <div className="div3">
-        <div className="flip">
-          <div className="content">
-            <div className="front">
-              <h2>Desarrolladores Front</h2>
-              <p>
-                HTML <TiHtml5 />
-              </p>
-              <p>
-                CSS <DiCss3 />
-              </p>
-              <p>
-                JavaScript <TbBrandJavascript />
-              </p>
-              <p>
-                React <GrReactjs />
-              </p>
-            </div>
-            <div className="back">
-              <h2>Desarrolladores Back</h2>
-              <p>
-                Node <FaNode />
-              </p>
-              <p>Express</p>
-              <p>
-                Sequelize <SiSequelize />
-              </p>
-              <p>
-                PostgreSQL <SiPostgresql />
-              </p>
-            </div>
-          </div>
-        </div>
+        <div id="indicador">holaaa</div>
       </div>
     </div>
   );

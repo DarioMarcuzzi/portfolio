@@ -1,23 +1,42 @@
 .contenedor-about{
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 .contenedor-info-about{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     flex-direction: column;
-    width: 80%;
-    gap: 20px;
+    width: 100%;
+}
+
+.description-about-title{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  text-align: left;
+}
+.description-about-title h1{
+  background-color: #070707;
+}
+
+.description-about-title p{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .description-about{
-    color: rgb(7, 7, 7);
-    font-size: 2em;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     background-color: rgba(34, 36, 39, 0.637);
@@ -27,6 +46,11 @@
     border: #eeeef3 1px solid;
 }
 
+.contenedor-info-tec{
+  width: 80%;
+  height: 50%;
+}
+
 .tech{
     display: flex;
     width: 100%;
@@ -34,11 +58,13 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(240, 248, 255, 0.637);
-    border-radius: 5px;
+    background-color: rgba(31, 109, 148, 0.499);
+    border-radius: 10px;
+    transition: 0.5s;
 }
+
 .tech:hover{
-    background-color: rgba(10, 10, 10, 0.637);
+    background-color: rgba(106, 221, 234, 0.637);
     border-radius: 5px;
     color: #f4f4fa;
     text-shadow: rgb(7, 7, 7) 0px 0px 5px;
@@ -115,11 +141,37 @@
     box-shadow: #070707 0px 0px 5px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1700px) {
     .description-about{
-        font-size: 1.5em;
+        font-size: 18px;
     }
     .tech{
-        font-size: 1.2rem;
+        font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    .description-about{
+        font-size: 15px;
+    }
+    .tech{
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .description-about{
+        font-size: 12px;
+    }
+    .tech{
+        font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 408px) {
+    .description-about{
+        font-size: 10px;
+    }
+    .tech{
+        font-size: 10px;
     }
   }

@@ -1,4 +1,5 @@
 import React from "react";
+
 import Landing from "./landing/Landing";
 import Navbar from "./nav/Navbar";
 import Home from "./home/Home";
@@ -69,9 +70,10 @@ const Pages = () => {
         </div>
         <div className="home">
           <Home />
-        </div>
+        </div>{" "}
+        *
         <div className="footer">
-          <Footer/>
+          <Footer />
         </div>
       </div>
     </div>

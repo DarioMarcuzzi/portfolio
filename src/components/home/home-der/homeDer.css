@@ -5,43 +5,17 @@
   justify-content: center;
   align-items: center;
   margin-right: -100%;
-  /* background-color: #dbdbdb65; */
- 
-  
 }
 .infoA-der{
-  /* display: flex;
-  justify-content: center;
-  align-items:center;
-  
- 
-  width: 50%;
-  height: 100%; */
   display: flex;
   flex-direction: column;
-  
   align-items: center;
- 
   width: 50%;
   height: 100%;
   justify-content: center;
-  
 }
 
-
 .title-der{
-  /* display: flex;
-  width: 30%;
-  position: absolute;
-  top: 20%;
-  right: 10%;
-  background-color: rgba(0, 0, 0, 0.572);
-  padding: 10px;
-  color: rgb(255, 255, 255);
-  transition: transform 2s;
-  transform-style: preserve-3d;
-  border-radius: 0px 20px 30px 30px;
-   */
    display: flex;
    width: 70%;
    position: relative;
@@ -53,8 +27,6 @@
    transition: transform 2s;
    transform-style: preserve-3d;
    border-radius: 0px 20px 30px 30px;
-  
-
 }
 
 
@@ -65,8 +37,6 @@
   justify-content: start;
   align-items: flex-end;
   gap: 20px;
-  
-
 }
 
 
@@ -75,15 +45,9 @@
   width: 100%;
   height: 100%;
   justify-content: flex-end;
-  /* justify-content: start; */
   align-items: flex-end;
   gap: 20px;
-  
-
 }
-
-
-
 
 .imagen-der{
   display: flex;
@@ -93,19 +57,15 @@
   align-items: center;
   border-radius: 50%;
   background-image: url("https://res.cloudinary.com/dmpqjroj5/image/upload/v1672687651/imagenes%20Proyecto%20final%20henry/IMG_LuzDaianaOlivares_geix7w.jpg");
-  
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   max-width: 200px;
-  
   border: 3px solid black;
 }
 
 .div1-der{
-
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -118,15 +78,11 @@
   border-radius: 20px 0px 0px 20px;
   border: 3px solid black;
   box-shadow: 5px 10px 10px 0px;
-  
 }
 
 .div1-der h1{
   display: flex;
   font-size: 32px;
-    
-
-    
 }
 .description{
   display: flex;
@@ -134,18 +90,10 @@
   justify-content: center;
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
-  
   width: 100%;
   height: fit-content;
   color: rgb(249, 249, 249);
-
 }
-
-
-
-
-
-
 
 .infoB-der{
   display: flex;
@@ -155,7 +103,6 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-
 }
 
 .carta-der{
@@ -173,11 +120,7 @@
   padding: 10px;
   font-family: sans-serif;
   margin-bottom: 30px;
-  
 }
-
-
-
 
 .card-inner-der{
   position: relative;
@@ -186,35 +129,6 @@
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  
-}
-
-
-
-.contenedor-info-der:hover{
-  transition: 2.5s;
-  animation-fill-mode: forwards;
-  transform: translateX(-50%);
-  
-  
-}
-
-.contenedor-info-der:hover .carta-der , .card-inner-der{
-  transform: rotateY(180deg);
-  transition: 2.4s;
-  animation-fill-mode: forwards;
-  
-  
-
-}
-
-
-.contenedor-info-der:hover .title-der {
-  transition: 0.5s;
-  animation-fill-mode: forwards;
-  transform: translateX(-10%);
-  
-  opacity: 0%;
 }
 
 .contenedor-home-der{
@@ -223,16 +137,12 @@
   height: 100%;
   justify-content: center;
   align-items: center;
-  /* background-color: darksalmon; */
-  border-radius: 50% 0px 0px 0px;
   overflow: hidden;
 }
 
 @media (max-height:900px) {
- 
   .div1-der{
     height: 75%;
-    
   }
   .div1-der h1{
     margin: 0;
@@ -242,12 +152,7 @@
     height: 100px;
     width: 100px;
   }
-  
- 
-  
 
-
-  
   .btn-info{
     display: flex;
     flex-direction: column;
@@ -256,7 +161,6 @@
   }
   
   .btns-info{
-  
     background-color: #0000008a;
     border: none;
     color: white;
@@ -269,7 +173,6 @@
   }
   .wrapper{
     height: 20%;
-    
   }
   .carta-der{
     width: 250px;
@@ -289,24 +192,16 @@
     height: 70%;
   }
 
-
 }
 @media (max-width:1600px) {
-  
-  
   .carta-der{
-    
     width: 250px;
     height: 400px;
-    
   }
   .carta-der h1{
     font-size: 30px;
   }
 
-  
-  
-  
 }
 @media (max-width:1300px) {
   .contenedor-info-der{
@@ -315,15 +210,10 @@
     transform: translateX(-50%);
     width: 100vw;
     height: 100vh;
-   
-    
   }
   .carta-der, .card-inner-der{
     display: none;
   }
-  /* .div1-der{
-    margin-top: 20px;
-  } */
   
   .infoB-der{
     display: flex;
@@ -334,46 +224,7 @@
   .infoA-der{
     display: none;
   }
-  
-
-
 }
-
-/* @media (max-width:1300px) {
-  .contenedor-info-der{
-    transition: 2.5s;
-    animation-fill-mode: forwards;
-    transform: translateX(-50%);
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    
-  }
-  .carta, .card-inner{
-    display: none;
-    transform: rotateY(-180deg);
-  
-    animation-fill-mode: forwards;
-  }
-  .div1-der{
-    margin-top: 20px;
-  }
-
-  
-  .infoB-der{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-  }
-  .infoA-der{
-    display: none;
-  }
-  
-
-
-} */
-
 
 @media (max-width: 768px) {
   .contenedor-info-der{
@@ -381,44 +232,33 @@
     transform: translateX(-50%);
     width: 100vw;
     height: 100vh;
-    
   }
   .infoB-der{
-   
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
   }
   .image-adn-carta-derB{
-    
     width: 100%;
     justify-content: center;
   }
-
-  
   .infoA-der{
   display: none;
   }
-  
   .div1-der{
-    
     display: flex;
     width: 80%;
     border-radius: 10px 10px 10px 10px;
   }
 
-
   .title-der{
     opacity: 0%;
   }
-  
 
   .carta-der, .card-inner{
     display: none;
-  
   }
-
 
   .imagen-der{
     display: flex;
@@ -437,11 +277,8 @@
     display: flex;
     height: 40px;
     padding:0px;
-    
     justify-content: center;
     align-items: center;
-
   }
-  
 }
 

@@ -1,20 +1,45 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import cvDario from "../../CV/CVDarioMarcuzzi1.pdf";
 import "./homeizq.css";
 
-const HomeIzq = () => {
+const HomeIzq = ({ scrollY, timing, screenHeight, medidasHeight }) => {
+  const [transform, setTransform] = useState("");
+  const [rotate] = useState("rotateY(-180deg)");
+  useEffect(() => {
+    switch (medidasHeight) {
+      case "1300-1000":
+        if (scrollY > 1600) {
+          setTransform("translateX(50%)");
+        } else {
+          setTransform("translateX(0%)");
+        }
+        break;
+      case "1000-700":
+        if (scrollY > 1000) {
+          setTransform("translateX(50%)");
+        } else {
+          setTransform("translateX(0%)");
+        }
+        break;
+      default:
+        break;
+    }
+  }, [screenHeight, scrollY]);
+
   return (
-    <div className="contenedor-info">
+    <div
+      className="contenedor-info"
+      style={{ transform: transform, transition: timing }}
+    >
       <div className="infoA">
         <div className="image-adn-carta">
           <div className="div1">
             <div className="contenedor-imagen-perfil">
               <div className="imagen"></div>
             </div>
-
             <h1>Dario Marcuzzi</h1>
             <div className="description">
               <p>
@@ -23,12 +48,10 @@ const HomeIzq = () => {
                 reforzando conocimientos
               </p>
             </div>
-
             <div className="btn-info">
               <a className="btns-info" href="/perfilDM">
                 Conoceme
               </a>
-
               <a className="btns-info" href="mailto:dariomarcuzzi2@gmail.com">
                 Mandame un email
               </a>
@@ -43,7 +66,6 @@ const HomeIzq = () => {
               </a>
               <hr />
             </div>
-
             <ul className="wrapper">
               <a
                 href="https://www.linkedin.com/in/dario-marcuzzi-399908224/"
@@ -89,10 +111,9 @@ const HomeIzq = () => {
                 </li>
               </a>
             </ul>
-            {/* </div> */}
           </div>
-          <div className="carta">
-            <div className="card-inner">
+          <div className="carta" style={{ transform: rotate }}>
+            <div className="card-inner" style={{ transform: rotate }}>
               <div className="card-front">
                 <div className="title-card">
                   <h1>Full stack developer</h1>
@@ -102,7 +123,6 @@ const HomeIzq = () => {
                   <p>React JS</p>
                   <p>Javas Script</p>
                   <p>HTML y CSS</p>
-
                   <div className="softSkills">
                     <h5>SoftSkills :</h5>
                     <p>Actitud positiva</p>
