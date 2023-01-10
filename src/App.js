@@ -7,20 +7,19 @@ import PerfilDM from "./components/perfilDM/PerfilDM";
 import PerfilDO from "./components/perfilDO/PerfilDO";
 // import Contact from './components/contact/Contact';
 import Pages from "./components/pages";
+import Error from "./components/Error/Error";
 
 function App() {
-  console.log("hola desde app");
+
   return (
     <BrowserRouter>
       <div>
         <Routes>
           <Route exact path="/" element={<Pages />} />
-          {/* <Route path="/" element={<Landing />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/contact" element={<Contact />} /> */}
+        {/* <Route path="/contact" element={<Contact />} />  */}
           <Route path="/perfilDM" element={<PerfilDM />} />
           <Route path="/perfilDO" element={<PerfilDO />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </div>
     </BrowserRouter>
