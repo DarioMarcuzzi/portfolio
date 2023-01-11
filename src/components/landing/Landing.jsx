@@ -9,8 +9,8 @@ const Landing = () => {
   let i = 0;
 
   const text = "Bienvenido!";
-  const textC = "Bienvenido Somos Daiana y Dario ";
-  const textB = `Bienvenido Somos Daiana y Dario "Desarrolladores FullStack Web Developers" `;
+  const textC = "Bienvenido! Somos Daiana y Dario ";
+  const textB = `Bienvenido! Somos Daiana y Dario "Desarrolladores FullStack Web Developers" `;
   const speed = 80;
   const speed2 = 200;
 
