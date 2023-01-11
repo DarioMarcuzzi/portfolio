@@ -68,8 +68,12 @@ const PerfilDM = () => {
                   })}
                 </div>
                 <div className="proyecto__links">
-                  <a href={proyecto.link} target="_blank">Github</a>
-                  <a href={proyecto.link2} target="_blank">Deploy</a>
+                  <a href={proyecto.link} target="_blank">
+                    Github
+                  </a>
+                  <a href={proyecto.link2} target="_blank">
+                    Deploy
+                  </a>
                 </div>
               </div>
             );
@@ -83,7 +87,9 @@ const PerfilDM = () => {
                 <h3>{experiencia.nombre}</h3>
                 <p>{experiencia.descripcion}</p>
                 <img src={experiencia.imagen} alt="imagen" />
-                <a href={experiencia.link} target="_blank">Link</a>
+                <a href={experiencia.link} target="_blank">
+                  Link
+                </a>
               </div>
             );
           })}
@@ -96,12 +102,19 @@ const PerfilDM = () => {
                 <li>{formacion.nombre}</li>
                 <p>{formacion.descripcion}</p>
                 <img src={formacion.imagen} alt="imagen" />
-                <a href={formacion.link} target="_blank">Link</a>
+                <a href={formacion.link} target="_blank">
+                  Link
+                </a>
               </div>
             );
           })}
         </div>
-        <h3>Otros datos</h3>
+        <div className="btn-volver-arriba-contenedor">
+          <button
+            className="btn-volver-arriba"
+            onClick={() => window.scrollTo(0, 0)}
+          ></button>
+        </div>
       </div>
     </div>
   );

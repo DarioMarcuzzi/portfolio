@@ -20,9 +20,9 @@ const Navbar = () => {
         <Link to="about" smooth={true} duration={500}>
           <button>Sobre nosotros</button>
         </Link>
-        <Link to="contact" smooth={true} duration={500}>
+        {/* <Link to="contact" smooth={true} duration={500}>
           <button>Contacto</button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

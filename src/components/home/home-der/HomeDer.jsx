@@ -34,7 +34,11 @@ const HomeDer = ({ scrollY, timing, screenHeight, medidasHeight }) => {
       className="contenedor-info-der"
       style={{ transform: transform, transition: timing }}
     >
-      <div className="infoA-der"></div>
+      <div className="infoA-der">
+        <div className="image-adn-carta-derA">
+          <div className="divA"></div>
+        </div>
+      </div>
       <div className="infoB-der">
         <div className="image-adn-carta-derB">
           <div className="carta-der">
