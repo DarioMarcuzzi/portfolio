@@ -31,7 +31,7 @@ const Landing = () => {
     }
   }
   return (
-    <div className="parent">
+    <div className="parent" id="landing">
       <div className="div2">
         <label id="saludo1">
           <p id="saludo"></p>

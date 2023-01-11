@@ -38,7 +38,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="contenedor-principal-home">
+    <div className="contenedor-principal-home" id="home">
       <div className="contenedor-home">
         <div className="contenedor-home-izq">
           <HomeIzq
