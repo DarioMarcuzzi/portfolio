@@ -5,10 +5,11 @@ import "./perfilDM.css";
 
 const PerfilDM = () => {
   const data = db.users[0];
-  console.log(data);
   return (
     <div className="contenedor-perfilDM">
-      <Navbar />
+      <button className="btn-volver" onClick={() => window.history.back()}>
+        Volver
+      </button>
       <div className="perfilDM">
         <div className="perfilDM__foto">
           <h2>{data.nombre + " " + data.apellido}</h2>

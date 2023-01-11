@@ -1,14 +1,13 @@
 import React from "react";
 import db from "../../db.json";
-import Navbar from "../nav/Navbar";
-// import "./perfilDO.css";
 
 const PerfilDO = () => {
   const data = db.users[1];
-  console.log(data);
   return (
     <div className="contenedor-perfilDM">
-      <Navbar />
+      <button className="btn-volver" onClick={() => window.history.back()}>
+        Volver
+      </button>
       <div className="perfilDM">
         <div className="perfilDM__foto">
           <h2>{data.nombre + " " + data.apellido}</h2>

@@ -1,11 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import "./Landing.css";
-import { GrReactjs } from "react-icons/gr";
-import { TbBrandJavascript } from "react-icons/tb";
-import { DiCss3 } from "react-icons/di";
-import { TiHtml5, TiLeaf } from "react-icons/ti";
-import { FaNode } from "react-icons/fa";
-import { SiSequelize, SiPostgresql } from "react-icons/si";
 
 const Landing = () => {
   useEffect(() => {
@@ -38,7 +32,7 @@ const Landing = () => {
         </label>
       </div>
       <div className="div3">
-        <div id="indicador">holaaa</div>
+          <img src="https://i.ibb.co/0nQqQZp/daiana.png" alt="Dario y Daiana"/>
       </div>
     </div>
   );
