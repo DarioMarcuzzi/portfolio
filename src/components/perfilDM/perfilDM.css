@@ -314,7 +314,7 @@
 
 .btn-volver-arriba{
     display: flex;
-    
+    filter: invert(100%);
     border: none;
     background-image: url("https://cdn-icons-png.flaticon.com/512/2767/2767220.png");
     background-position: center;
