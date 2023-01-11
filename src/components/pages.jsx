@@ -80,7 +80,6 @@ const Pages = () => {
         <div className="home">
           <Home />
         </div>{" "}
-        *
         <div className="footer">
           <Footer />
         </div>
