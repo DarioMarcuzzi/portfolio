@@ -5,7 +5,7 @@ import data from "../../db.json";
 const About = () => {
   const { skills } = data;
   return (
-    <div class="contenedor-about">
+    <div class="contenedor-about" id="about">
       <div class="contenedor-info-about">
         <div class="description-about-title">
           <h1>Sobre Nosotros</h1>

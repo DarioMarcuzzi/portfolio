@@ -1,12 +1,12 @@
 import React from "react";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
     <div className="contenedor-nav-principal">
       <div className="logo-nav">
-        <Link to="/">
+        <Link to="landing" smooth={true} duration={500}>
           <img
             src="https://res.cloudinary.com/dcpcja2qg/image/upload/v1672409846/logoDD_logj6a.png"
             alt="Logo"
@@ -14,13 +14,13 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="btn-links-nav">
-        <Link to="/home">
+        <Link to="home" smooth={true} duration={500}>
           <button>Menu</button>
         </Link>
-        <Link to="/about">
+        <Link to="about" smooth={true} duration={500}>
           <button>Sobre nosotros</button>
         </Link>
-        <Link to="/contact">
+        <Link to="contact" smooth={true} duration={500}>
           <button>Contacto</button>
         </Link>
       </div>
