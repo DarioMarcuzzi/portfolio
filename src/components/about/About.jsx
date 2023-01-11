@@ -8,7 +8,6 @@ const About = () => {
     <div class="contenedor-about" id="about">
       <div class="contenedor-info-about">
         <div class="description-about-title">
-          <h1>Sobre Nosotros</h1>
           <p className="description-about">
             Actualmente diseñamos, rediseñamos y programamos nuevos proyectos y
             aplicaciones web, ya sea del lado del cliente (Front-end, UX / UI)

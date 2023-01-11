@@ -34,25 +34,7 @@ const HomeDer = ({ scrollY, timing, screenHeight, medidasHeight }) => {
       className="contenedor-info-der"
       style={{ transform: transform, transition: timing }}
     >
-      <div className="infoA-der">
-        <div className="title-der">
-          <p>
-            En el verano de 2022 con mi pareja tomamos la decisión de no
-            depender de un lugar físico para trabajar, fue así que nos metimos
-            en el maravilloso mundo de la programación, actualmente ya por
-            terminar el año 2022 nos encontramos a un paso de cumplir lo que
-            dijimos ese verano
-          </p>
-        </div>
-        <div className="image-adn-carta-derA">
-          <div className="divA"></div>
-          <div className="carta-der">
-            <div className="card-back">
-              <p>Back</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="infoA-der"></div>
       <div className="infoB-der">
         <div className="image-adn-carta-derB">
           <div className="carta-der">

@@ -25,19 +25,7 @@
   justify-content: center;
 }
 
-.title{
-  display: flex;
-  width: 70%;
-  position: relative;
-  top: 20%;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.572);
-  padding: 10px;
-  color: rgb(255, 255, 255);
-  transition: transform 2s;
-  transform-style: preserve-3d;
-  border-radius: 20px 0px 30px 30px;
-}
+
 
 .image-adn-carta{
   display: flex;
@@ -463,10 +451,7 @@
     border-radius: 10px 10px 10px 10px;
   }
 
-  .title{
-    opacity: 0%;
-  }
-  
+ 
   .carta, .card-inner{
     display: none;
     transform: rotateY(-180deg);

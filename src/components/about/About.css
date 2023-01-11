@@ -5,8 +5,16 @@
     justify-content: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
-}
+    /* color: white; */
+
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-blanco-abstracto_23-2148810889.jpg?w=1380&t=st=1673438396~exp=1673438996~hmac=30cb99750030d5d1f7a09765f30dca824cc1e49d4f23bd08f9faacb0984efd0c");
+    min-height: 100vh;
+    /* position: relative; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .contenedor-info-about{
     display: flex;
@@ -15,24 +23,27 @@
     height: 100%;
     flex-direction: column;
     width: 100%;
+   
+    
 }
 
 .description-about-title{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 50%;
+  
   justify-content: center;
   text-align: left;
+  
 }
-.description-about-title h1{
-  background-color: #070707;
-}
+
 
 .description-about-title p{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 5px 10px 10px 0px;
+ 
 }
 
 .description-about{
@@ -43,16 +54,17 @@
     border-radius: 0px 50px 50px 50px;
     box-shadow: #070707 0px 0px 5px;
     padding: 1rem;
-    border: #eeeef3 1px solid;
+    border: #000000 1px solid;
 }
 
 .contenedor-info-tec{
   width: 80%;
-  height: 50%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+
 }
 
 .contenedor-tecnologias{
@@ -73,6 +85,7 @@
     background-color: rgba(31, 109, 148, 0.499);
     border-radius: 10px;
     transition: 0.5s;
+    box-shadow: 5px 10px 10px 0px;
 }
 
 .tech:hover{
@@ -81,7 +94,8 @@
     color: #f4f4fa;
     text-shadow: rgb(7, 7, 7) 0px 0px 5px;
     animation: 1s ease-in-out 0s 1 normal none running bounce;
-}
+
+  }
 
 @keyframes bounce {
     0% {
@@ -173,7 +187,7 @@
 
   @media screen and (max-width: 768px) {
     .contenedor-about{
-      background-color: #262626;
+      /* background-color: #262626; */
     }
     .description-about{
         font-size: 12px;

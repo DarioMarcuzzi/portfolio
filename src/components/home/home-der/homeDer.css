@@ -15,19 +15,6 @@
   justify-content: center;
 }
 
-.title-der{
-   display: flex;
-   width: 70%;
-   position: relative;
-   top: 20%;
-   left: 0px;
-   background-color: rgba(0, 0, 0, 0.572);
-   padding: 10px;
-   color: rgb(255, 255, 255);
-   transition: transform 2s;
-   transform-style: preserve-3d;
-   border-radius: 0px 20px 30px 30px;
-}
 
 
 .image-adn-carta-derA{
@@ -252,9 +239,6 @@
     border-radius: 10px 10px 10px 10px;
   }
 
-  .title-der{
-    opacity: 0%;
-  }
 
   .carta-der, .card-inner{
     display: none;
