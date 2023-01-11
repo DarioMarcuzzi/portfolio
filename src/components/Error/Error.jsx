@@ -10,10 +10,10 @@ const Error = () => {
                 <h1>Pagina no encontrada</h1>
                 <img src="https://cdn-icons-png.flaticon.com/512/868/868843.png" alt="error" />
                 <p>Lo siento, la pagina que esta buscando, no existe.</p>
-                <Link to="/"><button>Regresar</button></Link>
+                <Link to="/"><button>Ir al inicio</button></Link>
             </div>
             <div className="error__footer">
-             <Footer />
+                <Footer />
             </div>
         </div>
     )
