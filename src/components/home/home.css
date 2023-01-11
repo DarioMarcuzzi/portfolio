@@ -3,9 +3,6 @@
 .contenedor-principal-home{
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(169, 97, 97); */
-    
-
     width: 100%;
     height: 100vh;
 }
@@ -18,49 +15,29 @@
   align-items: center;
 }
 
-
 .contenedor-home-izq{
   display: flex;
-
   flex-direction: column;
   width: 50%;
   height: 100%;
   justify-content: center;
   align-items: center;
-
-  /* box-shadow: 10px -10px 15px 5px rgba(0,0,0,0.49);
--webkit-box-shadow: 10px -10px 15px 5px rgba(0,0,0,0.49);
--moz-box-shadow: 10px -10px 15px 5px rgba(0,0,0,0.49); */
-border-radius: 0px 50% 0px 0px;
 overflow: hidden;
-
-  
 }
 .contenedor-home-der{
   display: flex;
-  /* box-shadow: -10px -10px 15px 5px rgba(0,0,0,0.49);
--webkit-box-shadow: -10px -10px 15px 5px rgba(0,0,0,0.49);
--moz-box-shadow: -10px -10px 15px 5px rgba(0,0,0,0.49);
-   */
- 
-  
   width: 50%;
   height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  border-radius: 50% 0px 0px 0px;
   overflow: hidden;
-  
 }
 @media (max-height:734px) {
   .contenedor-home-der, .contenedor-home-izq{
- 
     display: flex;
     width: 100%;
     border-radius: 0px 0px 0px 0px;
-     
     }
   
 }
@@ -69,17 +46,13 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     width: 100%;
-    
 }
 
   .contenedor-home-der, .contenedor-home-izq{
- 
     display: flex;
     width: 100%;
     border-radius: 0px 0px 0px 0px;
-     
     }
-  
 }
 
 
@@ -90,7 +63,6 @@ overflow: hidden;
   .contenedor-principal-home{
     display: flex;
     height: auto;
-    
   }
   .contenedor-home{
     display: flex;
@@ -98,16 +70,3 @@ overflow: hidden;
     height: auto;
   }
 }
-/*
-
-
-.contenedor-home-der, .contenedor-home-izq{
- 
-display: flex;
-width: 100%;
-height: 50%;
-border-radius: 0px 0px 0px 0px;
- 
-}
- 
- } */
