@@ -18,11 +18,8 @@
   top: 0;
   left: 0;
   overflow: hidden;
-  
-    /* background: linear-gradient(181deg, #000000, #452e2e, #611010, #09374d, #00547b, #778d98, #778d98, #778d98); */
-    background-color: aliceblue;
+    background-color: rgb(12, 115, 206);
     background-size: 1600% 1600%;
-
     -webkit-animation: AnimationName 31s ease infinite;
     -moz-animation: AnimationName 31s ease infinite;
     animation: AnimationName 31s ease infinite;
@@ -529,6 +526,10 @@
 .about{
   width: 100%;
   height: 100vh;
+}
+.separador{
+  width: 100%;
+  height: 10vh;
 }
 .home{
   width: 100%;

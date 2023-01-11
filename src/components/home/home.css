@@ -1,6 +1,16 @@
 
 
 .contenedor-principal-home{
+
+  /* position: relative; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url("https://img.freepik.com/vector-gratis/fondo-blanco-dorado-tejido-costuras_53876-100895.jpg?w=1480&t=st=1673438389~exp=1673438989~hmac=8b93e49d97c3a11d7e397d9e26fcbf8a0dbc0f91517b3e9ddc8011d0ee831357"); */
+  
+  min-height: 100vh;
+  
     display: flex;
     flex-direction: column;
     width: 100%;

@@ -15,19 +15,6 @@
   justify-content: center;
 }
 
-.title-der{
-   display: flex;
-   width: 70%;
-   position: relative;
-   top: 20%;
-   left: 0px;
-   background-color: rgba(0, 0, 0, 0.572);
-   padding: 10px;
-   color: rgb(255, 255, 255);
-   transition: transform 2s;
-   transform-style: preserve-3d;
-   border-radius: 0px 20px 30px 30px;
-}
 
 
 .image-adn-carta-derA{
@@ -89,7 +76,6 @@
   background-color: rgba(58, 58, 58, 0.536);
   justify-content: center;
   align-items: center;
-  font-family: 'Courier New', Courier, monospace;
   width: 100%;
   height: fit-content;
   color: rgb(249, 249, 249);
@@ -113,7 +99,7 @@
   max-width: 350px;
   height: 60%;
   max-height: 550px ;
-  background-color: azure;
+  background-color: rgba(240, 255, 255, 0.685);
   background-position: center;
   background-size: cover;
   border-radius: 20px;
@@ -252,9 +238,6 @@
     border-radius: 10px 10px 10px 10px;
   }
 
-  .title-der{
-    opacity: 0%;
-  }
 
   .carta-der, .card-inner{
     display: none;

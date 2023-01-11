@@ -4,9 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-}
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .contenedor-info-about{
     display: flex;
@@ -15,51 +18,49 @@
     height: 100%;
     flex-direction: column;
     width: 100%;
+
 }
 
 .description-about-title{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 50%;
   justify-content: center;
   text-align: left;
 }
-.description-about-title h1{
-  background-color: #070707;
-}
+
 
 .description-about-title p{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 5px 10px 10px 0px;
 }
 
 .description-about{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    background-color: rgba(34, 36, 39, 0.637);
-    border-radius: 0px 50px 50px 50px;
+    background-color: rgba(249, 247, 247, 0.871);
+    border-radius: 10px 10px 10px 10px;
     box-shadow: #070707 0px 0px 5px;
     padding: 1rem;
-    border: #eeeef3 1px solid;
+    border: #000000 1px solid;
 }
 
 .contenedor-info-tec{
   width: 80%;
-  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+
 }
 
 .contenedor-tecnologias{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 80%;
 }
 
 .tech{
@@ -70,18 +71,21 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(31, 109, 148, 0.499);
+    background-color: rgb(219, 226, 239);
     border-radius: 10px;
     transition: 0.5s;
-}
-
-.tech:hover{
-    background-color: rgba(106, 221, 234, 0.637);
+    box-shadow: 5px 10px 10px 0px;
+  }
+  
+  .tech:hover{
+    background-color: rgb(249, 247, 247);
     border-radius: 5px;
+    box-shadow: 5px 10px 10px 0px black;
     color: #f4f4fa;
     text-shadow: rgb(7, 7, 7) 0px 0px 5px;
     animation: 1s ease-in-out 0s 1 normal none running bounce;
-}
+
+  }
 
 @keyframes bounce {
     0% {
@@ -150,7 +154,7 @@
 
   .tech img{
     width: 100%;
-    box-shadow: #070707 0px 0px 5px;
+    filter: drop-shadow(5px 5px 10px rgb(33, 32, 32))
   }
 
   @media screen and (max-width: 1700px) {
@@ -172,9 +176,6 @@
   }
 
   @media screen and (max-width: 768px) {
-    .contenedor-about{
-      background-color: #262626;
-    }
     .description-about{
         font-size: 12px;
     }
