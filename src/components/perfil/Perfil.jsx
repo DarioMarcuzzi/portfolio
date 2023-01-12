@@ -4,7 +4,7 @@ import db from "../../db.json";
 import "./perfil.css";
 
 const Perfil = () => {
-  const {id} = useParams();
+  const { id } = useParams();
   const data = db.users?.find((user) => user.id === id);
   return (
     <div className="contenedor-perfil">
@@ -36,24 +36,24 @@ const Perfil = () => {
           {data.skill.map((skill) => {
             return (
               <div className="social-media">
-                <a href="#">
+                <p>
                   <span class="tooltip-social">
                     {skill.nombre + " " + skill.porcentaje + "%"}
                   </span>
                   <img className="icono" src={skill.icono} alt="icono" />
-                </a>
+                </p>
               </div>
             );
           })}
           {data.skillsoft?.map((skillsoft) => {
             return (
               <div className="social-media">
-                <a href="#">
+                <p>
                   <span class="tooltip-social">
                     {skillsoft.nombre + " " + skillsoft.porcentaje + "%"}
                   </span>
                   <img className="icono" src={skillsoft.icono} alt="icono" />
-                </a>
+                </p>
               </div>
             );
           })}
