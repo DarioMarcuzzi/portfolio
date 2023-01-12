@@ -14,7 +14,6 @@ const HomeDer = ({
 }) => {
   const [transform, setTransform] = useState("");
 
-  console.log(dataUserDO);
   useEffect(() => {
     switch (medidasHeight) {
       case "1300-1000":
