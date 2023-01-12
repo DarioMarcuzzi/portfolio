@@ -1,20 +1,25 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import db from "../../db.json";
+import "./perfil.css";
 
-const PerfilDO = () => {
-  const data = db.users[1];
+const Perfil = () => {
+  const {id} = useParams();
+  const data = db.users?.find((user) => user.id === id);
   return (
-    <div className="contenedor-perfilDM">
-      <button className="btn-volver" onClick={() => window.history.back()}>
-        Volver
-      </button>
-      <div className="perfilDM">
-        <div className="perfilDM__foto">
+    <div className="contenedor-perfil">
+      <div>
+        <button className="btn-volver" onClick={() => window.history.back()}>
+          Volver
+        </button>
+      </div>
+      <div className="perfil" key={id}>
+        <div className="perfil__foto">
           <h2>{data.nombre + " " + data.apellido}</h2>
           <p>{data.profesion}</p>
           <img src={data.imagen} alt="foto de perfil" />
         </div>
-        <div className="perfilDM__info">
+        <div className="perfil__info">
           <h5>Sobre mi:</h5>
           <p>{data.descripcion}</p>
           <h5>Email:</h5>
@@ -25,9 +30,9 @@ const PerfilDO = () => {
           <p>{data.origen}</p>
         </div>
       </div>
-      <div className="perfilDM__mas">
+      <div className="perfil__mas">
         <h3>Skills</h3>
-        <div className="perfilDM__skills">
+        <div className="perfil__skills">
           {data.skill.map((skill) => {
             return (
               <div className="social-media">
@@ -54,7 +59,7 @@ const PerfilDO = () => {
           })}
         </div>
         <h3>Proyectos</h3>
-        <div className="perfilDM__proyectos">
+        <div className="perfil__proyectos">
           {data.proyectos.map((proyecto) => {
             return (
               <div className="proyecto">
@@ -78,7 +83,7 @@ const PerfilDO = () => {
           })}
         </div>
         <h3>Experiencia</h3>
-        <div className="perfilDM__experiencia">
+        <div className="perfil__experiencia">
           {data.experiencia?.map((experiencia) => {
             return (
               <div className="experiencia">
@@ -93,7 +98,7 @@ const PerfilDO = () => {
           })}
         </div>
         <h3>Formacion</h3>
-        <div className="perfilDM__formacion">
+        <div className="perfil__formacion">
           {data.formacion?.map((formacion) => {
             return (
               <div className="formacion">
@@ -107,14 +112,15 @@ const PerfilDO = () => {
             );
           })}
         </div>
-      </div>
-      <div className="btn-volver-arriba-contenedor">
-        <button
-          className="btn-volver-arriba"
-          onClick={() => window.scrollTo(0, 0)}
-        ></button>
+        <div className="btn-volver-arriba-contenedor">
+          <button
+            className="btn-volver-arriba"
+            onClick={() => window.scrollTo(0, 0)}
+          ></button>
+        </div>
       </div>
     </div>
   );
 };
-export default PerfilDO;
+
+export default Perfil;

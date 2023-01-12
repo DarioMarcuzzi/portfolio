@@ -1,7 +1,6 @@
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import PerfilDM from "./components/perfilDM/PerfilDM";
-import PerfilDO from "./components/perfilDO/PerfilDO";
+import Perfil from "./components/perfil/Perfil";
 import Pages from "./components/pages";
 import Error from "./components/Error/Error";
 
@@ -11,8 +10,7 @@ function App() {
       <div>
         <Routes>
           <Route exact path="/" element={<Pages />} />
-          <Route path="/perfilDM" element={<PerfilDM />} />
-          <Route path="/perfilDO" element={<PerfilDO />} />
+          <Route path="/perfil/:id" element={<Perfil />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </div>
