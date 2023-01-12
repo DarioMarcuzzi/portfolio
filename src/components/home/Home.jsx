@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import HomeIzq from "./home-izq/HomeIzq.jsx";
 import HomeDer from "./home-der/HomeDer.jsx";
+import db from "../../db.json";
 import "./home.css";
 
 const Home = () => {
+  const dataUser = db;
+  console.log(db);
   const [scrollY, setScrollY] = useState(0);
   const [medidasHeight, setMedidasHeight] = useState(0);
   const [timing] = useState("2.5s");
@@ -46,6 +49,7 @@ const Home = () => {
             timing={timing}
             screenHeight={screenHeight}
             medidasHeight={medidasHeight}
+            dataUserDM={dataUser.users[0]}
           />
         </div>
         <div className="contenedor-home-der">
@@ -54,6 +58,7 @@ const Home = () => {
             timing={timing}
             screenHeight={screenHeight}
             medidasHeight={medidasHeight}
+            dataUserDO={dataUser.users[1]}
           />
         </div>
       </div>

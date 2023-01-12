@@ -200,6 +200,16 @@
           ],
           "link": "https://github.com/DarioMarcuzzi/conecta4",
           "link2": "http://conecta4-drab.vercel.app"
+        },
+        {
+          "id": "4",
+          "nombre": "Calculadora",
+          "descripcion": "Calculadora para calcular tus calculos!",
+          "imagen": [
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1673549907/calculadora_oucwqj.png"
+          ],
+          "link": "https://github.com/DarioMarcuzzi/calculadora",
+          "link2": "https://calculadora-gamma-nine.vercel.app"
         }
       ],
       "formacion": [
