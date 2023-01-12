@@ -263,8 +263,10 @@
       "profesion": "FullStack Developer",
       "origen": "Argentina",
       "fechaNacimiento": "12/03/1997",
-      "comentario": "",
+      "comentario": "Hola me llamo Luz! Estudio contabilidad y soy desarrolladora web full stack,",
       "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672687651/imagenes%20Proyecto%20final%20henry/IMG_LuzDaianaOlivares_geix7w.jpg",
+      "linkedin":"https://www.linkedin.com/in/luz-daiana-olivares-/",
+      "github":"https://github.com/DaianaOli",
       "skill": [
         {
           "id": 1,
