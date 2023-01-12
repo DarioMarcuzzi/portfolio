@@ -77,19 +77,13 @@ const HomeDer = ({
               {dataUserDO.nombre} {dataUserDO.apellido}
             </h1>
             <div className="description">
-              <p>
-                Hola me llamo Luz! Estudio contabilidad y soy desarrolladora web
-                full stack,
-              </p>
+              <p>{dataUserDO.comentario}</p>
             </div>
             <div className="btn-info">
-              <a className="btns-info" href="/perfilDO">
+              <a className="btns-info" href={"/perfil/" + dataUserDO.id}>
                 Conoceme
               </a>
-              <a
-                className="btns-info"
-                href="mailto:luzdaianaolivaresolivares@gmail.com"
-              >
+              <a className="btns-info" href={"mailto:" + dataUserDO.email}>
                 Mandame un email
               </a>
               <a
@@ -104,11 +98,7 @@ const HomeDer = ({
               <hr />
             </div>
             <ul className="wrapper">
-              <a
-                href="https://www.linkedin.com/in/luz-daiana-olivares-/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={dataUserDO.linkedin} target="_blank" rel="noreferrer">
                 <li className="icon LinkedIn">
                   <a className="tooltip">Linkedin</a>
                   <>
@@ -118,11 +108,7 @@ const HomeDer = ({
                   </>
                 </li>
               </a>
-              <a
-                href="https://github.com/DaianaOli"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={dataUserDO.github} target="_blank" rel="noreferrer">
                 <li className="icon GitHub">
                   <a className="tooltip">GitHub</a>
                   <>

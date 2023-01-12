@@ -54,10 +54,10 @@ const HomeIzq = ({
               <p>{dataUserDM.comentario}</p>
             </div>
             <div className="btn-info">
-              <a className="btns-info" href={"/perfil" + dataUserDM.id}>
+              <a className="btns-info" href={"/perfil/" + dataUserDM.id}>
                 Conoceme
               </a>
-              <a className="btns-info" href="mailto:dariomarcuzzi2@gmail.com">
+              <a className="btns-info" href={"mailto:" + dataUserDM.email}>
                 Mandame un email
               </a>
               <a
