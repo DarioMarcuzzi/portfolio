@@ -1,4 +1,4 @@
-.contenedor-perfilDM{
+.contenedor-perfil{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -29,7 +29,7 @@
     transition: all 0.5s ease;
 }
 
-.perfilDM{
+.perfil{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
     padding: 20px
 }
 
-.perfilDM__foto{
+.perfil__foto{
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -48,12 +48,12 @@
     padding: 10px;
 }
 
-.perfilDM__foto img{
+.perfil__foto img{
     width: 50%;
     box-shadow: 5px 10px 10px 0px black;
 }
 
-.perfilDM__foto img:hover{
+.perfil__foto img:hover{
     animation: animacionFoto 1s ease-in-out;
     
 }
@@ -69,7 +69,7 @@
     }
 }
 
-.perfilDM__info{
+.perfil__info{
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@
     box-shadow: 5px 10px 10px 0px black;
 }
 
-.perfilDM__mas{
+.perfil__mas{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@
     gap: 30px;
 }
 
-.perfilDM__skills{
+.perfil__skills{
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -175,7 +175,7 @@
     transition: all 0.5s ease;
   }
 
-.perfilDM__proyectos{
+.perfil__proyectos{
     width: 100%;
     height: 100%;
     display: flex;
@@ -252,7 +252,7 @@
     color: #F9F7F7;
     text-shadow:  2px 2px black;
 }
-.perfilDM__experiencia{
+.perfil__experiencia{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -275,7 +275,7 @@
     border-radius: 10px;
     border: #262626 2px solid;
 }
-.perfilDM__formacion{
+.perfil__formacion{
     width: 80%;
     display: flex;
     gap: 10px;
@@ -329,33 +329,33 @@
 }
 
 @media screen and (max-width: 768px){
-    .perfilDM{
+    .perfil{
         flex-direction: column;
         gap: 10px
     }
-    .perfilDM__foto{
+    .perfil__foto{
         width: 100%;
     }
-    .perfilDM__foto img{
+    .perfil__foto img{
         width: 50%;
     }
-    .perfilDM__info{
+    .perfil__info{
         width: 100%;
     }
-    .perfilDM__skills{
+    .perfil__skills{
         width: 100%;
     }
     .social-media{
         padding: 0;
         width: 15%;
     }
-    .perfilDM__proyectos{
+    .perfil__proyectos{
         flex-direction: column;
     }
     .proyecto{
         width: 100%;
     }
-    .perfilDM__experiencia{
+    .perfil__experiencia{
         width: 100%;
         flex-direction: column;
     }
@@ -365,7 +365,7 @@
     .experiencia img{
         width: 100%;
     }
-    .perfilDM__formacion{
+    .perfil__formacion{
         width: 100%;
         flex-direction: column;
     }
