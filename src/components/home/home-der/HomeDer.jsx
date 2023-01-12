@@ -5,9 +5,16 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import "./homeDer.css";
 
-const HomeDer = ({ scrollY, timing, screenHeight, medidasHeight }) => {
+const HomeDer = ({
+  scrollY,
+  timing,
+  screenHeight,
+  medidasHeight,
+  dataUserDO,
+}) => {
   const [transform, setTransform] = useState("");
 
+  console.log(dataUserDO);
   useEffect(() => {
     switch (medidasHeight) {
       case "1300-1000":
@@ -66,7 +73,9 @@ const HomeDer = ({ scrollY, timing, screenHeight, medidasHeight }) => {
             <div className="contenedor-imagen-perfil">
               <div className="imagen-der"></div>
             </div>
-            <h1>Luz Daiana Olivares </h1>
+            <h1>
+              {dataUserDO.nombre} {dataUserDO.apellido}
+            </h1>
             <div className="description">
               <p>
                 Hola me llamo Luz! Estudio contabilidad y soy desarrolladora web

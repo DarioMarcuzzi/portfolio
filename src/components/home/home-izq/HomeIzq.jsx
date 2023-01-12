@@ -14,7 +14,7 @@ const HomeIzq = ({
 }) => {
   const [transform, setTransform] = useState("");
   const [rotate] = useState("rotateY(-180deg)");
-  console.log(dataUserDM, " desde home iz");
+
   useEffect(() => {
     switch (medidasHeight) {
       case "1300-1000":
@@ -47,16 +47,14 @@ const HomeIzq = ({
             <div className="contenedor-imagen-perfil">
               <div className="imagen"></div>
             </div>
-            <h1>Dario Marcuzzi</h1>
+            <h1>
+              {dataUserDM.nombre} {dataUserDM.apellido}
+            </h1>
             <div className="description">
-              <p>
-                Hola mi nombre es Dario Marcuzzi y me dedico al desarrollo Web.
-                Con más de un año en el mundo IT adquiriendo habilidades y
-                reforzando conocimientos
-              </p>
+              <p>{dataUserDM.comentario}</p>
             </div>
             <div className="btn-info">
-              <a className="btns-info" href="/perfilDM">
+              <a className="btns-info" href={"/perfil" + dataUserDM.id}>
                 Conoceme
               </a>
               <a className="btns-info" href="mailto:dariomarcuzzi2@gmail.com">
@@ -74,11 +72,7 @@ const HomeIzq = ({
               <hr />
             </div>
             <ul className="wrapper">
-              <a
-                href="https://www.linkedin.com/in/dario-marcuzzi-399908224/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={dataUserDM.linkedin} target="_blank" rel="noreferrer">
                 <li className="icon LinkedIn">
                   <a className="tooltip">LinkedIn</a>
                   <>
@@ -88,11 +82,7 @@ const HomeIzq = ({
                   </>
                 </li>
               </a>
-              <a
-                href="https://github.com/DarioMarcuzzi"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={dataUserDM.github} target="_blank" rel="noreferrer">
                 <li className="icon GitHub">
                   <a className="tooltip">GitHub</a>
                   <>
