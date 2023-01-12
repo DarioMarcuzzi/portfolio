@@ -14,15 +14,12 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="btn-links-nav">
-        <Link to="home" smooth={true} duration={500}>
-          <button>Menu</button>
-        </Link>
         <Link to="about" smooth={true} duration={500}>
           <button>Sobre nosotros</button>
         </Link>
-        {/* <Link to="contact" smooth={true} duration={500}>
-          <button>Contacto</button>
-        </Link> */}
+        <Link to="home" smooth={true} duration={500}>
+          <button>Menu</button>
+        </Link>
       </div>
     </div>
   );
