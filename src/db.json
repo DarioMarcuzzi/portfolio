@@ -9,8 +9,10 @@
       "profesion": "FullStack Developer",
       "origen": "Argentina",
       "fechaNacimiento": "1995/04/26",
-      "comentario": "",
+      "comentario": "Hola mi nombre es Dario Marcuzzi y me dedico al desarrollo Web. Con más de un año en el mundo IT adquiriendo habilidades y reforzando conocimientos",
       "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
+      "linkedin": "https://www.linkedin.com/in/dario-marcuzzi-399908224/",
+      "github": "https://github.com/DarioMarcuzzi",
       "skill": [
         {
           "id": 1,
