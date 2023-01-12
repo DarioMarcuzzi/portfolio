@@ -5,9 +5,16 @@ import { FiGithub } from "react-icons/fi";
 import cvDario from "../../CV/CVDarioMarcuzzi1.pdf";
 import "./homeizq.css";
 
-const HomeIzq = ({ scrollY, timing, screenHeight, medidasHeight }) => {
+const HomeIzq = ({
+  scrollY,
+  timing,
+  screenHeight,
+  medidasHeight,
+  dataUserDM,
+}) => {
   const [transform, setTransform] = useState("");
   const [rotate] = useState("rotateY(-180deg)");
+  console.log(dataUserDM, " desde home iz");
   useEffect(() => {
     switch (medidasHeight) {
       case "1300-1000":

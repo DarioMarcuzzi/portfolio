@@ -15,7 +15,7 @@ const Landing = () => {
   const speed2 = 200;
 
   function typeWriter() {
-    console.log(i);
+    // console.log(i);
     if (i < textB.length && i >= 32) {
       document.getElementById("saludo1").innerHTML += textB.charAt(i);
       i++;
