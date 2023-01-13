@@ -3,17 +3,37 @@ import { useParams } from "react-router-dom";
 import db from "../../db.json";
 import {FaLinkedin, FaGithub} from 'react-icons/fa';
 import {AiOutlineMail} from 'react-icons/ai';
+import Loading from "../Loading/Loading";
 import "./perfil.css";
 
 const Perfil = () => {
   const { id } = useParams();
   const data = db.users?.find((user) => user.id === id);
+  const [loading, setLoading] = React.useState(true)
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      preCargarImagenes();
+      setLoading(false)
+    }, 2000)
+  }, [])
+
 
   const hacerZoom = (e) => {
     e.target.style.transform = "scale(3)";
     e.target.style.zIndex = "1";
     e.target.style.transition = "all 0.5s";
   };
+
+  const preCargarImagenes = () => {
+    data.proyectos.map((proyecto) => {
+      proyecto.imagen.map((imagen) => {
+        const img = new Image();
+        img.src = imagen;
+      });
+    });
+  };
+
 
   const volverZoom = (e) => {
     e.target.style.transform = "scale(1)";
@@ -24,8 +44,9 @@ const Perfil = () => {
     window.scrollTo(0, 0);
   };
 
-
   return (
+    <div>
+    { loading === false ? (
     <div className="contenedor-perfil">
       <div className="btn-volver-arriba-contenedor">
         <button className="btn-volver" onClick={() => window.history.back()}>
@@ -148,6 +169,10 @@ const Perfil = () => {
           ></button>
         </div>
       </div>
+    </div>
+    ) : (
+      <div><Loading/></div>
+    )}
     </div>
   );
 };
