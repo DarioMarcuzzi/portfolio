@@ -23,7 +23,7 @@ const HomeDer = ({
           setTransform("translateX(0%)");
         }
         break;
-      case "1000-700":
+      case "1000-600":
         if (scrollY > 1000) {
           setTransform("translateX(-50%)");
         } else {
@@ -55,14 +55,48 @@ const HomeDer = ({
                 </div>
                 <div className="skills">
                   <h5>Skills favoritas :</h5>
-                  <p>React JS</p>
-                  <p>Javas Script</p>
-                  <p>HTML y CSS</p>
+                  <div className="iconos-carta-contenedor">
+                    {dataUserDO.skill.map((skill) => {
+                      if (
+                        skill.nombre === "JavaScript" ||
+                        skill.nombre === "Express" ||
+                        skill.nombre === "React"
+                      ) {
+                        return (
+                          <div class="social-carta" key={skill.id}>
+                            <div className="knowledge">
+                              <p>{skill.nombre}</p>
+                              <img src={skill.icono} alt={skill.nombre} />
+                            </div>
+                          </div>
+                        );
+                      }
+                    })}
+                  </div>
+
                   <div className="softSkills">
                     <h5>SoftSkills :</h5>
-                    <p>Actitud positiva</p>
-                    <p>Curiosidad</p>
-                    <p>Logro de objetivos</p>
+                    <div className="iconos-carta-contenedor">
+                      {dataUserDO.skillsoft.map((skillsoft) => {
+                        if (
+                          skillsoft.nombre === "Resiliencia" ||
+                          skillsoft.nombre === "Adaptabilidad" ||
+                          skillsoft.nombre === "Trabajo en equipo"
+                        ) {
+                          return (
+                            <div class="social-carta" key={skillsoft.id}>
+                              <div className="knowledge">
+                                <p>{skillsoft.nombre}</p>
+                                <img
+                                  src={skillsoft.icono}
+                                  alt={skillsoft.nombre}
+                                />
+                              </div>
+                            </div>
+                          );
+                        }
+                      })}
+                    </div>
                   </div>
                 </div>
               </div>

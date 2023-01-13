@@ -6,12 +6,14 @@ import "./home.css";
 
 const Home = () => {
   const dataUser = db;
-  console.log(db);
+  // console.log(db);
   const [scrollY, setScrollY] = useState(0);
   const [medidasHeight, setMedidasHeight] = useState(0);
   const [timing] = useState("2.5s");
   const [screenHeight, setScreenHeight] = useState(window.innerHeight);
 
+  // console.log(scrollY);
+  // console.log(screenHeight);
   useEffect(() => {
     handleResize();
     window.addEventListener("resize", handleResize);
@@ -25,8 +27,8 @@ const Home = () => {
     if (window.innerHeight <= 1300 && window.innerHeight >= 1000) {
       setMedidasHeight("1300-1000");
     }
-    if (window.innerHeight <= 1000 && window.innerHeight >= 700) {
-      setMedidasHeight("1000-700");
+    if (window.innerHeight <= 1000 && window.innerHeight >= 600) {
+      setMedidasHeight("1000-600");
     }
   }
 

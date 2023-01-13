@@ -80,22 +80,7 @@
   max-width: 200px;
   border: 2px solid black;
 }
-.description{
-  display: flex;
-  background-color: rgba(58, 58, 58, 0.536);
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: fit-content;
-  height: 40%;
-  color: rgb(249, 249, 249);
-}
 
-.description p {
-  padding: 10px;
-  font-size: 100%;
-  width: 100%;
-}
 .btn-info{
   display: flex;
   flex-direction: column;
@@ -167,6 +152,52 @@
   display: flex;
   width: 100%;
 }
+
+
+.iconos-carta-contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  
+  height: 140px;
+
+  
+}
+.iconos-carta-contenedor p{
+  background: #262626;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px 0;
+  padding: 5px;
+  font-size: 1.1rem;
+  width: 120px;
+  transform: translate(0px, -40px);
+  opacity: 0;
+  height:  auto;
+
+  transition: 0.4s;
+}
+
+.knowledge:hover p{
+  opacity: 1;
+ 
+  transform: translate(0px, -60px);
+}
+
+
+
+.iconos-carta-contenedor img {
+  width: 70px;
+
+}
+
+
+
+
 
 
 .card-inner{
