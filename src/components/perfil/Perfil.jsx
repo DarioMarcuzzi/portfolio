@@ -53,7 +53,7 @@ const Perfil = () => {
             <a href={data.github} target="_blank">
               <FaGithub className="icono-red" title="Github" />
             </a>
-            <a href={data.email} target="_blank">
+            <a href={"mailto:" + data.email} target="_blank">
               <AiOutlineMail className="icono-red" title="Email" />
             </a>
           </div>
