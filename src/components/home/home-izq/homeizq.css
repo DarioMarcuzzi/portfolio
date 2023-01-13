@@ -143,15 +143,12 @@
 .skills ,.softSkills{
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 50%;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
-.skills h5 {
-  display: flex;
-  width: 100%;
-}
+
 
 
 .iconos-carta-contenedor{
@@ -162,7 +159,7 @@
   gap: 30px;
   
   height: 140px;
-
+  
   
 }
 .iconos-carta-contenedor p{
@@ -178,26 +175,30 @@
   transform: translate(0px, -40px);
   opacity: 0;
   height:  auto;
-
+  
   transition: 0.4s;
 }
 
+
 .knowledge:hover p{
   opacity: 1;
- 
-  transform: translate(0px, -60px);
+
+  
+  transform: translate(0px, -80px);
 }
 
 
 
 .iconos-carta-contenedor img {
   width: 70px;
-
+  transition: 0.4s;
 }
 
+.iconos-carta-contenedor img:hover {  
+  width: 90px;
+  transform: translate(0px, -20px);
 
-
-
+}
 
 
 .card-inner{
@@ -219,7 +220,12 @@
   width: 100%;
   height: 100%;
   border-radius: 20px;
+  background:rgb(17, 45, 78);
+  color: #FFF;
+  padding: 10px;
+  text-shadow: 1px 1px black;
 }
+
 
 .title-card{
   display: flex;
@@ -229,14 +235,6 @@
   margin-bottom: 10%;
 }
 
-.card-front{
-  display: flex;
-  flex-direction: column;
-  background:rgb(17, 45, 78);
-  color: #FFF;
-  padding: 10px;
-  text-shadow: 1px 1px black;
-}
 
 
 .wrapper-izq{
@@ -353,7 +351,8 @@
     width: 100px;
   }
   
-  .description{
+  
+  /* .description{
     height: 20%;
     border-bottom: 2px solid white;
   }
@@ -361,7 +360,7 @@
     margin: 1px;
     padding: 5px;
     font-size: 15px;
-  }
+  } */
   
   .btn-info{
     display: flex;
@@ -400,6 +399,10 @@
   .skills{
     width: 100%;
     height: 70%;
+  }
+  .iconos-carta-contenedor img {
+    width: 50px;
+  
   }
 }
 

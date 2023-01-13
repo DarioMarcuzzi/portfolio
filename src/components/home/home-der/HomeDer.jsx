@@ -50,10 +50,55 @@ const HomeDer = ({
           <div className="carta-der">
             <div className="card-inner-der">
               <div className="card-front">
-                <div className="title-card">
-                  <h1>Full stack developer</h1>
-                </div>
                 <div className="skills">
+                  <h5>Skills favoritas :</h5>
+                  <div className="iconos-carta-contenedor">
+                    {dataUserDO.skill.map((skill) => {
+                      if (
+                        skill.nombre === "JavaScript" ||
+                        skill.nombre === "Express" ||
+                        skill.nombre === "React"
+                      ) {
+                        return (
+                          <div class="social-carta" key={skill.id}>
+                            <div className="knowledge">
+                              <p>{skill.nombre}</p>
+                              <img src={skill.icono} alt={skill.nombre} />
+                            </div>
+                          </div>
+                        );
+                      }
+                    })}
+                  </div>
+                </div>
+                <div className="softSkills">
+                  <h5>SoftSkills :</h5>
+                  <div className="iconos-carta-contenedor">
+                    {dataUserDO.skillsoft.map((skillsoft) => {
+                      if (
+                        skillsoft.nombre === "Resiliencia" ||
+                        skillsoft.nombre === "Adaptabilidad" ||
+                        skillsoft.nombre === "Trabajo en equipo"
+                      ) {
+                        return (
+                          <div class="social-carta" key={skillsoft.id}>
+                            <div className="knowledge">
+                              <p>{skillsoft.nombre}</p>
+                              <img
+                                src={skillsoft.icono}
+                                alt={skillsoft.nombre}
+                              />
+                            </div>
+                          </div>
+                        );
+                      }
+                    })}
+                  </div>
+                </div>
+                {/* <div className="title-card">
+                  <h1>Full stack developer</h1>
+                </div> */}
+                {/* <div className="skills">
                   <h5>Skills favoritas :</h5>
                   <div className="iconos-carta-contenedor">
                     {dataUserDO.skill.map((skill) => {
@@ -98,7 +143,7 @@ const HomeDer = ({
                       })}
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
