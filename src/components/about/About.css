@@ -101,19 +101,20 @@
     width: 100%;
   }
   
-  .social-media a {
+  .social-media label {
     position: relative;
     margin-right: 15px;
     text-decoration: none;
     color: inherit;
   }
   
-  .social-media a:last-child {
+  .social-media label:last-child {
     margin-right: 0;
   }
 
   .tooltip-social {
     background: #262626;
+    text-align: center;
     display: block;
     position: absolute;
     bottom: 0;
@@ -140,11 +141,11 @@
     transform: translate(-50%, 100%);
   }
   
-  .social-media a .tooltip-social:after {
+  .social-media label .tooltip-social:after {
     border-top-color: #262626;
   }
   
-  .social-media a:hover .tooltip-social {
+  .social-media label:hover .tooltip-social {
     opacity: 1;
     transform: translate(-50%, -130%);
   }

@@ -27,10 +27,10 @@ const About = () => {
             <div className="tech">
               {skills.map((skill) => (
                 <div class="social-media" key={skill.id}>
-                  <a href="#">
+                  <label>
                     <p class="tooltip-social">{skill.nombre}</p>
                     <img src={skill.icono} alt={skill.nombre} />
-                  </a>
+                  </label>
                 </div>
               ))}
             </div>
