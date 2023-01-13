@@ -32,10 +32,12 @@
 .perfil{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 20px
+    padding: 20px;
+    gap: 20px;
 }
 
 .perfil__foto{
@@ -51,6 +53,7 @@
 .perfil__foto img{
     width: 50%;
     box-shadow: 5px 10px 10px 0px black;
+    border-radius: 20%;
 }
 
 .perfil__foto img:hover{
@@ -70,14 +73,30 @@
 }
 
 .perfil__info{
-    width: 30%;
+    width: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: rgb(63, 114, 175);
     backdrop-filter: blur(5px);
     border-radius: 10px;
     padding: 10px;
     box-shadow: 5px 10px 10px 0px black;
+}
+.perfil__redes{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.icono-red{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    filter: drop-shadow(0 0 0.30rem rgb(1, 1, 1));
 }
 
 .perfil__mas{
@@ -202,8 +221,6 @@
     font-size: 1.5rem;
     color: rgb(17, 45, 78);
     box-shadow: 5px 10px 10px 0px black;
-    
-
 }
 .proyecto__imagenes {
     width: 100%;
@@ -216,18 +233,11 @@
     gap: 10px;
 }
 .proyecto__imagenes img{
-    width: 40%;
-    height: 40%;
-    object-fit: cover;
+    width: 30%;
     border-radius: 10px;
-    border: #262626 2px solid;
+    box-shadow: 5px 10px 10px 0px black;
 }
-.proyecto__imagenes img:hover{
-    border: 1px solid black;
-    transform: scale(2.5);
-    transition: all 0.5s ease;
-    box-shadow: 0 0 20px 0 rgb(0, 0, 0)
-}
+
 .proyecto__links{
     width: 100%;
     display: flex;
@@ -282,7 +292,6 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 10px;
 }
 .formacion{
     width: 50%;
@@ -354,6 +363,13 @@
     }
     .proyecto{
         width: 100%;
+    }
+    .proyecto__imagenes{
+        width: 100%;
+        gap: 20px;
+    }
+    .proyecto__imagenes img{
+        width: 50%
     }
     .perfil__experiencia{
         width: 100%;
