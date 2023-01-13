@@ -113,9 +113,6 @@ const HomeIzq = ({
           <div className="carta" style={{ transform: rotate }}>
             <div className="card-inner" style={{ transform: rotate }}>
               <div className="card-front">
-                <div className="title-card">
-                  <h1>Full stack developer</h1>
-                </div>
                 <div className="skills">
                   <h5>Skills favoritas :</h5>
                   <div className="iconos-carta-contenedor">
@@ -136,29 +133,29 @@ const HomeIzq = ({
                       }
                     })}
                   </div>
-                  <div className="softSkills">
-                    <h5>SoftSkills :</h5>
-                    <div className="iconos-carta-contenedor">
-                      {dataUserDM.skillsoft.map((skillsoft) => {
-                        if (
-                          skillsoft.nombre === "Comunicación" ||
-                          skillsoft.nombre === "Resolución de problemas" ||
-                          skillsoft.nombre === "Creatividad"
-                        ) {
-                          return (
-                            <div class="social-carta" key={skillsoft.id}>
-                              <div className="knowledge">
-                                <p>{skillsoft.nombre}</p>
-                                <img
-                                  src={skillsoft.icono}
-                                  alt={skillsoft.nombre}
-                                />
-                              </div>
+                </div>
+                <div className="softSkills">
+                  <h5>SoftSkills :</h5>
+                  <div className="iconos-carta-contenedor">
+                    {dataUserDM.skillsoft.map((skillsoft) => {
+                      if (
+                        skillsoft.nombre === "Comunicación" ||
+                        skillsoft.nombre === "Resolución de problemas" ||
+                        skillsoft.nombre === "Creatividad"
+                      ) {
+                        return (
+                          <div class="social-carta" key={skillsoft.id}>
+                            <div className="knowledge">
+                              <p>{skillsoft.nombre}</p>
+                              <img
+                                src={skillsoft.icono}
+                                alt={skillsoft.nombre}
+                              />
                             </div>
-                          );
-                        }
-                      })}
-                    </div>
+                          </div>
+                        );
+                      }
+                    })}
                   </div>
                 </div>
               </div>
