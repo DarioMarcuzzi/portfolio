@@ -1,14 +1,33 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import db from "../../db.json";
+import {FaLinkedin, FaGithub} from 'react-icons/fa';
+import {AiOutlineMail} from 'react-icons/ai';
 import "./perfil.css";
 
 const Perfil = () => {
   const { id } = useParams();
   const data = db.users?.find((user) => user.id === id);
+
+  const hacerZoom = (e) => {
+    e.target.style.transform = "scale(3)";
+    e.target.style.zIndex = "1";
+    e.target.style.transition = "all 0.5s";
+  };
+
+  const volverZoom = (e) => {
+    e.target.style.transform = "scale(1)";
+    e.target.style.zIndex = "0";
+  };
+
+  const volverArriba = () => {
+    window.scrollTo(0, 0);
+  };
+
+
   return (
     <div className="contenedor-perfil">
-      <div>
+      <div className="btn-volver-arriba-contenedor">
         <button className="btn-volver" onClick={() => window.history.back()}>
           Volver
         </button>
@@ -22,12 +41,22 @@ const Perfil = () => {
         <div className="perfil__info">
           <h5>Sobre mi:</h5>
           <p>{data.descripcion}</p>
-          <h5>Email:</h5>
-          <p>{data.email}</p>
           <h5>Fecha de Nacimiento:</h5>
           <p>{data.fechaNacimiento}</p>
           <h5>Pais:</h5>
           <p>{data.origen}</p>
+          <h5>Redes Sociales:</h5>
+          <div className="perfil__redes">
+            <a href={data.linkedin} target="_blank">
+              <FaLinkedin className="icono-red" title="Linkedin" />
+            </a>
+            <a href={data.github} target="_blank">
+              <FaGithub className="icono-red" title="Github" />
+            </a>
+            <a href={"mailto:" + data.email} target="_blank">
+              <AiOutlineMail className="icono-red" title="Email" />
+            </a>
+          </div>
         </div>
       </div>
       <div className="perfil__mas">
@@ -67,7 +96,7 @@ const Perfil = () => {
                 <p>{proyecto.descripcion}</p>
                 <div className="proyecto__imagenes">
                   {proyecto.imagen.map((imagen) => {
-                    return <img src={imagen} alt="imagen" />;
+                    return <img src={imagen} alt="imagen" onMouseOver={hacerZoom} onMouseOut={volverZoom}/>;
                   })}
                 </div>
                 <div className="proyecto__links">
@@ -115,7 +144,7 @@ const Perfil = () => {
         <div className="btn-volver-arriba-contenedor">
           <button
             className="btn-volver-arriba"
-            onClick={() => window.scrollTo(0, 0)}
+            onClick={() => volverArriba()}
           ></button>
         </div>
       </div>
