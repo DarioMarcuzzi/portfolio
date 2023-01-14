@@ -90,7 +90,7 @@
           "id": 13,
           "nombre": "Vercel",
           "porcentaje": 60,
-          "icono": "https://cdn.icon-icons.com/icons2/3375/PNG/512/vercel_brand_icon_211876.png"
+          "icono": "https://seeklogo.com/images/V/vercel-logo-11E85AE911-seeklogo.com.png"
         },
         {
           "id": 14,
@@ -259,11 +259,11 @@
       "nombre": " Luz Daiana",
       "email": "luzdaianaolivaresolivares@gmail.com",
       "apellido": "Olivares",
-      "descripcion": "Soy desarroladora web Full Stack, tambien curso la carrera de Contador Publico hace 2 años, me considero una persona proactiva, responsable, con ganas de aprender y con muchas ganas de crecer profesionalmente. ",
+      "descripcion": "Me dedico a la contabilidad hace diez años, con experiencia en carga de datos, conciliaciones bancarias, facturación, etc. Actualmente estoy cursando el 2° año de la carrera de Contador Publico en la Universidad Empresarial Siglo 21. Como recien egresada en el bootcamp de Henry, he adquirido conocimientos en el desarrollo web full stack. Me considero una persona proactiva, con ganas de aprender y con capacidad de trabajar en equipo.",
       "profesion": "FullStack Developer",
       "origen": "Argentina",
       "fechaNacimiento": "12/03/1997",
-      "comentario": "Hola me llamo Luz! Estudio contabilidad y soy desarrolladora web full stack,",
+      "comentario": "Hola me llamo Luz! me gusta la programacion y la contabilidad, te invito a conocerme mas!",
       "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672687651/imagenes%20Proyecto%20final%20henry/IMG_LuzDaianaOlivares_geix7w.jpg",
       "linkedin":"https://www.linkedin.com/in/luz-daiana-olivares-/",
       "github":"https://github.com/DaianaOli",
@@ -344,7 +344,7 @@
           "id": 13,
           "nombre": "Vercel",
           "porcentaje": 90,
-          "icono": "https://cdn.icon-icons.com/icons2/3375/PNG/512/vercel_brand_icon_211876.png"
+          "icono": "https://seeklogo.com/images/V/vercel-logo-11E85AE911-seeklogo.com.png"
         },
         {
           "id": 14,
@@ -460,7 +460,7 @@
         {
           "id": "5",
           "nombre": "Conecta4",
-          "descripcion": "El juego consiste en un tablero de 6 filas por 7 columnas, en el que los jugadores tiran fichas de un color o de otro. El objetivo del juego es conseguir alinear cuatro fichas del mismo color en horizontal, vertical o diagonal.",
+          "descripcion": "El objetivo del juego es conseguir alinear cuatro fichas del mismo color en horizontal, vertical o diagonal.",
           "imagen": [
             "https://res.cloudinary.com/dcpcja2qg/image/upload/v1671195154/Captura_de_pantalla_191_mk0qrh.png",
             "https://res.cloudinary.com/dcpcja2qg/image/upload/v1671195256/Captura_de_pantalla_195_wceazv.png",
@@ -486,14 +486,14 @@
         {
           "id": 1,
           "nombre": "Asistente Contable",
-          "descripcion": "Asistente Contable en la empresa de servicios contables y tributarios Contador Público Sr. Tubio J. Carlos desde el 01/01/2012 hasta la actualidad.",
+          "descripcion": "Asistente Contable en la empresa de servicios contables y tributarios Contador Público Sr. Tubio J. Carlos desde el 01/01/2013 hasta la actualidad. Realizando carga de datos, facturacion, altas y bajas en AFIP, presentaciones digitales, asistencia bancaria, etc. ",
           "imagen": "https://www.carreras.fhu.unse.edu.ar/wp-content/uploads/2020/12/contador-publico-senor-fernando-diez.jpg",
           "link": ""
         },
         {
           "id": 2,
           "nombre": "Asistente Contable",
-      "descripcion": "Asistente Contable en Cooperativa trabajo y serv grles El Paraiso LTDA, desde  01/06/2017 hasta el 01/02/2018.",
+      "descripcion": "Asistente Contable en Cooperativa trabajo y serv grles El Paraiso LTDA, desde  01/06/2017 hasta el 01/02/2018. Realizando tareas en general como facturación, carga de datos, liquidaciones de impuestos, asistencia bancaria, etc.",
           "imagen": "https://www.carreras.fhu.unse.edu.ar/wp-content/uploads/2020/12/contador-publico-senor-fernando-diez.jpg",
           "link": ""
         }
@@ -580,7 +580,7 @@
     {
       "id": 14,
       "nombre": "Vercel",
-      "icono": "https://cdn.icon-icons.com/icons2/3375/PNG/512/vercel_brand_icon_211876.png"
+      "icono": "https://seeklogo.com/images/V/vercel-logo-11E85AE911-seeklogo.com.png"
     },
     {
       "id": 15,
