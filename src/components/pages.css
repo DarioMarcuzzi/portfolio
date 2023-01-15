@@ -5,6 +5,21 @@
   overflow: hidden;
 }
 
+
+.background-dark-mode{
+  position:relative;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+    background-color: var(--fondo-bg-color);
+    background-size: 1600% 1600%;
+    -webkit-animation: AnimationName 31s ease infinite;
+    -moz-animation: AnimationName 31s ease infinite;
+    animation: AnimationName 31s ease infinite;
+}
+
 @keyframes move {
   100% {
       transform: translate3d(0, 0, 1px) rotate(360deg);
@@ -530,6 +545,7 @@
 .separador{
   width: 100%;
   height: 10vh;
+  
 }
 .home{
   width: 100%;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 
 import Landing from "./landing/Landing";
 import Navbar from "./nav/Navbar";
@@ -7,9 +7,11 @@ import About from "./about/About";
 import "./pages.css";
 import Footer from "./footer/Footer";
 import Separador from "./separador/Separador";
+import { DarkModeContext } from "./context/contex";
 
 const Pages = () => {
   const [particulas, setParticulas] = useState([]);
+  const { isDarkMode } = useContext(DarkModeContext);
 
   let textA = "Sobre Nosotros";
   let textB = "Menu";
@@ -30,7 +32,11 @@ const Pages = () => {
 
   return (
     <div className="contenedor-de-pages">
-      <div class="background">
+      <div
+        className={
+          isDarkMode === "darkMode" ? "background-dark-mode" : "background"
+        }
+      >
         {particulas?.map((e) => {
           return <span key={particulas[e]}></span>;
         })}

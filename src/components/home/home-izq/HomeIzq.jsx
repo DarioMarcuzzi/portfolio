@@ -36,7 +36,6 @@ const HomeIzq = ({
     }
   }, [screenHeight, scrollY]);
 
-  console.log(dataUserDM);
   return (
     <div
       className="contenedor-info"

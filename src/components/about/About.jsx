@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./About.css";
 import data from "../../db.json";
+import { DarkModeContext } from "../context/contex";
 
 const About = () => {
+  const { isDarkMode } = useContext(DarkModeContext);
   const { skills } = data;
   return (
-    <div class="contenedor-about" id="about">
-      <div class="contenedor-info-about">
-        <div class="description-about-title">
-          <p className="description-about">
+    <div className="contenedor-about" id="about">
+      <div className="contenedor-info-about">
+        <div className="description-about-title">
+          <p
+            className={
+              isDarkMode === "darkMode"
+                ? "description-about-dark-mode"
+                : "description-about"
+            }
+          >
             Actualmente diseñamos, rediseñamos y programamos nuevos proyectos y
             aplicaciones web, ya sea del lado del cliente (Front-end, UX / UI)
             como del lado del servidor (Back-end). Continuamente aprendiendo y
@@ -21,14 +29,22 @@ const About = () => {
             objetivo en cada proyecto.
           </p>
         </div>
-        <div class="contenedor-info-tec">
-          <div class="contenedor-tecnologias">
+        <div className="contenedor-info-tec">
+          <div
+            className={
+              isDarkMode === "darkMode"
+                ? "contenedor-tecnologias-darkMode"
+                : "contenedor-tecnologias"
+            }
+          >
             <h1>Tecnologias </h1>
-            <div className="tech">
+            <div
+              className={isDarkMode === "darkMode" ? "tech-dark-mode" : "tech"}
+            >
               {skills.map((skill) => (
-                <div class="social-media" key={skill.id}>
+                <div className="social-media" key={skill.id}>
                   <label>
-                    <p class="tooltip-social">{skill.nombre}</p>
+                    <p className="tooltip-social">{skill.nombre}</p>
                     <img src={skill.icono} alt={skill.nombre} />
                   </label>
                 </div>

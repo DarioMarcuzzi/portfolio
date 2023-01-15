@@ -8,6 +8,16 @@
     margin-top: 80px;
     color: rgb(219, 226, 239)
   }
+  /* .dark-mode-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    color: rgb(0, 0, 0)
+  } */
 
   .div2 {
     display: flex;

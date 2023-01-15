@@ -1,7 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
+import { DarkModeContext } from "../context/contex";
 import "./Landing.css";
 
 const Landing = () => {
+  const { isDarkMode } = useContext(DarkModeContext);
+
   useEffect(() => {
     typeWriter();
   }, []);
