@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+
+:root {
+  --nav-bg-color: rgb(10, 38, 71);
+  --fondo-bg-color: rgb(20, 66, 114);
+  --separador-bg-color: rgb(44, 116, 179);
+  --fondos-textos-bg-color:rgb(44, 51, 51);
+  --fondo-skill-textos-bg-color:rgb(138, 142, 149);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
