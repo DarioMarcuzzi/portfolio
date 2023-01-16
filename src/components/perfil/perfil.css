@@ -268,13 +268,17 @@
 }
 
 .proyecto{
-    width: 30%;
-    height: 70%;
+    /* width: 30%;
+    height: 70%; */
+    width: 500px;
+    height: 450px;
+
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    align-content: center;
+    /* align-content: center; */
     padding: 10px;
     border-radius: 20px;
     background-color: rgb(219, 226, 239);
@@ -288,13 +292,15 @@
 
 
 .proyecto-darkMode{
-    width: 30%;
-    height: 70%;
+    /* width: 30%;
+    height: 70%; */
+    width: 500px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    /* align-content: center; */
     padding: 10px;
     border-radius: 20px;
     background-color:var(--fondo-skill-textos-bg-color);
@@ -455,6 +461,9 @@
     .perfil__info{
         width: 100%;
     }
+    .perfil__info-darkMode{
+        width: 100%;
+    }
     .perfil__skills{
         width: 100%;
     }
@@ -467,9 +476,14 @@
     }
     .proyecto{
         width: 100%;
+        height: 40%;
+        font-size: 18px;
+        
     }
     .proyecto-darkMode{
         width: 100%;
+        height: 40%;
+        font-size: 18px;
     }
     .proyecto__imagenes{
         width: 100%;
