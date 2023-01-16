@@ -141,7 +141,13 @@ const Perfil = () => {
               })}
             </div>
             <h3>Proyectos</h3>
-            <div className="perfil__proyectos">
+            <div
+              className={
+                isDarkMode === "darkMode"
+                  ? "perfil__proyectos__darkMode"
+                  : "perfil__proyectos"
+              }
+            >
               {data.proyectos.map((proyecto) => {
                 return (
                   <div
@@ -202,13 +208,7 @@ const Perfil = () => {
             <div className="perfil__formacion">
               {data.formacion?.map((formacion) => {
                 return (
-                  <div
-                    className={
-                      isDarkMode === "darkMode"
-                        ? "formacion-darkMode"
-                        : "formacion"
-                    }
-                  >
+                  <div className="formacion">
                     <li>{formacion.nombre}</li>
                     <p>{formacion.descripcion}</p>
                     <img src={formacion.imagen} alt="imagen" />
