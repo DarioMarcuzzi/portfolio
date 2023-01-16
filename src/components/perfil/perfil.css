@@ -11,6 +11,10 @@
     height: 100%;
     overflow: hidden;
 }
+
+.contenedor-perfil a{
+    color: #F9F7F7;
+}
 /* Dark Mode */
 
 
@@ -26,6 +30,10 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+}
+.contenedor-perfil-darkMode a{
+
+    color: #F9F7F7;
 }
 .btn-volver-arriba-contenedor{
     gap: 20px;
@@ -99,7 +107,6 @@
     flex-direction: column;
     justify-content: center;
     background-color: rgb(63, 114, 175);
-    backdrop-filter: blur(5px);
     border-radius: 10px;
     padding: 10px;
     box-shadow: 5px 10px 10px 0px black;
@@ -110,7 +117,6 @@
     flex-direction: column;
     justify-content: center;
     background-color:var( --nav-bg-color);
-    backdrop-filter: blur(5px);
     border-radius: 10px;
     padding: 10px;
     box-shadow: 5px 10px 10px 0px black;
@@ -152,7 +158,6 @@
     align-content: center;
     padding: 10px;
     background:rgb(219, 226, 239);
-    backdrop-filter: blur(5px);
     border-radius: 10px;
     box-shadow: 5px 10px 10px 0px black;
     border: ridge 10px rgb(63, 114, 175);
@@ -167,7 +172,6 @@
     align-content: center;
     padding: 10px;
     background-color:var(--fondo-skill-textos-bg-color);
-    backdrop-filter: blur(5px);
     border-radius: 10px;
     box-shadow: 5px 10px 10px 0px black;
     border: ridge 10px rgb(63, 114, 175);
@@ -252,6 +256,16 @@
     align-items: center;
     align-content: center;
 }
+.perfil__proyectos__darkMode{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 
 .proyecto{
     width: 30%;
@@ -322,7 +336,6 @@
     flex-direction: row;
     gap: 20px;
     justify-content: center;
-    
 }
 .proyecto__links-darkMode a{
     text-decoration: none;
@@ -333,7 +346,6 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgb(63, 114, 175);
-    
 }
 
 .proyecto__links-darkMode a:hover{
@@ -342,8 +354,6 @@
     color: #ffffff;
     text-shadow:  2px 2px black;
 }
-
-
 
 .proyecto__links a{
     text-decoration: none;
@@ -379,61 +389,32 @@
     padding: 10px;
 }
 .experiencia img{
-    width: 10%;
+    width: 40%;
     object-fit: cover;
     border-radius: 10px;
     border: #262626 2px solid;
 }
 .perfil__formacion{
-    width: 80%;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.formacion{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: rgb(219, 226, 239);
-    border: ridge 10px rgb(63, 114, 175);
-    font-size: 1.5rem;
-    box-shadow: 5px 10px 10px 0px black;
-    color:rgb(17, 45, 78) ;
-}
-.formacion-darkMode{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding: 10px;
-    border-radius: 20px;
-    background-color:var(--fondo-skill-textos-bg-color);
-    border: ridge 10px rgb(63, 114, 175);
-    font-size: 1.5rem;
-    box-shadow: 5px 10px 10px 0px black;
-    color: white;
-}
-.formacion-darkMode img{
-    width: 50%;
-    object-fit: cover;
-    border-radius: 10px;
-    border: #262626 2px solid;
+    padding: 10px;   
 }
 
+.formacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255) ;
+    
+}
 
 .formacion img{
-    width: 50%;
+    width: 40%;
     object-fit: cover;
     border-radius: 10px;
     border: #262626 2px solid;
@@ -487,6 +468,9 @@
     .proyecto{
         width: 100%;
     }
+    .proyecto-darkMode{
+        width: 100%;
+    }
     .proyecto__imagenes{
         width: 100%;
         gap: 20px;
@@ -502,16 +486,6 @@
         width: 100%;
     }
     .experiencia img{
-        width: 100%;
-    }
-    .perfil__formacion{
-        width: 100%;
-        flex-direction: column;
-    }
-    .formacion{
-        width: 100%;
-    }
-    .formacion img{
         width: 100%;
     }
 }
