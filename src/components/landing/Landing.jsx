@@ -44,7 +44,10 @@ const Landing = () => {
         </label>
       </div>
       <div className="div3">
-        <img src="https://i.ibb.co/0nQqQZp/daiana.png" alt="Dario y Daiana" />
+        <img
+          src="https://res.cloudinary.com/dmpqjroj5/image/upload/v1674325205/foto_landing_jjch3c.png"
+          alt="Dario y Daiana"
+        />
       </div>
     </div>
   );

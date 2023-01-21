@@ -24,9 +24,6 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <div className="componenete-darkMode">
-        <DarkMode />
-      </div>
       <div className="btn-links-nav">
         <Link to="about" smooth={true} duration={500}>
           <button>Sobre nosotros</button>
@@ -34,6 +31,9 @@ const Navbar = () => {
         <Link to="home" smooth={true} duration={500}>
           <button>Menu</button>
         </Link>
+      </div>
+      <div className="componenete-darkMode">
+        <DarkMode />
       </div>
     </div>
   );
