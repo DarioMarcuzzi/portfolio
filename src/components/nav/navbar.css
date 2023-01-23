@@ -80,7 +80,11 @@
     color: white;
     font-size: 25px;
     border-bottom: 1px solid black;
-    /* transform: translateY(-2px) */
+    transform: translateY(-2px)
+}
+.componenete-darkMode{
+
+    margin-right: 30px;
 }
 
 

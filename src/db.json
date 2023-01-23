@@ -4,7 +4,7 @@
       "id": "15e6e4f4-69ef-11ed-a1eb-0242ac120002",
       "nombre": "Dario",
       "apellido": "Marcuzzi",
-      "descripcion": "Soy un desarrollador FullStack, me gusta el diseño y la programación, me gusta aprender cosas nuevas y me gusta mucho el café",
+      "descripcion": " Soy un desarrollador FullStack, siempre busco mejorar mi conocimiento y habilidades para poder ofrecer un servicio de calidad a mis clientes. \n En mi portafolio, pueden encontrar ejemplos de proyectos que ilustran mi capacidad para desarrollar aplicaciones web eficientes y con una excelente experiencia de usuario. \n Estoy seguro de que si me contratan, podré ayudarles a mejorar su presencia en línea y aumentar su rendimiento en el mundo digital.\n Por favor, no duden en ponerse en contacto conmigo si tienen alguna pregunta o si están interesados en discutir cómo puedo ayudarles. Muchas gracias por su tiempo.",
       "email": "dariomarcuzzi2@gmail.com",
       "profesion": "FullStack Developer",
       "origen": "Argentina",
@@ -99,72 +99,73 @@
           "icono": "https://img.icons8.com/color/512/redux.png"
         }
       ],
-      "skillsoft": [{
-        "id": 1,
-        "nombre": "Comunicación",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/communication.png"
-      },
-      {
-        "id": 2,
-        "nombre": "Trabajo en equipo",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/teamwork.png"
-      },
-      {
-        "id": 3,
-        "nombre": "Resolución de problemas",
-        "porcentaje": 80,
-        "icono": "https://cdn-icons-png.flaticon.com/512/4325/4325613.png"
-      },
-      {
-        "id": 4,
-        "nombre": "Creatividad",
-        "porcentaje": 80,
-        "icono": "https://cdn-icons-png.flaticon.com/512/4214/4214085.png"
-      },
-      {
-        "id": 5,
-        "nombre": "Liderazgo",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/leadership.png"
-      },
-      {
-        "id": 6,
-        "nombre": "Gestión de proyectos",
-        "porcentaje": 80,
-        "icono": "https://img.icons8.com/color/512/project-management.png"
-      },
-      {
-        "id": 7,
-        "nombre": "Gestión de tiempo",
-        "porcentaje": 80,
-        "icono": "https://cdn-icons-png.flaticon.com/512/1077/1077912.png"
-      },
-      {
-        "id": 8,
-        "nombre": "Adaptabilidad",
-        "porcentaje": 80,
-        "icono": "https://cdn-icons-png.flaticon.com/512/3316/3316286.png"
-      },
-      {
-        "id": 9,
-        "nombre": "Actitud positiva",
-        "porcentaje": 80,
-        "icono": "https://cdn-icons-png.flaticon.com/512/3201/3201250.png"
-      },
-      {
-        "id": 10,
-        "nombre": "Organización",
-        "porcentaje": 80,
-        "icono": "https://cdn-icons-png.flaticon.com/512/943/943777.png"
-      },
-      {
-        "id": 11,
-        "nombre": "Dedicación",
-        "porcentaje": 80,
-        "icono": "https://cdn-icons-png.flaticon.com/512/2833/2833587.png"
-      }
+      "skillsoft": [
+        {
+          "id": 1,
+          "nombre": "Comunicación",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/color/512/communication.png"
+        },
+        {
+          "id": 2,
+          "nombre": "Trabajo en equipo",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/color/512/teamwork.png"
+        },
+        {
+          "id": 3,
+          "nombre": "Resolución de problemas",
+          "porcentaje": 80,
+          "icono": "https://cdn-icons-png.flaticon.com/512/4325/4325613.png"
+        },
+        {
+          "id": 4,
+          "nombre": "Creatividad",
+          "porcentaje": 80,
+          "icono": "https://cdn-icons-png.flaticon.com/512/4214/4214085.png"
+        },
+        {
+          "id": 5,
+          "nombre": "Liderazgo",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/color/512/leadership.png"
+        },
+        {
+          "id": 6,
+          "nombre": "Gestión de proyectos",
+          "porcentaje": 80,
+          "icono": "https://img.icons8.com/color/512/project-management.png"
+        },
+        {
+          "id": 7,
+          "nombre": "Gestión de tiempo",
+          "porcentaje": 80,
+          "icono": "https://cdn-icons-png.flaticon.com/512/1077/1077912.png"
+        },
+        {
+          "id": 8,
+          "nombre": "Adaptabilidad",
+          "porcentaje": 80,
+          "icono": "https://cdn-icons-png.flaticon.com/512/3316/3316286.png"
+        },
+        {
+          "id": 9,
+          "nombre": "Actitud positiva",
+          "porcentaje": 80,
+          "icono": "https://cdn-icons-png.flaticon.com/512/3201/3201250.png"
+        },
+        {
+          "id": 10,
+          "nombre": "Organización",
+          "porcentaje": 80,
+          "icono": "https://cdn-icons-png.flaticon.com/512/943/943777.png"
+        },
+        {
+          "id": 11,
+          "nombre": "Dedicación",
+          "porcentaje": 80,
+          "icono": "https://cdn-icons-png.flaticon.com/512/2833/2833587.png"
+        }
       ],
       "proyectos": [
         {
@@ -242,7 +243,7 @@
           "id": "2",
           "nombre": "Maquinista",
           "descripcion": "Manejo de retro excavadora, camión volcador Bob cat, en movimiento de suelo",
-          "imagen": "https://scontent.frgl2-1.fna.fbcdn.net/v/t39.30808-6/298970015_532904231970410_7905739295998563252_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=jj-t5e8Xc04AX8IoiUR&_nc_ht=scontent.frgl2-1.fna&oh=00_AfA6RBcCVLb12WWLwCTF91l7Q3Njz6rEPL1KCMdAdDt2tw&oe=63BD0F32",
+          "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1674478100/batec-vial_igyiza.jpg",
           "link": "https://es-la.facebook.com/people/Batec-vial/100057525127063/"
         },
         {
@@ -259,14 +260,14 @@
       "nombre": " Luz Daiana",
       "email": "luzdaianaolivaresolivares@gmail.com",
       "apellido": "Olivares",
-      "descripcion": "Me dedico a la contabilidad hace diez años, con experiencia en carga de datos, conciliaciones bancarias, facturación, etc. Actualmente estoy cursando el 2° año de la carrera de Contador Publico en la Universidad Empresarial Siglo 21. Como recien egresada en el bootcamp de Henry, he adquirido conocimientos en el desarrollo web full stack. Me considero una persona proactiva, con ganas de aprender y con capacidad de trabajar en equipo.",
+      "descripcion": "Me dedico a la contabilidad hace diez años, con experiencia en carga de datos, conciliaciones bancarias, facturación, etc. Actualmente estoy cursando el 2° año de la carrera de Contador Publico en la Universidad Empresarial Siglo 21.\n Como recien egresada en el bootcamp de Henry, he adquirido conocimientos en el desarrollo web full stack. Me considero una persona proactiva, con ganas de aprender y con capacidad de trabajar en equipo.",
       "profesion": "FullStack Developer",
       "origen": "Argentina",
       "fechaNacimiento": "12/03/1997",
       "comentario": "Hola me llamo Luz! me gusta la programacion y la contabilidad, te invito a conocerme mas!",
       "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672687651/imagenes%20Proyecto%20final%20henry/IMG_LuzDaianaOlivares_geix7w.jpg",
-      "linkedin":"https://www.linkedin.com/in/luz-daiana-olivares-/",
-      "github":"https://github.com/DaianaOli",
+      "linkedin": "https://www.linkedin.com/in/luz-daiana-olivares-/",
+      "github": "https://github.com/DaianaOli",
       "skill": [
         {
           "id": 1,
@@ -353,60 +354,61 @@
           "icono": "https://img.icons8.com/color/512/redux.png"
         }
       ],
-      "skillsoft": [{
-        "id": 1,
-        "nombre": "Comunicación",
-        "porcentaje": 100,
-        "icono": "https://img.icons8.com/color/512/communication.png"
-      },
-      {
-        "id": 2,
-        "nombre": "Trabajo en equipo",
-        "porcentaje": 100,
-        "icono": "https://img.icons8.com/color/512/teamwork.png"
-      },
-      {
-        "id": 3,
-        "nombre": "Resolución de problemas",
-        "porcentaje": 90,
-        "icono": "https://cdn-icons-png.flaticon.com/512/4325/4325613.png"
-      },
-      {
-        "id": 4,
-        "nombre": "Resiliencia",
-        "porcentaje": 100,
-        "icono": "https://cdn-icons-png.flaticon.com/512/4310/4310276.png"
-      },
-      {
-        "id": 5,
-        "nombre": "Liderazgo",
-        "porcentaje": 85,
-        "icono": "https://img.icons8.com/color/512/leadership.png"
-      },
-      {
-        "id": 6,
-        "nombre": "Adaptabilidad",
-        "porcentaje": 95,
-        "icono": "https://cdn-icons-png.flaticon.com/512/5398/5398511.png"
-      },
-      {
-        "id": 7,
-        "nombre": "Responsabilidad",
-        "porcentaje": 100,
-        "icono": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/512/external-responsibility-parenthood-flaticons-lineal-color-flat-icons-2.png"
-      },
-      {
-        "id": 8,
-        "nombre": "Escucha activa",
-        "porcentaje": 100,
-        "icono": "https://cdn-icons-png.flaticon.com/512/4413/4413551.png"
-      },
-      {
-        "id": 9,
-        "nombre": "Flexibilidad",
-        "porcentaje": 50,
-        "icono": "https://cdn-icons-png.flaticon.com/512/4727/4727351.png"
-      }
+      "skillsoft": [
+        {
+          "id": 1,
+          "nombre": "Comunicación",
+          "porcentaje": 100,
+          "icono": "https://img.icons8.com/color/512/communication.png"
+        },
+        {
+          "id": 2,
+          "nombre": "Trabajo en equipo",
+          "porcentaje": 100,
+          "icono": "https://img.icons8.com/color/512/teamwork.png"
+        },
+        {
+          "id": 3,
+          "nombre": "Resolución de problemas",
+          "porcentaje": 90,
+          "icono": "https://cdn-icons-png.flaticon.com/512/4325/4325613.png"
+        },
+        {
+          "id": 4,
+          "nombre": "Resiliencia",
+          "porcentaje": 100,
+          "icono": "https://cdn-icons-png.flaticon.com/512/4310/4310276.png"
+        },
+        {
+          "id": 5,
+          "nombre": "Liderazgo",
+          "porcentaje": 85,
+          "icono": "https://img.icons8.com/color/512/leadership.png"
+        },
+        {
+          "id": 6,
+          "nombre": "Adaptabilidad",
+          "porcentaje": 95,
+          "icono": "https://cdn-icons-png.flaticon.com/512/5398/5398511.png"
+        },
+        {
+          "id": 7,
+          "nombre": "Responsabilidad",
+          "porcentaje": 100,
+          "icono": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/512/external-responsibility-parenthood-flaticons-lineal-color-flat-icons-2.png"
+        },
+        {
+          "id": 8,
+          "nombre": "Escucha activa",
+          "porcentaje": 100,
+          "icono": "https://cdn-icons-png.flaticon.com/512/4413/4413551.png"
+        },
+        {
+          "id": 9,
+          "nombre": "Flexibilidad",
+          "porcentaje": 50,
+          "icono": "https://cdn-icons-png.flaticon.com/512/4727/4727351.png"
+        }
       ],
       "proyectos": [
         {
@@ -493,7 +495,7 @@
         {
           "id": 2,
           "nombre": "Asistente Contable",
-      "descripcion": "Asistente Contable en Cooperativa trabajo y serv grles El Paraiso LTDA, desde  01/06/2017 hasta el 01/02/2018. Realizando tareas en general como facturación, carga de datos, liquidaciones de impuestos, asistencia bancaria, etc.",
+          "descripcion": "Asistente Contable en Cooperativa trabajo y serv grles El Paraiso LTDA, desde  01/06/2017 hasta el 01/02/2018. Realizando tareas en general como facturación, carga de datos, liquidaciones de impuestos, asistencia bancaria, etc.",
           "imagen": "https://www.carreras.fhu.unse.edu.ar/wp-content/uploads/2020/12/contador-publico-senor-fernando-diez.jpg",
           "link": ""
         }
@@ -528,51 +530,63 @@
       "id": 1,
       "nombre": "HTML",
       "icono": "https://img.icons8.com/external-avoca-kerismaker/512/external-HTML-software-development-avoca-kerismaker.png"
-    },{
+    },
+    {
       "id": 2,
       "nombre": "CSS",
       "icono": "https://img.icons8.com/fluency/512/css3.png"
-    },{
+    },
+    {
       "id": 3,
       "nombre": "JavaScript",
       "icono": "https://img.icons8.com/color/512/javascript.png"
-    },{
+    },
+    {
       "id": 4,
       "nombre": "React",
       "icono": "https://img.icons8.com/office/512/react.png"
-    },{
+    },
+    {
       "id": 5,
       "nombre": "Redux",
       "icono": "https://img.icons8.com/color/512/redux.png"
-    },{
+    },
+    {
       "id": 6,
       "nombre": "Node",
       "icono": "https://img.icons8.com/color/512/nodejs.png"
-    },{
+    },
+    {
       "id": 7,
       "nombre": "Express",
       "icono": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
-    },{
+    },
+    {
       "id": 8,
       "nombre": "PostgreSQL",
       "icono": "https://img.icons8.com/color/512/postgreesql.png"
-    },{
+    },
+    {
       "id": 9,
       "nombre": "Sequelize",
       "icono": "https://cdn.icon-icons.com/icons2/2415/PNG/96/sequelize_original_wordmark_logo_icon_146349.png"
-    },{
+    },
+    {
       "id": 10,
       "nombre": "Git",
       "icono": "https://img.icons8.com/color/512/git.png"
-    },{
+    },
+    {
       "id": 11,
       "nombre": "GitHub",
       "icono": "https://img.icons8.com/ios-filled/512/github.png"
-    },{
+    },
+    {
       "id": 12,
       "nombre": "Heroku",
       "icono": "https://img.icons8.com/color/512/heroku.png"
-    },{
+    },
+    {
       "id": 13,
       "nombre": "Bootstrap",
       "icono": "https://img.icons8.com/color/512/bootstrap.png"

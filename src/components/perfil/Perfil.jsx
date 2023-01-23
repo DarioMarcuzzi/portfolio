@@ -83,7 +83,18 @@ const Perfil = () => {
               }
             >
               <h5>Sobre mi:</h5>
-              <p>{data.descripcion}</p>
+              <p>
+                {data.descripcion.split("\n").map((item, key) => {
+                  return (
+                    <span key={key}>
+                      {item}
+                      <br />
+                    </span>
+                  );
+                })}
+              </p>
+              {/* <p>{data.descripcion.replace(/\n/g, "<br>")}</p> */}
+              {/* <h5>{data.descripcion}</h5> */}
               <h5>Fecha de Nacimiento:</h5>
               <p>{data.fechaNacimiento}</p>
               <h5>Pais:</h5>
