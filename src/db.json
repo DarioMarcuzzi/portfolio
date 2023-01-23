@@ -213,6 +213,18 @@
           ],
           "link": "https://github.com/DarioMarcuzzi/calculadora",
           "link2": "https://calculadora-gamma-nine.vercel.app"
+        },
+        {
+          "id": "5",
+          "nombre": "SingleApp",
+          "descripcion": "Una SingleApp utilizando react html js, con efecto parallax",
+          "imagen": [
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1674485593/noritex/landing_bv90yj.jpg",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1674485611/noritex/section2_viwbha.png",
+            "https://res.cloudinary.com/dmpqjroj5/image/upload/v1674485593/noritex/footer_tvzkun.jpg"
+          ],
+          "link": "https://github.com/DarioMarcuzzi/proyecto",
+          "link2": "https://singleappnoritex.vercel.app/"
         }
       ],
       "formacion": [
