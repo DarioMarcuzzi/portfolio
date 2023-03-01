@@ -2,14 +2,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    box-shadow: 0 0 10px rgb(247, 241, 241);
+    box-shadow: 0 0 10px rgba(247, 241, 241, 0.507);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
-    background-color: #112D4E;
-    border-radius: 0px 0px 25px 25px;
+    background-color: #6C6581;
     height: 100px;
     overflow: hidden;
 }
@@ -24,8 +23,7 @@
     left: 0;
     right: 0;
     z-index: 100;
-    background-color:rgb(4, 28, 50);
-    border-radius: 0px 0px 25px 25px;
+    background-color:#6C6581;
     height: 100px;
     overflow: hidden;
 }
@@ -79,14 +77,12 @@
 .btn-links-nav button:hover {
     color: white;
     font-size: 25px;
-    border-bottom: 1px solid black;
-    transform: translateY(-2px)
+    border-bottom: 1px solid rgb(245, 242, 242);
+    transform: translateY(-2px);
 }
 .componenete-darkMode{
-
     margin-right: 30px;
 }
-
 
 @media (max-width: 768px){
 
@@ -97,6 +93,8 @@
         padding: 0px;
         height: 70px;
         border-radius: 0px 0px 0px 0px;
+        background-color: #6C6581;
+
     }
     .contenedor-nav-principal-dark-mode{
         display: flex;
@@ -105,6 +103,8 @@
           padding: 0px;
           height: 70px;
           border-radius: 0px 0px 0px 0px;
+    background-color: #6C6581;
+
     }
     .logo-nav{
         width: 80px;
@@ -136,8 +136,7 @@
     .btn-links-nav button:hover {
         color: white;
         font-size: 15px;
-        border-bottom: 1px solid black;
-        /* transform: translateY(-2px) */
+        border-bottom: 1px solid rgb(247, 246, 246);
     }
     button::active{
         background-color: aqua;
