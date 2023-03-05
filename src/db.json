@@ -533,6 +533,13 @@
           "descripcion": "Cursos varios",
           "imagen": "https://cdn.efset.org/efset-widget/img/certificate_31.png",
           "link": "https://www.efset.org/cert/DM3JeM"
+        },
+        {
+          "id": 4,
+          "nombre": "React Basico",
+          "descripcion": "Open Bootcamp",
+          "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1678037275/Captura_de_pantalla_2023-03-05_123548_zkdouc.png",
+          "link": "https://community.open-bootcamp.com/user/ldaianaolivares/certificaciones/2e02a201-6801-4e87-a1cd-0b822fbb65e3"
         }
       ]
     }
