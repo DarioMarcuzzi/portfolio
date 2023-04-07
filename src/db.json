@@ -272,7 +272,7 @@
       "nombre": " Luz Daiana",
       "email": "luzdaianaolivaresolivares@gmail.com",
       "apellido": "Olivares",
-      "descripcion": "Me dedico a la contabilidad hace diez años, con experiencia en carga de datos, conciliaciones bancarias, facturación, etc. Actualmente estoy cursando el 2° año de la carrera de Contador Publico en la Universidad Empresarial Siglo 21.\n Como recien egresada en el bootcamp de Henry, he adquirido conocimientos en el desarrollo web full stack. Me considero una persona proactiva, con ganas de aprender y con capacidad de trabajar en equipo.",
+      "descripcion": "Me dedico a la contabilidad hace diez años, con experiencia en carga de datos, conciliaciones bancarias, facturación, etc. Actualmente estoy cursando el 2° año de la carrera de Contador Publico en la Universidad Empresarial Siglo 21.\n Como egresada en el bootcamp de Henry, he adquirido conocimientos en el desarrollo web full stack. Me considero una persona proactiva, con ganas de aprender y con capacidad de trabajar en equipo.",
       "profesion": "FullStack Developer",
       "origen": "Argentina",
       "fechaNacimiento": "12/03/1997",
@@ -533,6 +533,20 @@
           "descripcion": "Cursos varios",
           "imagen": "https://cdn.efset.org/efset-widget/img/certificate_31.png",
           "link": "https://www.efset.org/cert/DM3JeM"
+        },
+        {
+          "id": 4,
+          "nombre": "React Basico",
+          "descripcion": "Open Bootcamp",
+          "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1678037275/Captura_de_pantalla_2023-03-05_123548_zkdouc.png",
+          "link": "https://community.open-bootcamp.com/user/ldaianaolivares/certificaciones/2e02a201-6801-4e87-a1cd-0b822fbb65e3"
+        },
+        {
+          "id": 5,
+          "nombre": "Primeros pasos del desarrollo frontend",
+          "descripcion": "Argentina Programa 4.0",
+          "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1678233591/Captura_de_pantalla_2023-03-07_205928_g041mi.png",
+          "link": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1678233591/Captura_de_pantalla_2023-03-07_205928_g041mi.png"
         }
       ]
     }
