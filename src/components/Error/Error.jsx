@@ -1,20 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../footer/Footer'
-import './error.css'
 
 const Error = () => {
     return (
-        <div className="error__container">
-            <div className="error__info">
-                <h1>Pagina no encontrada</h1>
-                <img src="https://cdn-icons-png.flaticon.com/512/868/868843.png" alt="error" />
-                <p>Lo siento, la pagina que esta buscando, no existe.</p>
-                <Link to="/"><button>Ir al inicio</button></Link>
+        <div className="bg-slate-50 dark:bg-slate-950 text-dark dark:text-white font-mono">
+            <div className="flex flex-col items-center justify-center h-screen text-center">
+                <h1 className="text-6xl font-bold">404</h1>
+                <h2 className="text-3xl mb-14">Página no encontrada</h2>
+                <Link to="/" className="py-2 px-6 bg-gray-900 text-white rounded-full text-2xl hover:bg-gray-700 transition duration-300 ease-in-out flex items-center animate-bounce">
+                    Volver al inicio
+                </Link>
             </div>
-            <div className="error__footer">
-                <Footer />
-            </div>
+            <Footer />
         </div>
     )
 }

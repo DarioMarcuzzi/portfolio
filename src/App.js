@@ -1,22 +1,24 @@
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import { DarkModeProvider } from "./components/context/contex.js";
 import Perfil from "./components/perfil/Perfil";
 import Pages from "./components/pages";
 import Error from "./components/Error/Error";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+AOS.init();
 
 function App() {
+
   return (
     <BrowserRouter>
-      <DarkModeProvider>
-        <div>
+        <div className="bg-slate-50 dark:bg-slate-950 text-dark dark:text-white font-mono">
           <Routes>
-            <Route exact path="/" element={<Pages />} />
+            <Route path="/" element={<Pages />} />
             <Route path="/perfil/:id" element={<Perfil />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </div>
-      </DarkModeProvider>
     </BrowserRouter>
   );
 }
