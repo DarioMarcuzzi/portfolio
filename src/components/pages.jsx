@@ -1,66 +1,39 @@
-import React, { useContext, useEffect, useState } from "react";
-
+import React from "react";
+import { Route,Routes, BrowserRouter } from "react-router-dom";
 import Landing from "./landing/Landing";
 import Navbar from "./nav/Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
-import "./pages.css";
 import Footer from "./footer/Footer";
-import Separador from "./separador/Separador";
-import { DarkModeContext } from "./context/contex";
+
 
 const Pages = () => {
-  const [particulas, setParticulas] = useState([]);
-  const { isDarkMode } = useContext(DarkModeContext);
-
-  let textA = "Sobre Nosotros";
-  let textB = "Menu";
-
-  useEffect(() => {
-    crearParticulas(40);
-  }, []);
-
-  function crearParticulas(num) {
-    let array = [];
-
-    for (let i = 0; i < num; i++) {
-      array.push("*");
-    }
-
-    setParticulas(array);
-  }
-
   return (
-    <div className="contenedor-de-pages">
-      <div
-        className={
-          isDarkMode === "darkMode" ? "background-dark-mode" : "background"
-        }
-      >
-        {particulas?.map((e) => {
-          return <span key={particulas[e]}></span>;
-        })}
-        <Navbar />
-        <div className="landing">
+  <div className="flex flex-col " id="pages">
+        <div className="h-16">
+          <Navbar />
+        </div>
+        <div className="flex flex-col gap-10 ">
+        <div id="landing" data-aos="zoom-in"
+          data-aos-duration="2000">
           <Landing />
         </div>
-        <div className="separador">
-          <Separador text={textA} />
-        </div>
-        <div className="about">
+        <div data-aos="zoom-in"
+          data-aos-duration="2000"
+          id="about">
           <About />
         </div>
-        <div className="separador">
-          <Separador text={textB} />
-        </div>
-        <div className="home">
+        <div data-aos="zoom-in"
+          data-aos-duration="2000"
+          id="home">
           <Home />
-        </div>{" "}
-        <div className="footer">
+        </div>
+        <div className="">
           <Footer />
         </div>
+        </div>
+        
       </div>
-    </div>
   );
 };
 

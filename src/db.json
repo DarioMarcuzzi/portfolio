@@ -13,6 +13,7 @@
       "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
       "linkedin": "https://www.linkedin.com/in/dario-marcuzzi-399908224/",
       "github": "https://github.com/DarioMarcuzzi",
+      "cv": "https://drive.google.com/file/d/1TSfq1-sHXmMB6Gk0_bYHk_xdtf-bUYMx/view?usp=sharing",
       "skill": [
         {
           "id": 1,
@@ -280,6 +281,7 @@
       "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672687651/imagenes%20Proyecto%20final%20henry/IMG_LuzDaianaOlivares_geix7w.jpg",
       "linkedin": "https://www.linkedin.com/in/luz-daiana-olivares-/",
       "github": "https://github.com/DaianaOli",
+      "cv": "https://drive.google.com/file/d/1dmBaK98tmbO4XbkYIYnDLdI7OAHX-Mjm/view?usp=sharing",
       "skill": [
         {
           "id": 1,
@@ -530,7 +532,7 @@
         {
           "id": 3,
           "nombre": "Ingles",
-          "descripcion": "Cursos varios",
+          "descripcion": "Continuamente aprendiendo",
           "imagen": "https://cdn.efset.org/efset-widget/img/certificate_31.png",
           "link": "https://www.efset.org/cert/DM3JeM"
         },
@@ -547,6 +549,20 @@
           "descripcion": "Argentina Programa 4.0",
           "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1678233591/Captura_de_pantalla_2023-03-07_205928_g041mi.png",
           "link": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1678233591/Captura_de_pantalla_2023-03-07_205928_g041mi.png"
+        },
+        {
+          "id":6,
+          "nombre": "Fundamentos de UX",
+          "descripcion": "Open Bootcamp",
+          "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681088146/certificate_s1hlfp.png",
+          "link": "https://certificate.uxuiopen.com/642543755fa34d77550f3f01"
+        },
+        {
+          "id": 7,
+          "nombre": "User flows",
+          "descripcion": "Open Bootcamp",
+          "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681088145/certificate_1_m6fuwc.png",
+          "link": "https://certificate.uxuiopen.com/642546581b7c9485c266a23e"
         }
       ]
     }
@@ -626,6 +642,16 @@
       "id": 15,
       "nombre": "Figma",
       "icono": "https://img.icons8.com/color/512/figma--v1.png"
+    },
+    {
+      "id": 16,
+      "nombre": "Tailwind CSS",
+      "icono": "https://img.icons8.com/color/256/tailwind_css.png"
+    },
+    {
+      "id": 17,
+      "nombre": "Railway",
+      "icono": "https://railway.app/brand/logo-dark.svg"
     }
   ]
 }
