@@ -496,6 +496,18 @@
           ],
           "link": "https://github.com/MrBluegru/CoffeeStreet-FrontEnd",
           "link2": "https://coffee-street-front-end.vercel.app"
+        },
+        {
+           "id": 8,
+          "nombre": "SP-UVI Prueba",
+          "descripcion": "Prueba de conocimientos para la empresa UVI, realizando una Single Page con Vite, React y Tailwind CSS",
+          "imagen": [
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681322742/Captura_de_pantalla_2023-04-12_150211_ea0bfd.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681322742/Captura_de_pantalla_2023-04-12_150230_q1jfai.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681322740/Captura_de_pantalla_2023-04-12_150333_beawqu.png"
+          ],
+          "link": "https://github.com/DaianaOli/uvi-prueba",
+          "link2": "https://uvi-prueba.vercel.app/"
         }
       ],
       "experiencia": [
