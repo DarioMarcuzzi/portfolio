@@ -508,6 +508,18 @@
           ],
           "link": "https://github.com/DaianaOli/uvi-prueba",
           "link2": "https://uvi-prueba.vercel.app/"
+        },
+        {
+          "id": 9,
+          "nombre": "Bus App UX/UX",
+          "descripcion": "Diseño de una aplicación para un empresa de transporte urbano dentro del curso de UX/UI de Open Bootcamp, con el objetivo de mejorar la experiencia de los usuarios. Creando historias de usuario y su flujo, mapa del sitio, wireframes, moodboard, hi-fi mock up (aún en progreso)",
+          "imagen": [
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681485007/Captura_de_pantalla_2023-04-14_120907_eo1fka.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681485008/Captura_de_pantalla_2023-04-14_120921_hgxwvv.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681485007/Captura_de_pantalla_2023-04-14_120933_oz07qj.png"
+          ],
+          "link": "https://www.figma.com/file/PWXzDcIHwjG1cctashbgDp/Trabajos-para-bus-app?node-id=0%3A1&t=HHVJ2BTy7Z4CtLSp-1",
+          "link2": "https://www.figma.com/proto/PWXzDcIHwjG1cctashbgDp/Trabajos-para-bus-app?node-id=1-2&scaling=contain&page-id=0%3A1"
         }
       ],
       "experiencia": [
