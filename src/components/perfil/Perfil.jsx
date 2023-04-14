@@ -40,7 +40,12 @@ const Perfil = () => {
             <span className="font-bold">Link</span>
             <button className="border-b-2 border-gray-500">
               <a href={p.link2} target="_blank" rel="noreferrer">
-                Ver más
+                Ver online  
+              </a>
+            </button>
+            <button className="border-b-2 border-gray-500">
+              <a href={p.link} target="_blank" rel="noreferrer">
+                Repo
               </a>
             </button>
           </li>
