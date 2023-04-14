@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-slate-50/40 dark:bg-slate-950/50 fixed z-10 w-full flex items-center justify-between  sm:h-16 p-4">
+    <nav className="bg-slate-50/40 backdrop-blur-xl dark:bg-slate-950/50 fixed z-10 w-full flex items-center justify-between  sm:h-16 p-4">
       <div className="flex items-center flex-shrink-0 mr-6 h-10">
         <Link to="pages" smooth={true} duration={500}>
           <button>

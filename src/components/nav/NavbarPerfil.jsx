@@ -12,7 +12,7 @@ const NavbarPerfil = () => {
     const logo = "https://res.cloudinary.com/dcpcja2qg/image/upload/v1672409846/logoDD_logj6a.png"
 
     return (
-        <nav className="bg-slate-50/40 dark:bg-slate-950/50 fixed z-10 w-full flex items-center justify-between  sm:h-16 p-4">
+        <nav className="bg-slate-50/40 backdrop-blur-xl dark:bg-slate-950/50 fixed z-10 w-full flex items-center justify-between  sm:h-16 p-4">
             <div className="flex items-center flex-shrink-0 mr-6 h-10">
                         <img
                             src={logo}
