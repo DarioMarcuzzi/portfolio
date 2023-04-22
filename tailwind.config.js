@@ -23,6 +23,10 @@ module.exports = {
         content: 'attr(title)',
         display: 'block',
       },
+      boxShadow: {
+        // otras sombras
+        slick: "0 10px 20px -5px rgba(0, 0, 0, 0.75)",
+      },
       // backgroundImage:{
       //   'mancha': "url('https://res.cloudinary.com/dcpcja2qg/image/upload/v1681068503/Dise%C3%B1o_sin_t%C3%ADtulo__1_-removebg-preview_xjzgdi.png')",
       // }

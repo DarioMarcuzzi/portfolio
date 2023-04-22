@@ -4,6 +4,11 @@ import db from "../../db.json";
 import { FaLinkedin, FaGithub, FaFilePdf } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import NavbarPerfil from "../nav/NavbarPerfil";
+import Proyectos from "./Proyectos";
+import Tecnologia from "./Tecnologia";
+import Experiencia from "./ExperienciaLaboral";
+import Educacion from "./Educacion";
+import Habilidad from "./Habilidad";
 
 const Perfil = () => {
   const { id } = useParams();
@@ -14,95 +19,24 @@ const Perfil = () => {
   }, [])
   
 
-  const proyecto = data.proyectos.map((p) => {
-    return (
-      <div key={p.id}
-      className="flex flex-col bg-white dark:bg-gray-800/50 rounded-lg shadow-xl p-4">
-        <h4 className="text-xl text-gray-500 font-bold">{p.nombre}</h4>
-        <div className="flex flex-row flex-wrap" >
-          {p.imagen?.map((i) => {
-            return (
-              <img
-                key={i}
-                src={i}
-                alt="img"
-                className="w-full sm:w-1/2 md:w-1/3 border-4 border-white"
-              />
-            );
-          })}
-        </div>
-        <ul className="mt-2 text-gray-700">
-          <li className="flex border-t border-b py-2 gap-4 flex-col">
-            <span className="font-bold">Descripcion</span>
-            <span className="text-gray-700">{p.descripcion}</span>
-          </li>
-          <li className="flex border-b py-2 gap-4">
-            <span className="font-bold">Link</span>
-            <button className="border-b-2 border-gray-500">
-              <a href={p.link2} target="_blank" rel="noreferrer">
-                Ver online  
-              </a>
-            </button>
-            <button className="border-b-2 border-gray-500">
-              <a href={p.link} target="_blank" rel="noreferrer">
-                Repo
-              </a>
-            </button>
-          </li>
-        </ul>
-      </div>
-    );
-  });
+  const proyecto = data.proyectos.map((proyecto) => (
+    <Proyectos key={proyecto.id} proyecto={proyecto} />
+    ));
 
-  const experienciaLaboral = data.experiencia.map((e) => {
-    return (
-      <div key={e.id} className="flex flex-col items-center bg-white dark:bg-gray-800/50 rounded-lg shadow-xl p-4">
-        <h4 className="text-xl text-gray-500 font-bold">{e.nombre}</h4>
-        <img src={e.imagen} alt="" className="w-32 h-32" />
-        <ul className="mt-2 text-gray-700">
-          <li className="flex border-t border-b py-2 gap-4 flex-col">
-            <span className="font-bold">Descripcion</span>
-            <span className="text-gray-700">{e.descripcion}</span>
-          </li>
-        </ul>
-      </div>
-    );
-  });
+  const experienciaLaboral = data.experiencia.map((experiencia)=>(
+    <Experiencia key={experiencia.id} experiencia={experiencia} />
+  ))
 
-  const educacion = data.formacion.map((e) => {
-    return (
-      <div key={e.id} className="flex flex-col items-center bg-white dark:bg-gray-800/50 rounded-lg shadow-xl p-4">
-        <h4 className="text-xl text-gray-500 font-bold">{e.nombre}</h4>
-        <img src={e.imagen} alt="" className="w-32 h-32" />
-        <ul className="mt-2 text-gray-700">
-          <li className="flex border-t border-b py-2 gap-4 flex-col">
-            <span className="font-bold">Descripcion</span>
-            <span className="text-gray-700">{e.descripcion}</span>
-            <a href={e.link} target="_blank" rel="noreferrer">
-              Ver más
-            </a>
-          </li>
-        </ul>
-      </div>
-    );
-  });
+  const educacion = data.formacion.map((educacion) => (
+    <Educacion key={educacion.id} educacion={educacion} />
+    ));
 
   const tecnologias = data.skill.map((t)=>{
-    return(
-      <div key={t.id} className="flex flex-col items-center bg-white dark:bg-gray-800/50 rounded-lg shadow-xl p-4 justify-center">
-        <h4 className="text-xl text-gray-500 font-bold">{t.nombre}</h4>
-        <img src={t.icono} alt={t.nombre} className="w-32" />
-      </div>
-    )
+    return <Tecnologia key={t.id} nombre={t.nombre} icono={t.icono} />
   })
 
-  const habilidades = data.skillsoft.map((h)=>{
-    return(
-      <div key={h.id} className="flex flex-col items-center bg-white dark:bg-gray-800/50 rounded-lg shadow-xl p-4 justify-center">
-        <h4 className="text-xl text-gray-500 font-bold">{h.nombre}</h4>
-        <img src={h.icono} alt={h.nombre} className="w-32" />
-        </div>
-    )
+  const habilidades = data.skillsoft.map((habilidad)=>{
+    return <Habilidad key={habilidad.id} habilidad={habilidad}/>
   })
 
   return (
@@ -146,9 +80,9 @@ const Perfil = () => {
         <p className="text-sm text-gray-500">{data.origen}</p>
       </div>
       <div className="flex flex-col ">
-        <div data-aos="fade-right" data-aos-duration="1000" className="my-4 flex flex-col 2xl:flex-row space-y-4 2xl:space-y-0 2xl:space-x-4">
-          <div className="w-full flex flex-col ">
-            <div className="flex-1 bg-white  dark:bg-gray-800/50 rounded-lg shadow-xl p-8">
+        <div data-aos="fade-right" data-aos-duration="1000" className="my-4 flex flex-col 2xl:flex-row space-y-4 2xl:space-y-0 2xl:space-x-4 items-center">
+          {/* <div className=" flex flex-col "> */}
+            <div className="flex-1 p-8 w-4/5">
               <h4 className="text-xl text-gray-500 font-bold">Informacion</h4>
               <ul className="mt-2 text-gray-600">
                 <li className="flex border-y py-2 gap-4 flex-col">
@@ -183,21 +117,6 @@ const Perfil = () => {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-        <div  id="tecnologias" data-aos="fade-right" data-aos-duration="1000" className="flex flex-col 2xl:flex-row space-y-4 2xl:space-y-0 2xl:space-x-4">
-        <div className="mt-16 flex justify-center items-center">
-            <span className="h-1 w-14 rounded-3xl bg-gray-700" />
-            <h2 className="px-3 text-sm text-gray-900 dark:text-gray-700 font-mono md:text-2xl lg:text-3xl xl:text-4xl uppercase">
-              Tecnologias
-            </h2>
-            <span className="h-1 w-14 rounded-3xl bg-gray-700" />
-          </div>
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
-              {tecnologias}
-            </div>
-          </div>
         </div>
         <div id="proyectos" data-aos="fade-right" data-aos-duration="1000" className="flex items-center justify-center flex-col gap-4">
           <div className="mt-16 flex justify-center items-center">
@@ -208,8 +127,22 @@ const Perfil = () => {
             <span className="h-1 w-14 rounded-3xl bg-gray-700" />
           </div>
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 p-4">
               {proyecto}
+            </div>
+          </div>
+        </div>
+        <div  id="tecnologias" data-aos="fade-right" data-aos-duration="1000" className="flex items-center justify-center flex-col gap-4">
+        <div className="mt-16 flex justify-center items-center">
+            <span className="h-1 w-14 rounded-3xl bg-gray-700" />
+            <h2 className="px-3 text-sm text-gray-900 dark:text-gray-700 font-mono md:text-2xl lg:text-3xl xl:text-4xl uppercase">
+              Tecnologias
+            </h2>
+            <span className="h-1 w-14 rounded-3xl bg-gray-700" />
+          </div>
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 p-4">
+              {tecnologias}
             </div>
           </div>
         </div>
@@ -222,7 +155,7 @@ const Perfil = () => {
             <span className="h-1 w-14 rounded-3xl bg-gray-700" />
           </div>
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 p-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 p-4">
               {experienciaLaboral}
             </div>
           </div>

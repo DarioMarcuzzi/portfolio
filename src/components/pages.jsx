@@ -1,5 +1,4 @@
 import React from "react";
-import { Route,Routes, BrowserRouter } from "react-router-dom";
 import Landing from "./landing/Landing";
 import Navbar from "./nav/Navbar";
 import Home from "./home/Home";
@@ -32,7 +31,6 @@ const Pages = () => {
           <Footer />
         </div>
         </div>
-        
       </div>
   );
 };

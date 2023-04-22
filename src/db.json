@@ -247,26 +247,45 @@
       "experiencia": [
         {
           "id": "1",
-          "nombre": "Tecnico en Proteccion catodica",
-          "descripcion": "Jornada completa BMI Austral S.R.L. sept. 2017 - ene. 2022 · 4 años 5 meses",
-          "imagen": "https://media.licdn.com/dms/image/C4D0BAQGUmalvi_0IKQ/company-logo_200_200/0/1623772265094?e=1681344000&v=beta&t=i_8gU8HlaIIYZAnb8PIYaUbURcwF9_LbJ90rs9hy3Hs",
-          "link": "https://www.linkedin.com/company/bmiaustral/"
+          "puesto": "Técnico en Protección Catódica",
+          "descripcion": "Jornada completa en BMI Austral S.R.L.",
+          "responsabilidades": [
+            "Instalación y mantenimiento de sistemas de protección catódica",
+            "Elaboración de informes técnicos",
+            "Manejo de equipos de medición"
+          ],
+          "empresa": "BMI Austral S.R.L.",
+          "fecha_inicio": "sept. 2017",
+          "fecha_fin": "ene. 2022"
         },
         {
           "id": "2",
-          "nombre": "Maquinista",
+          "puesto": "Maquinista",
           "descripcion": "Manejo de retro excavadora, camión volcador Bob cat, en movimiento de suelo",
-          "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1674478100/batec-vial_igyiza.jpg",
-          "link": "https://es-la.facebook.com/people/Batec-vial/100057525127063/"
+          "responsabilidades": [
+            "Manejo de maquinaria pesada",
+            "Mantenimiento de equipos",
+            "Cumplimiento de normas de seguridad"
+          ],
+          "empresa": "Batec Vial",
+          "fecha_inicio": "",
+          "fecha_fin": ""
         },
         {
           "id": "3",
-          "nombre": "Técnico de laboratorio",
+          "puesto": "Técnico de laboratorio",
           "descripcion": "Encargado del pesaje y selección de diferentes colorantes para hacer un color especifico para ropa. Mantenimiento de depósitos.",
-          "imagen": "https://learn.getgrav.org/user/pages/11.troubleshooting/01.page-not-found/error-404.png",
-          "link": ""
+          "responsabilidades": [
+            "Selección y pesaje de colorantes",
+            "Mantenimiento de equipos",
+            "Control de calidad"
+          ],
+          "empresa": "Clean Style",
+          "fecha_inicio": "",
+          "fecha_fin": ""
         }
       ]
+      
     },
     {
       "id": "3a9fb596-69ef-11ed-a1eb-0242ac120002",
@@ -525,17 +544,21 @@
       "experiencia": [
         {
           "id": 1,
-          "nombre": "Asistente Contable",
-          "descripcion": "Asistente Contable en la empresa de servicios contables y tributarios Contador Público Sr. Tubio J. Carlos desde el 01/01/2013 hasta la actualidad. Realizando carga de datos, facturacion, altas y bajas en AFIP, presentaciones digitales, asistencia bancaria, etc. ",
-          "imagen": "https://www.carreras.fhu.unse.edu.ar/wp-content/uploads/2020/12/contador-publico-senor-fernando-diez.jpg",
-          "link": ""
+          "puesto": "Asistente Contable",
+          "empresa": "Contador Público Sr. Tubio J. Carlos",
+          "descripcion": "Como Asistente Contable en Contador Público Sr. Tubio J. Carlos, he sido responsable de la carga de datos, facturación, altas y bajas en AFIP, presentaciones digitales y asistencia bancaria. He trabajado en estrecha colaboración con el equipo contable para garantizar la precisión de los registros financieros y he aprendido y utilizado una variedad de herramientas y software contable y financiero. También he disfrutado de un ambiente laboral profesional y colaborativo y he tenido la oportunidad de crecer en mi carrera.",
+          "responsabilidades": ["Carga de datos", "Facturación", "Altas y bajas en AFIP", "Presentaciones digitales", "Asistencia bancaria"],
+          "fecha_inicio": "01/01/2013",
+          "fecha_fin": "Actualidad"
         },
         {
           "id": 2,
-          "nombre": "Asistente Contable",
-          "descripcion": "Asistente Contable en Cooperativa trabajo y serv grles El Paraiso LTDA, desde  01/06/2017 hasta el 01/02/2018. Realizando tareas en general como facturación, carga de datos, liquidaciones de impuestos, asistencia bancaria, etc.",
-          "imagen": "https://www.carreras.fhu.unse.edu.ar/wp-content/uploads/2020/12/contador-publico-senor-fernando-diez.jpg",
-          "link": ""
+          "puesto": "Asistente Contable",
+          "empresa": "Cooperativa trabajo y serv. grles El Paraiso LTDA",
+          "descripcion": "Como Asistente Contable en la Cooperativa Trabajo y Servicios Generales El Paraiso LTDA, fui responsable de la facturación, carga de datos, liquidaciones de impuestos y asistencia bancaria. Durante mi tiempo en la cooperativa, logré garantizar la precisión y la integridad de los registros financieros. Lo que me proporcionó una valiosa experiencia en contabilidad y finanzas, y me permitió desarrollar mis habilidades en un ambiente laboral dinámico.",
+          "responsabilidades": ["Facturación", "Carga de datos", "Liquidaciones de impuestos", "Asistencia bancaria"],
+          "fecha_inicio": "01/06/2017",
+          "fecha_fin": "01/02/2018"
         }
       ],
       "formacion": [

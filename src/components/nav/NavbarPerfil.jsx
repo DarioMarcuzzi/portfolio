@@ -36,16 +36,6 @@ const NavbarPerfil = () => {
                             <button>Informacion</button>
                         </Link>
                         <Link
-                            to="tecnologias"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Tecnologias</button>
-                        </Link>
-                        <Link
                             to="proyectos"
                             smooth={true}
                             duration={500}
@@ -54,6 +44,16 @@ const NavbarPerfil = () => {
                             className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
                         >
                             <button>Proyectos</button>
+                        </Link>
+                        <Link
+                            to="tecnologias"
+                            smooth={true}
+                            duration={500}
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
+                        >
+                            <button>Tecnologias</button>
                         </Link>
                         <Link
                             to="experiencia"
