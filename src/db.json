@@ -539,6 +539,41 @@
           ],
           "link": "https://www.figma.com/file/PWXzDcIHwjG1cctashbgDp/Trabajos-para-bus-app?node-id=0%3A1&t=HHVJ2BTy7Z4CtLSp-1",
           "link2": "https://www.figma.com/proto/PWXzDcIHwjG1cctashbgDp/Trabajos-para-bus-app?node-id=1-2&scaling=contain&page-id=0%3A1"
+        },{
+          "id": 10,
+          "nombre": "AnswerHub",
+          "descripcion": "Es una aplicación de preguntas y respuestas que tiene como objetivo principal ayudar a los usuarios a encontrar respuestas a sus preguntas",
+          "imagen": [
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688490881/Captura_de_pantalla_2023-07-04_141343_g7cckh.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688490881/Captura_de_pantalla_2023-07-04_141403_uy9xyd.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688490881/Captura_de_pantalla_2023-07-04_141420_qss0qj.png"
+          ],
+          "link": "https://drive.google.com/file/d/1AVkPUClj6VjjrKLpxvEG9LCiBUHs6kA0/view",
+          "link2": "https://drive.google.com/file/d/1Sr5f6ZkPQPGhx82WXcC4INV946Vqj5Mo/view"
+        },
+        {
+          "id": 10,
+          "nombre": "LocalEyez",
+          "descripcion": "LocalEyez es una startup de experiencias prometedora que conecta a los usuarios con actividades locales personalizadas en función de sus intereses, ubicación y estilo de vida, la aplicación aprovecha la tecnología de aprendizaje automático para brindar una experiencia óptima que mejora con el tiempo.",
+          "imagen": [
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688491363/Captura_de_pantalla_2023-07-04_142139_thrti7.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688491363/Captura_de_pantalla_2023-07-04_142153_fw9bev.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688491362/Captura_de_pantalla_2023-07-04_142228_exk4l8.png"
+          ],
+          "link": "https://file.notion.so/f/s/39d4f5b5-1cad-46ff-9538-2034479fb891/Assignment_17.pdf?id=5fd8d477-edc2-4471-9552-be2a868de24d&table=block&spaceId=539cb683-072a-4484-b77a-5a196e1f0420&expirationTimestamp=1688580000000&signature=pgRJ_NR7vHFd_kiq03U_3NK72eYTLPNxO8gWg_TMDhs&downloadName=Assignment+17.pdf",
+          "link2": "https://file.notion.so/f/s/39d4f5b5-1cad-46ff-9538-2034479fb891/Assignment_17.pdf?id=5fd8d477-edc2-4471-9552-be2a868de24d&table=block&spaceId=539cb683-072a-4484-b77a-5a196e1f0420&expirationTimestamp=1688580000000&signature=pgRJ_NR7vHFd_kiq03U_3NK72eYTLPNxO8gWg_TMDhs&downloadName=Assignment+17.pdf"
+        },
+        {
+          "id": 11,
+          "nombre": "My Daily Nosh",
+          "descripcion": "My Daily Nosh es una aplicación de recetas que permite a los usuarios buscar recetas, guardarlas y compartirlas con amigos. La aplicación también permite a los usuarios crear una lista de compras para las recetas que desean cocinar.",
+          "imagen": [
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688491669/Captura_de_pantalla_2023-07-04_142646_fkd2md.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688491670/Captura_de_pantalla_2023-07-04_142705_cznxmh.png",
+            "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688491670/Captura_de_pantalla_2023-07-04_142724_nrhoya.png"
+          ],
+          "link": "https://www.figma.com/file/P55szTHxiOFbmElVc8XEiw/My-Daily-Nosh?type=design&node-id=0%3A1&mode=design&t=52pabQYXLQa77tfz-1",
+          "link2": "https://www.figma.com/proto/xhxzoXqgAGvppcCfjNdTwO/My-Daily-Nosh-prototipo?type=design&node-id=1-1007&t=6IthKd2FsA6vYwQp-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A1007&mode=design"
         }
       ],
       "experiencia": [
@@ -599,7 +634,7 @@
         },
         {
           "id":6,
-          "nombre": "Fundamentos de UX",
+          "nombre": "Fase 1: Fundamentos de UX",
           "descripcion": "Open Bootcamp",
           "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681088146/certificate_s1hlfp.png",
           "link": "https://certificate.uxuiopen.com/642543755fa34d77550f3f01"
@@ -610,6 +645,27 @@
           "descripcion": "Open Bootcamp",
           "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1681088145/certificate_1_m6fuwc.png",
           "link": "https://certificate.uxuiopen.com/642546581b7c9485c266a23e"
+        },
+        {
+          "id": 8,
+          "nombre": "Fase 2: UX Intensiva",
+          "descripcion": "Open Bootcamp",
+          "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688490233/Captura_de_pantalla_2023-07-04_140047_jzwv5r.png",
+          "link": "https://certificate.uxuiopen.com/644aa3fbeec5e989a9b7526c"
+        },
+        {
+          "id": 9,
+          "nombre": "Presentación a las partes interesadas",
+          "descripcion": "Open Bootcamp",
+          "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688490234/Captura_de_pantalla_2023-07-04_140121_d2id4r.png",
+          "link": "https://certificate.uxuiopen.com/646351547071b4583d682b6b"
+        },
+        {
+          "id": 10,
+          "nombre": "Fase 3: Diseño del Equipo",
+          "descripcion": "Open Bootcamp",
+          "imagen": "https://res.cloudinary.com/dcpcja2qg/image/upload/v1688490234/Captura_de_pantalla_2023-07-04_140313_bb4dpp.png",
+          "link": "https://certificate.uxuiopen.com/64639e9aec0b83e19f195373"
         }
       ]
     }
