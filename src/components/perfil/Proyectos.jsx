@@ -24,7 +24,7 @@ const Proyectos = ({ proyecto }) => {
             key={imagen}
             src={imagen}
             alt="img"
-            className="w-full sm:w-1/2 md:w-1/3 border-4 border-white"
+            className="w-full sm:w-1/2 md:w-1/3 border-4 border-white "
           />
         ))}
       </Slider>

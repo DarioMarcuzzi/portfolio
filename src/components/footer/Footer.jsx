@@ -4,7 +4,7 @@ const Footer = () => {
 
   return (
     <footer>
-  <div className="mx-auto max-w-7xl overflow-hidden sm:px-6 lg:px-8 h-">
+  <div className="mx-auto max-w-7xl overflow-hidden sm:px-6 lg:px-8 h-16">
     {/* <nav className=" flex flex-wrap gap-4 justify-center" aria-label="Footer">
       <div><a href="#landing" className="text-base text-gray-500 hover:text-gray-900">Landing</a></div>
       <div><a href="#about" className="text-base text-gray-500 hover:text-gray-900">Sobre Nosotros</a></div>

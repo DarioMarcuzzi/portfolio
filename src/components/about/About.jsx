@@ -6,7 +6,7 @@ const About = () => {
 
   const { skills } = data;
   return (
-    <div  className="flex items-center justify-center w-full" >
+    <div  id="about" className="flex items-center justify-center w-full" >
       <div className="flex w-4/5 items-center justify-center flex-col gap-8">
       <div className="mb-8 flex justify-center items-center">
         <span className="h-1 w-14 rounded-3xl bg-gray-700" />

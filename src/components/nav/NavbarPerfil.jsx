@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import DarkMode from "../darkMode/DarkMode";
+import {Link as Link2} from "react-router-dom"
 
 const NavbarPerfil = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -14,13 +15,15 @@ const NavbarPerfil = () => {
     return (
         <nav className="bg-slate-50/40 backdrop-blur-xl dark:bg-slate-950/50 fixed z-10 w-full flex items-center justify-between  sm:h-16 p-4">
             <div className="flex items-center flex-shrink-0 mr-6 h-10">
-                        <img
-                            src={logo}
-                            alt="Logo"
-                            className="h-10 invert dark:filter-none"
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                        />
+                        <Link2 to= "/">
+                            <img
+                                src={logo}
+                                alt="Logo"
+                                className="h-10 invert dark:filter-none"
+                                data-aos="fade-right"
+                                data-aos-duration="1000"
+                            />
+                        </Link2>
             </div>
             <div className="">
                 <div className="hidden sm:block">

@@ -47,16 +47,6 @@ const Navbar = () => {
           >
             <button>Sobre nosotros</button>
           </Link>
-          <Link
-            to="home"
-            smooth={true}
-            duration={500}
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-          >
-            <button>Team</button>
-          </Link>
           <div>
             <DarkMode />
           </div>
@@ -114,16 +104,6 @@ const Navbar = () => {
             className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
           >
             <button>Sobre nosotros</button>
-          </Link>
-          <Link
-            to="home"
-            smooth={true}
-            duration={500}
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-          >
-            <button>Team</button>
           </Link>
         </div>
         <div>
