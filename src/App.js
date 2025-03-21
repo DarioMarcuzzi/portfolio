@@ -9,10 +9,10 @@ import 'aos/dist/aos.css';
 AOS.init();
 
 function App() {
-
+// bg-slate-50 dark:bg-slate-950 text-dark dark:text-white font-mono
   return (
     <BrowserRouter>
-        <div className="bg-slate-50 dark:bg-slate-950 text-dark dark:text-white font-mono">
+        <div className=" text-gray-900 dark:text-gray-100 font-sans leading-relaxed tracking-normal bg-gray-100 dark:bg-gray-900">
           <Routes>
             <Route path="/" element={<Pages />} />
             <Route path="/perfil/:id" element={<Perfil />} />

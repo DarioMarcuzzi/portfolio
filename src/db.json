@@ -606,6 +606,15 @@
           "responsabilidades": ["Facturación", "Carga de datos", "Liquidaciones de impuestos", "Asistencia bancaria"],
           "fecha_inicio": "01/06/2017",
           "fecha_fin": "01/02/2018"
+        },
+        {
+          "id": 3,
+          "puesto": "Asistente administrativo",
+          "empresa": "Lener Constructora S.A",
+          "descripcion": "Como Asistente Administrativo en Lener Constructora S.A., me encargué de ingresar datos en el sistema de gestión, gestionar la facturación, revisar impuestos y tramitar órdenes de pago. ",
+          "responsabilidades": ["Carga de datos en sistema de gestion", "Facturacion", "Revision de impuestos", "Ordenes de pago"],
+          "fecha_inicio": "14/01/2025",
+          "fecha_fin": "19/03/2025"
         }
       ],
       "formacion": [

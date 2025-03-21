@@ -1,189 +1,110 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
+import { FaUser, FaTools, FaProjectDiagram, FaLaptopCode, FaGraduationCap } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
 import DarkMode from "../darkMode/DarkMode";
-import {Link as Link2} from "react-router-dom"
 
 const NavbarPerfil = () => {
-    const [isOpen, setIsOpen] = useState(false);
+  const [active, setActive] = useState("informacion");
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // Estado para manejar el menú móvil
+  const handleActive = (section) => {
+    setActive(section);
+  };
 
-    const toggleMenu = () => {
-      setIsOpen(!isOpen);
-    };
+  const logo = "https://res.cloudinary.com/dcpcja2qg/image/upload/v1672409846/logoDD_logj6a.png";
 
-    const logo = "https://res.cloudinary.com/dcpcja2qg/image/upload/v1672409846/logoDD_logj6a.png"
+  return (
+    <>
+      {/* Navbar Principal */}
+      <nav className="fixed z-10 w-full flex items-center justify-between p-4 sm:h-16 bg-slate-50/40 backdrop-blur-xl dark:bg-slate-950/50">
+        <div className="flex items-center flex-shrink-0 mr-6 h-10">
+          <RouterLink to="/">
+            <img
+              src={logo}
+              alt="Logo"
+              className="h-10 invert dark:filter-none bg-gradient-to-r from-gray-800 to-gray-900 rounded-full shadow-lg"
+            />
+          </RouterLink>
+        </div>
 
-    return (
-        <nav className="bg-slate-50/40 backdrop-blur-xl dark:bg-slate-950/50 fixed z-10 w-full flex items-center justify-between  sm:h-16 p-4">
-            <div className="flex items-center flex-shrink-0 mr-6 h-10">
-                        <Link2 to= "/">
-                            <img
-                                src={logo}
-                                alt="Logo"
-                                className="h-10 invert dark:filter-none"
-                                data-aos="fade-right"
-                                data-aos-duration="1000"
-                            />
-                        </Link2>
-            </div>
-            <div className="">
-                <div className="hidden sm:block">
-                    <div className="flex ">
-                        <Link
-                            to="informacion"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Informacion</button>
-                        </Link>
-                        <Link
-                            to="proyectos"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Proyectos</button>
-                        </Link>
-                        <Link
-                            to="tecnologias"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Tecnologias</button>
-                        </Link>
-                        <Link
-                            to="experiencia"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Experiencia</button>
-                        </Link>
-                        <Link
-                            to="habilidades"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Habilidades</button>
-                        </Link>
-                        <Link
-                            to="educacion"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Educacion</button>
-                        </Link>
-                        <div>
-                            <DarkMode />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="block sm:hidden">
+        {/* Menú para pantallas grandes */}
+        <div className="hidden sm:flex items-center space-x-4 bg-gray-200/50 rounded-full shadow-lg">
+          {["informacion", "proyectos", "tecnologias", "experiencia", "habilidades", "educacion"].map((section) => (
+            <ScrollLink
+              key={section}
+              to={section}
+              smooth={true}
+              duration={500}
+              className={`${
+                active === section ? "dark:bg-white dark:text-gray-900 bg-dark text-white" : ""
+              } px-4 py-2 rounded-full font-semibold`}
+              onClick={() => handleActive(section)}
+              onSetActive={() => handleActive(section)}
+            >
+              <button className="capitalize">{section}</button>
+            </ScrollLink>
+          ))}
+        </div>
+
+        {/* Botón para abrir el menú en pantallas móviles */}
+        <button
+          className="sm:hidden text-dark dark:text-white"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+            ></path>
+          </svg>
+        </button>
+
+        {/* DarkMode para pantallas grandes */}
+        <DarkMode className="hidden sm:block" />
+      </nav>
+
+      {/* Menú Inferior para móviles */}
+      {isMenuOpen && (
+        <div className="fixed z-10 bottom-0 left-0 right-0 bg-gray-200 dark:bg-gradient-to-r from-gray-800 to-gray-900 p-4 flex flex-wrap justify-around items-center shadow-lg rounded-t-3xl sm:hidden">
+          {["informacion", "proyectos", "tecnologias", "experiencia", "habilidades", "educacion"].map((section, index) => {
+            const icons = [
+              <FaUser />,
+              <FaProjectDiagram />,
+              <FaTools />,
+              <FaLaptopCode />,
+              <GiSkills />,
+              <FaGraduationCap />
+            ];
+            return (
+              <ScrollLink key={section} to={section} smooth={true} duration={500}>
                 <button
-                    onClick={toggleMenu}
-                    className="flex items-center px-3 py-2 border rounded text-slate-200 border-slate-400 hover:text-white hover:border-white"
+                  onClick={() => handleActive(section)}
+                  className={`flex flex-col items-center ${
+                    active === section ? "text-dark dark:text-white" : "text-gray-500 dark:text-gray-500"
+                  }`}
                 >
-                    <svg
-                        className="fill-current h-3 w-3"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <title>Menu</title>
-                        <path
-                            fillRule="evenodd"
-                            d="M3 6a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                            clipRule="evenodd"
-                        />
-                    </svg>
+                  {icons[index]}
+                  <span className="capitalize text-xs">{section}</span>
                 </button>
-            </div>
-            {isOpen && (
-                <div className="sm:hidden">
-                    <div className="px-2 pt-2 pb-3 space-y-1">
-                        <Link
-                            to="informacion"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Informacion</button>
-                        </Link>
-                        <Link
-                            to="tecnologias"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Tecnologias</button>
-                        </Link>
-                        <Link
-                            to="proyectos"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Proyectos</button>
-                        </Link>
-                        <Link
-                            to="experiencia"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Experiencia</button>
-                        </Link>
-                        <Link
-                            to="habilidades"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Habilidades</button>
-                        </Link>
-                        <Link
-                            to="educacion"
-                            smooth={true}
-                            duration={500}
-                            data-aos="fade-right"
-                            data-aos-duration="1000"
-                            className="block mt-4 sm:inline-block sm:mt-0 hover:border-b-2 border-black dark:border-white mr-4"
-                        >
-                            <button>Educacion</button>
-                        </Link>
-                        <div>
-                            <DarkMode />
-                        </div>
-                    </div>
-                </div>
-            )}
-        </nav>
-    );
+              </ScrollLink>
+            );
+          })}
+        </div>
+      )}
+
+      {/* DarkMode para pantallas móviles */}
+      <DarkMode className="sm:hidden" />
+    </>
+  );
 };
 
 export default NavbarPerfil;

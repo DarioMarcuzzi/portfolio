@@ -7,13 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dark: "#1a202c",
+        dark: "#1F2025",
         light: "#F5F5F5",
         primary: "#F5F5F5",
         secondary: "#1F1F1F",
         "primary-100": "#F5F5F5",
         "primary-200": "#E5E5E5",
         "primary-300": "#D4D4D4",
+        accent: '#ff8c00', // Color de acento
+        accentDark: '#ff7000' // Color de acento oscuro
       },
       tooltip: {
         position: 'relative',
