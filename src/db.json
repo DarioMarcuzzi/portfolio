@@ -13,7 +13,7 @@
       "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672172283/imagenes%20Proyecto%20final%20henry/img6_goluye_yb6apt.png",
       "linkedin": "https://www.linkedin.com/in/dario-marcuzzi-399908224/",
       "github": "https://github.com/DarioMarcuzzi",
-      "cv": "https://drive.google.com/file/d/1TSfq1-sHXmMB6Gk0_bYHk_xdtf-bUYMx/view?usp=sharing",
+      "cv": "https://drive.google.com/file/d/1hZ0m6glUlVA42DhWVU4ZSpuDG5QqhOdu/view?usp=sharing",
       "skill": [
         {
           "id": 1,
@@ -98,6 +98,25 @@
           "nombre": "Redux",
           "porcentaje": 50,
           "icono": "https://img.icons8.com/color/512/redux.png"
+        },
+        {
+          "id": 15,
+          "nombre": "Laravel",
+          "porcentaje": 50,
+          "icono": "https://logowik.com/content/uploads/images/t_laravel8530.jpg"
+        },
+        {
+          "id": 16,
+          "nombre": "PHP",
+          "porcentaje": 50,
+          "icono": "https://www.php.net/images/logos/php-logo-bigger.png"
+        },
+        {
+          
+          "id": 17,
+          "nombre": "Moodle",
+          "porcentaje": 50,
+          "icono": "https://logo.svgcdn.com/d/moodle-original-wordmark.png"
         }
       ],
       "skillsoft": [
@@ -283,6 +302,20 @@
           "empresa": "Clean Style",
           "fecha_inicio": "",
           "fecha_fin": ""
+        },
+        {
+          "id": "4",
+          "puesto": "Desarrollador Full Stack",
+          "descripcion": "Desarrollador FullStack con experiencia en la creación de soluciones personalizadas y optimización de procesos. Con habilidades en PHP (Laravel), desarrollo frontend con React y Redux, y gestión de bases de datos MySQL. He trabajado en la automatización de tareas, la mejora de la experiencia de usuario mediante interfaces interactivas y la optimización de sistemas para empresas inmobiliarias y deportes. Con enfoque en el desarrollo ágil y en la implementación de soluciones eficientes y escalables.",
+          "responsabilidades": [
+            "Implementación de soluciones personalizadas para la automatización de correos electrónicos (PHP Laravel)",
+            "Desarrollo de interfaces con React y Redux para gestión de estados, y llamadas asincrónicas con Axios.",
+            "Desarrollo de funcionalidades y optimización de bases de datos y consultas MySQL para gestión de ligas.",
+            "Desarrollo de software integral para la gestión de empresas inmobiliarias utilizando Bootstrap, Sass y Fetch."
+          ],
+          "empresa": "Squad SRL",
+          "fecha_inicio": "sept. 2023",
+          "fecha_fin": ""
         }
       ]
       
@@ -300,7 +333,7 @@
       "imagen": "https://res.cloudinary.com/dmpqjroj5/image/upload/v1672687651/imagenes%20Proyecto%20final%20henry/IMG_LuzDaianaOlivares_geix7w.jpg",
       "linkedin": "https://www.linkedin.com/in/luz-daiana-olivares-/",
       "github": "https://github.com/DaianaOli",
-      "cv": "https://drive.google.com/file/d/1dmBaK98tmbO4XbkYIYnDLdI7OAHX-Mjm/view?usp=sharing",
+      "cv": "https://drive.google.com/file/d/17O8pRV5RfA8tQgjaauKUdKdgs0Gijc6X/view?usp=sharing",
       "skill": [
         {
           "id": 1,
